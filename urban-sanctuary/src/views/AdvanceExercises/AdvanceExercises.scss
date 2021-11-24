@@ -409,27 +409,34 @@
 }
 
 .exe-bg1 {
-    background-image: url(../../assets/images/fu-exercise.png);
+    background-image: url(../../assets/images/advance-exercises/fu-exercise.png);
 }
 
 .exe-bg2 {
-    background-image: url(../../assets/images/home-workout.png);
+    background-image: url(../../assets/images/advance-exercises/home-workout.png);
 }
 
 .exe-bg3 {
-    background-image: url(../../assets/images/yoga.png);
+    background-image: url(../../assets/images/advance-exercises/yoga.png);
 }
 
 .exe-bg4 {
-    background-image: url(../../assets/images/dance.png);
+    background-image: url(../../assets/images/advance-exercises/dance.png);
 }
 
 .exe-bg5 {
-    background-image: url(../../assets/images/mind-health.png);
+    background-image: url(../../assets/images/advance-exercises/mind-health.png);
 }
 
 .shifter-plan {
     margin: 10px 0 0;
+    position: fixed;
+    bottom: 0;
+    transition: 2s;
+    z-index: 9;
+    padding: 20px 60px 0 60px;
+    width: 100%;
+    background: #fff;
     h3 {
         color: #8dd54f;
         font-size: 18px;
@@ -453,8 +460,18 @@
                 color: #fff;
                 background: #8dd54f;
                 padding: 5px 80px;
-                margin: 20px auto;
+                margin: 20px auto 10px;
             }
         }
     }
+}
+
+.showForm {
+    bottom: 0px;
+    transition: 2s;
+}
+
+.hideForm {
+    bottom: -400px;
+    transition: 2s;
 }

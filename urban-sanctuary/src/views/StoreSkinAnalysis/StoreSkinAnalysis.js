@@ -2,18 +2,18 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'scheduler-calendar/dist/index.css'
 import Header from '../../components/Header/Header';
-import skinNewobs from '../../assets/images/skin-newobs.png';
-import bannerImg from '../../assets/images/skin-banner-img.png';
-import yearRank from '../../assets/images/year-rank.png';
-import metroPin from '../../assets/images/Icon-metro-pin.png';
-import LightModesFace from '../../assets/images/8-light-modes-face.png';
-import testingDevice from '../../assets/images/testing-device.png';
-import mobileImg from '../../assets/images/mobile-img.png';
-import foodImg from '../../assets/images/food-img.png';
-import skinpanelback from '../../assets/images/skin-panel-back.png';
+import skinNewobs from '../../assets/images/skin-analysis/skin-newobs.png';
+import bannerImg from '../../assets/images/skin-analysis/skin-banner-img.png';
+import yearRank from '../../assets/images/skin-analysis/year-rank.png';
+import metroPin from '../../assets/images/skin-analysis/Icon-metro-pin.png';
+import LightModesFace from '../../assets/images/skin-analysis/8-light-modes-face.png';
+import testingDevice from '../../assets/images/skin-analysis/testing-device.png';
+import mobileImg from '../../assets/images/skin-analysis/mobile-img.png';
+import foodImg from '../../assets/images/skin-analysis/food-img.png';
+import skinpanelback from '../../assets/images/skin-analysis/skin-panel-back.png';
 import pic1 from '../../assets/images/pic1.png';
 import pic3 from '../../assets/images/pic3.png';
-import skinvimg from '../../assets/images/skin-v-img.png';
+import skinvimg from '../../assets/images/skin-analysis/skin-v-img.png';
 import skinPlayerBtn from '../../assets/images/skin-player-btn.png';
 
 import './StoreSkinAnalysis.scss';
@@ -152,7 +152,7 @@ const StoreSkinAnalysis = () => {
         <Row>
           <Col sm={12} md={12}>
             <div className="finds-store">
-              <h4>Create natural beauty through a comprehensive wellness plan</h4>
+              <h4>Create a life of limitless potential with an Optimize epigenetic report and free your genes today?</h4>
               <div className="store-btn">
                 <button>Find a Store</button>
               </div>

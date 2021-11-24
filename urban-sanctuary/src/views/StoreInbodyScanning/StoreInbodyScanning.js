@@ -2,17 +2,22 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'scheduler-calendar/dist/index.css'
 import Header from '../../components/Header/Header';
-import weighting from '../../assets/images/weighting.png';
-import machinesBanner from '../../assets/images/machines-banner.png';
-import compositionInbody from '../../assets/images/composition-inbody.png';
-import scannChecked from '../../assets/images/scann-checked.png';
-import scanningRunBack from '../../assets/images/scanning-run-back.png';
-import runningStaire from '../../assets/images/running-staire.png';
-import degreeLeft from '../../assets/images/degree_left-1.png';
-import scanData from '../../assets/images/scan-data.png';
-import Fit3ddata from '../../assets/images/Fit3d-data.png';
-import scannMobile from '../../assets/images/scann-mobile.png';
-import bodybuilder from '../../assets/images/young-bodybuilder.png';
+import weighting from '../../assets/images/body-scanning/weighting.png';
+import machinesBanner from '../../assets/images/body-scanning/machines-banner.png';
+import compositionInbody from '../../assets/images/body-scanning/composition-inbody.png';
+import scannChecked from '../../assets/images/body-scanning/scann-checked.png';
+import scanningRunBack from '../../assets/images/body-scanning/scanning-run-back.png';
+import runningStaire from '../../assets/images/body-scanning/running-staire.png';
+import degreeLeft from '../../assets/images/body-scanning/degree_left-1.png';
+import scanData from '../../assets/images/body-scanning/scan-data.png';
+import Fit3ddata from '../../assets/images/body-scanning/Fit3d-data.png';
+import scannMobile from '../../assets/images/body-scanning/scann-mobile.png';
+import bodybuilder from '../../assets/images/body-scanning/young-bodybuilder.png';
+import pic1 from '../../assets/images/pic1.png';
+import pic3 from '../../assets/images/pic3.png';
+import vedioscanning from '../../assets/images/body-scanning/vedio-scanning.png';
+import skinPlayerBtn from '../../assets/images/skin-player-btn.png';
+import BookAppointment from '../../assets/images/body-scanning/book-appointment.png';
 import './StoreInbodyScanning.scss';
 const StoreInbodyScanning = () => {
   return (
@@ -177,25 +182,77 @@ const StoreInbodyScanning = () => {
           <div className="scan-book-now">
             <h3>BOOK IT NOW !</h3>
             <div className="circle-section">
-                <div className="scan-book">
-                  <div className="top-circle">
+                <div className="scan-book circle-color1">
+                  <div className="top-circle step1">
                     <h3>Step 1</h3>
                   </div>
                   <p>Use our online booking calendar (or phone 021-026-71849 for appointment outside these available times). </p>
                 </div>
-                <div className="scan-book">
-                  <div className="top-circle">
-                    <h3>Step 1</h3>
+                <div className="scan-book circle-color2">
+                  <div className="top-circle step2">
+                    <h3>Step 2</h3>
                   </div>
                   <p>Use our online booking calendar (or phone 021-026-71849 for appointment outside these available times). </p>
                 </div>
-                <div className="scan-book">
-                  <div className="top-circle">
-                    <h3>Step 1</h3>
+                <div className="scan-book circle-color3">
+                  <div className="top-circle step3">
+                    <h3>Step 3</h3>
                   </div>
                   <p>Use our online booking calendar (or phone 021-026-71849 for appointment outside these available times). </p>
                 </div>
             </div>
+            <button><img src={BookAppointment} />Book an <br/>Appointment</button>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={12} md={12}>
+          <div className="sacnning-head">
+            <h1>Our Customers</h1>
+            <Row>
+              <Col sm={12} md={6}>
+                <div className="con-profile">
+                  <div className="con-pro">
+                    <img src={pic1} />
+                    <h2>Jonathan Walker</h2>
+                  </div>
+                  <p>In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque est rhoncus massa, tristique rutrum nisl risus at libero.</p>
+                </div>
+                <div className="con-profile">
+                  <div className="con-pro">
+                    <img src={pic3} />
+                    <h2>Brenda Mercer</h2>
+                  </div>
+                  <p>In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque est rhoncus massa, tristique rutrum nisl risus at libero.</p>
+                </div>
+              </Col>
+              <Col sm={12} md={6}>
+                <div className="con-img">
+                  <img src={vedioscanning} />
+                  <img src={skinPlayerBtn} />
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </Col>
+      </Row>
+      <Container>
+        <Row>
+          <Col sm={12} md={12}>
+            <div className="finds-store">
+              <h4>Create natural beauty through a comprehensive wellness plan</h4>
+              <div className="store-btn">
+                <button>Find a Store</button>
+              </div>
+            </div>
+          </Col>
+
+        </Row>
+      </Container>
+      <Row>
+        <Col sm={12} md={12}>
+          <div className="finds-text">
+            <h3>Urban Sanctuaries for Conscious Creatures, Elevating Global Conscious, and helping create “A Successful Planet.”</h3>
           </div>
         </Col>
       </Row>
