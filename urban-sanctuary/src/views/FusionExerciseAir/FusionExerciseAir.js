@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import { Inject, ScheduleComponent, Day, Week, WorkWeek, Month, Agenda } from '@syncfusion/ej2-react-schedule';
 import Header from '../../components/Header/Header';
@@ -32,9 +32,9 @@ const FusionExerciseAir = () => {
                             <p>This is an understanding that while you may need to primarily look after your own needs and become stronger, fitter and healthier you can further catalyse that process by recognising the health interconnection of extending goodwill. As you progress through the Mind X Body classes from Air to Diamond you will gradually shed the emotional ill health and physical stagnation you once had and experience the full vitality of your being, in doing so you will build extreme capacity; physically, mentally, emotionally and spiritually.</p>
                         </div>
                         <div className="right-img">
-                            <img src={playerIcon} />
+                            <img alt="no image" src={playerIcon} />
                         </div>
-                        <img src={bannerIng} />
+                        <img alt="no image" src={bannerIng} />
                     </div>
                 </Col>
             </Row>
@@ -44,24 +44,24 @@ const FusionExerciseAir = () => {
                     <Col sm={12} md={5}>
                         <div className="info-sec">
                             <span className="info-left">
-                                <img src={circleIon} />
+                                <img alt="no image" src={circleIon} />
                                 <p>Health</p>
                             </span>
                             <p>When phasellus dignissim, in pellentesuqe?</p>
-                            <img src={editIcons} />
+                            <img alt="no image" src={editIcons} />
                         </div>
 
                     </Col>
                     <Col sm={12} md={2}>
 
                         <div className="tb-info">
-                            <img className="activeimg" src={Cluster1} />
+                            <img alt="no image" className="activeimg" src={Cluster1} />
                         </div>
                     </Col>
                     <Col sm={12} md={5}>
                         <div className="app-btn">
-                            <button><img src={shifterApp} /> WEIGHT SHIFTER APP</button>
-                            <button><img src={creatorApp} /> HEALTH CREATOR APP</button>
+                            <button><img alt="no image" src={shifterApp} /> WEIGHT SHIFTER APP</button>
+                            <button><img alt="no image" src={creatorApp} /> HEALTH CREATOR APP</button>
                         </div>
                     </Col>
                 </Row>

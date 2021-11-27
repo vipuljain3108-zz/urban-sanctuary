@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Header from "../../components/Header/Header";
 import AdvanceBannerSlider from "../../components/AdvanceBannerSlider/AdvanceBannerSlider";
 import PlanFormsBottom from "../../components/PlanFormsBottom/PlanFormsBottom";
@@ -33,22 +33,22 @@ const AdvanceExercises = () => {
         <Col sm={12} md={12}>
           <div className="botom-icon">
             <div className="setion-name">
-              <img src={Cluster1} />
+              <img src={Cluster1} alt="no image"/>
               <p>Health</p>
             </div>
             <span>|</span>
             <div className="setion-name">
-              <img src={Cluster2} />
+              <img src={Cluster2} alt="no image" />
               <p>Prosperity</p>
             </div>
             <span>|</span>
             <div className="setion-name">
-              <img src={Cluster3} />
+              <img src={Cluster3} alt="no image" />
               <p>Inspiration</p>
             </div>
             <span>|</span>
             <div className="setion-name">
-              <img src={Cluster4} />
+              <img src={Cluster4} alt="no image"/>
               <p>Joy</p>
             </div>
           </div>
@@ -98,12 +98,12 @@ const AdvanceExercises = () => {
                         </p>
                         <div className="btn-section">
                           <button>READ MORE</button>
-                          <img src={playerIcon} />
+                          <img src={playerIcon} alt="no image" />
                         </div>
                       </div>
                     </Col>
                     <Col sm={2} md={2}>
-                      <img src={personHealth} className="person-health-img"/>
+                      <img src={personHealth} className="person-health-img" alt="no image"/>
                     </Col>
                   </Row>
                 </div>
@@ -120,7 +120,7 @@ const AdvanceExercises = () => {
                 <div className="exe-inner-sp">
                   <Row>
                     <Col sm={2} md={2}>
-                      <img src={personHealth} className="person-health-img"/>
+                      <img src={personHealth} className="person-health-img" alt="no image"/>
                     </Col>
                     <Col sm={6} md={7}>
                       <div className="content-inner">
@@ -146,7 +146,7 @@ const AdvanceExercises = () => {
 
                         <div className="btn-section">
                           <button>READ MORE</button>
-                          <img src={playerIcon} />
+                          <img src={playerIcon} alt="no image" />
                         </div>
                       </div>
                     </Col>
@@ -212,12 +212,12 @@ const AdvanceExercises = () => {
                         </p>
                         <div className="btn-section">
                           <button>READ MORE</button>
-                          <img src={playerIcon} />
+                          <img src={playerIcon} alt="no image" />
                         </div>
                       </div>
                     </Col>
                     <Col sm={2} md={2}>
-                      <img src={personHealth} className="person-health-img" />
+                      <img src={personHealth} className="person-health-img" alt="no image" />
                     </Col>
                   </Row>
                 </div>
@@ -234,7 +234,7 @@ const AdvanceExercises = () => {
                 <div className="exe-inner-sp">
                   <Row>
                     <Col sm={2} md={2}>
-                      <img src={personHealth} className="person-health-img"/>
+                      <img src={personHealth} className="person-health-img" alt="no image"/>
                     </Col>
                     <Col sm={6} md={7}>
                       <div className="content-inner">
@@ -260,7 +260,7 @@ const AdvanceExercises = () => {
 
                         <div className="btn-section">
                           <button>READ MORE</button>
-                          <img src={playerIcon} />
+                          <img src={playerIcon} alt="no image" />
                         </div>
                       </div>
                     </Col>
@@ -324,12 +324,12 @@ const AdvanceExercises = () => {
                         </p>
                         <div className="btn-section">
                           <button>READ MORE</button>
-                          <img src={playerIcon} />
+                          <img src={playerIcon} alt="no image"/>
                         </div>
                       </div>
                     </Col>
                     <Col sm={2} md={2}>
-                      <img src={personHealth} className="person-health-img"/>
+                      <img src={personHealth} className="person-health-img" alt="no image"/>
                     </Col>
                   </Row>
                 </div>

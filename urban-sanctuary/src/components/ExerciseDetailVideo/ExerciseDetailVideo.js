@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,Row,Col } from 'react-bootstrap';
+import { Row,Col } from 'react-bootstrap';
 import blackDiamond from '../../assets/images/black-diamond.png';
 import Yoga from '../../assets/images/exercise_air_detail/yoga.png';
 import favIcon1 from '../../assets/images/fav_icon1.png';
@@ -19,8 +19,8 @@ const ExerciseDetailVideo = () => {
             <div className="vedio-sec">
               <div className="vedio-con">
                 <div className="vedios">
-                  <img src={Yoga} />
-                  <img src={playerIcons} />
+                  <img alt="no image" src={Yoga} />
+                  <img alt="no image" src={playerIcons} />
                 </div>
                 <div className="vedios-pagi">
                   <p>On Demand air classes:</p>
@@ -40,7 +40,7 @@ const ExerciseDetailVideo = () => {
               <div className="profile-info">
                 <div className="info-con">
                   <div className="profile-img">
-                    <img src={blackDiamond} />
+                    <img alt="no image" src={blackDiamond} />
                     <h3>Exp: 35 years</h3>
                   </div>
                   <div className="profile-text">
@@ -102,8 +102,8 @@ const ExerciseDetailVideo = () => {
                       <div className="max-health">
                         <p>Maximum Expected Calorie Burn:</p>
                         <p>300kcl</p>
-                        <img src={favIcon1} />
-                        <img src={favIcon2} />
+                        <img alt="no image" src={favIcon1} />
+                        <img alt="no image" src={favIcon2} />
                       </div>
                       <div className="max-health">
                         <a href="">Pre Workout Life Force Food</a>
@@ -115,10 +115,10 @@ const ExerciseDetailVideo = () => {
               </div>
               <div className="cluster">
                 <ul>
-                  <li><img src={Cluster1} /></li>
-                  <li><img src={Cluster2} /></li>
-                  <li><img src={Cluster3} /></li>
-                  <li><img src={Cluster4} /></li>
+                  <li><img alt="no image" src={Cluster1} /></li>
+                  <li><img alt="no image" src={Cluster2} /></li>
+                  <li><img alt="no image" src={Cluster3} /></li>
+                  <li><img alt="no image" src={Cluster4} /></li>
                 </ul>
               </div>
             </div>
