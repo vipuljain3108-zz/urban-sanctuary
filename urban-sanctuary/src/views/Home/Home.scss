@@ -444,15 +444,16 @@
     }
     .map-tab {
         .nav-tabs {
-            margin: auto;
+            margin: auto !important;
             border: 1px solid #707070;
             border-radius: 8px;
-            max-width: 530px;
+            max-width: 507px;
             .nav-link.active {
                 color: #262626;
                 background-color: transparent;
             }
             .nav-link {
+                background: none;
                 border-right: 1px solid #707070;
                 border-bottom: 1px solid #707070;
                 border-top-left-radius: 0;
