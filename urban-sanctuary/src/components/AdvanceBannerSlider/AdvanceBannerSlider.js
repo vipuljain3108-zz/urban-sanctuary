@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container,Row,Col } from 'react-bootstrap';
+import { Row,Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import barrow from "../../assets/images/b-arrow.png";
 import sliderImg from "../../assets/images/advance-exercises/acro-yoga.jpg";
@@ -36,7 +36,7 @@ const AdvanceBannerSlider = () => {
           <a>
             <div className="tb-info" >
               <span className={`hide-text dot-text${i + 1}`}>{textDot[i]}</span>
-              <img src={`${'Cluster-'}${i + 1}.png`} onClick={() => changeImg(i + 1)} />
+              <img alt="no image" src={`${'Cluster-'}${i + 1}.png`} onClick={() => changeImg(i + 1)} />
             </div>
           </a>
         );
@@ -54,10 +54,10 @@ const AdvanceBannerSlider = () => {
                   <p>Can be done anywhere- no specialised equipment required</p>
                   <button>Start Todat</button>
                   <div className="arrow-icon">
-                    <img src={barrow} />
+                    <img alt="no image" src={barrow} />
                   </div>
                 </div>
-                <img src={sliderImg} className="slider-img"/>
+                <img alt="no image" src={sliderImg} className="slider-img"/>
               </div>
               <div className="slider-conatiner">
                 <div className="cente-text">
@@ -65,10 +65,10 @@ const AdvanceBannerSlider = () => {
                   <p>Can be done anywhere- no specialised equipment required</p>
                   <button>Start Todat</button>
                   <div className="arrow-icon">
-                    <img src={barrow} />
+                    <img alt="no image" src={barrow} />
                   </div>
                 </div>
-                <img src={sliderImg} className="slider-img" />
+                <img alt="no image" src={sliderImg} className="slider-img" />
               </div>
               <div className="slider-conatiner">
                 <div className="cente-text">
@@ -76,10 +76,10 @@ const AdvanceBannerSlider = () => {
                   <p>Can be done anywhere- no specialised equipment required</p>
                   <button>Start Todat</button>
                   <div className="arrow-icon">
-                    <img src={barrow} />
+                    <img alt="no image" src={barrow} />
                   </div>
                 </div>
-                <img src={sliderImg} className="slider-img" />
+                <img alt="no image" src={sliderImg} className="slider-img" />
               </div>
               <div className="slider-conatiner">
                 <div className="cente-text">
@@ -87,10 +87,10 @@ const AdvanceBannerSlider = () => {
                   <p>Can be done anywhere- no specialised equipment required</p>
                   <button>Start Todat</button>
                   <div className="arrow-icon">
-                    <img src={barrow} />
+                    <img alt="no image" src={barrow} />
                   </div>
                 </div>
-                <img src={sliderImg} className="slider-img" />
+                <img alt="no image" src={sliderImg} className="slider-img" />
               </div>
             </Slider>
           </Col>
@@ -102,25 +102,25 @@ const AdvanceBannerSlider = () => {
           <Col sm={12} md={5}>
             <div className="info-sec">
               <span className="info-left">
-                <img src={circleIon} />
+                <img alt="no image" src={circleIon} />
                 <p>Health</p>
               </span>
               <p>When phasellus dignissim, in pellentesuqe?</p>
-              <img src={editIcons} />
+              <img alt="no image" src={editIcons} />
             </div>
           </Col>
           <Col sm={12} md={2}>
             <div className="tb-info">
-            <img className="activeimg" src={`${'Cluster-'}${dotGlobal}.png`} />
+            <img alt="no image" className="activeimg" src={`${'Cluster-'}${dotGlobal}.png`} />
             </div>
           </Col>
           <Col sm={12} md={5}>
             <div className="app-btn">
               <button>
-                <img src={shifterApp} /> WEIGHT SHIFTER APP
+                <img alt="no image" src={shifterApp} /> WEIGHT SHIFTER APP
               </button>
               <button>
-                <img src={creatorApp} /> HEALTH CREATOR APP
+                <img alt="no image" src={creatorApp} /> HEALTH CREATOR APP
               </button>
             </div>
           </Col>

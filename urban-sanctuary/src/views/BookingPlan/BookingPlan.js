@@ -24,29 +24,29 @@ const BookingPlan = () => {
 
                             <div className="ban-icons">
                                 <div className="icon-sec">
-                                    <img src={bannerIcon1} />
+                                    <img  alt="no image" src={bannerIcon1} />
                                     <p>No Equipment
                                         Required </p>
                                 </div>
                                 <div className="icon-sec">
-                                    <img src={bannerIcon2} />
+                                    <img  alt="no image" src={bannerIcon2} />
                                     <p>Workout anywhere, anytime</p>
                                 </div>
                                 <div className="icon-sec">
-                                    <img src={bannerIcon3} />
+                                    <img  alt="no image" src={bannerIcon3} />
                                     <p>Workout in Segments</p>
                                 </div>
                                 <div className="icon-sec">
-                                    <img src={bannerIcon4} />
+                                    <img  alt="no image" src={bannerIcon4} />
                                     <p>coaching service</p>
                                     <span>join our Advancement Exercise community for weekly motivation</span>
                                 </div>
                             </div>
                         </div>
                         <div className="right-img">
-                            <img src={playerIcon} />
+                            <img  alt="no image" src={playerIcon} />
                         </div>
-                        <img src={bannerIng} />
+                        <img  alt="no image" src={bannerIng} />
                     </div>
                 </Col>
             </Row>
