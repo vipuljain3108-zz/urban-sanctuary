@@ -16,7 +16,7 @@ const HealthGallery =()=> {
                         <Col  sm={12}  md={6} className="gallery-grid">
                                 <div className="thumbnail">
                                     <a href="#">
-                                        <img src={health} alt="Health" style={{width:'100%'}}/>
+                                        <img alt="no image" src={health} alt="Health" style={{width:'100%'}}/>
                                         <div className="caption green-sec">
                                             <p>Health</p>
                                         </div>
@@ -26,7 +26,7 @@ const HealthGallery =()=> {
                             <Col  sm={12} md={6} className="gallery-grid">
                                 <div className="thumbnail">
                                     <a href="#">
-                                        <img src={prosperity} alt="Prosperity" style={{width:'100%'}}/>
+                                        <img alt="no image" src={prosperity} alt="Prosperity" style={{width:'100%'}}/>
                                         <div className="caption">
                                             <p>Prosperity</p>
                                         </div>
@@ -36,7 +36,7 @@ const HealthGallery =()=> {
                             <Col sm={12} md={6} className="gallery-grid">
                                 <div className="thumbnail">
                                     <a href="#">
-                                        <img src={inspire} alt="Inspire" style={{width:'100%'}}/>
+                                        <img alt="no image" src={inspire} alt="Inspire" style={{width:'100%'}}/>
                                         <div className="caption">
                                             <p>Inspiration</p>
                                         </div>
@@ -46,7 +46,7 @@ const HealthGallery =()=> {
                             <Col sm={12} md={6} className="gallery-grid">
                                 <div className="thumbnail">
                                     <a href="#">
-                                        <img src={joy} alt="Joy" style={{width:'100%'}}/>
+                                        <img alt="no image" src={joy} alt="Joy" style={{width:'100%'}}/>
                                         <div className="caption">
                                             <p>Joy</p>
                                         </div>

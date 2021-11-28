@@ -10,9 +10,6 @@ import Cluster1 from "../../assets/images/Cluster-1.png";
 import Cluster2 from "../../assets/images/Cluster-2.png";
 import Cluster3 from "../../assets/images/Cluster-3.png";
 import Cluster4 from "../../assets/images/Cluster-4.png";
-import barrow from "../../assets/images/b-arrow.png";
-import slide1 from "../../assets/images/home-img/acro-acro-pose-acro-yoga.png";
-import Path from "../../assets/images/home-img/Path.png";
 import BeComeButton from "../../components/BeComeButton/BeComeButton";
 import Park from "../../assets/images/home-img/park.png";
 import Group from "../../assets/images/home-img/Group.png";
@@ -26,9 +23,7 @@ import card2 from "../../assets/images/home-img/card2.png";
 import card3 from "../../assets/images/home-img/card3.png";
 import card4 from "../../assets/images/home-img/card4.png";
 import card5 from "../../assets/images/home-img/card5.png";
-import Twitter from "../../assets/images/home-img/Twitter.png";
 import globeHands from "../../assets/images/home-img/globe-hands.png";
-import Facebook from "../../assets/images/home-img/Facebook.png";
 import web from "../../assets/images/home-img/web.png";
 import map from "../../assets/images/home-img/map.png";
 import Form from "react-bootstrap/Form";
@@ -86,7 +81,7 @@ const Home = () => {
             <Col md={12}>
               <div className="card-info">
                 <div className="card-wrapper">
-                  <img className="card-img" src={Park} />
+                  <img alt="no image" className="card-img" src={Park} />
                   <p className="cards-title">MASTER SANCTUARY</p>
                   <p className="cards-txt">Reconnect with Land and Sea </p>
                   <span className="cards-desc">
@@ -96,7 +91,7 @@ const Home = () => {
                   </span>
                 </div>
                 <div className="card-wrapper dark-card">
-                  <img className="card-img" src={Group} />
+                  <img alt="no image" className="card-img" src={Group} />
                   <p className="cards-title">URBAN SANCTUARY</p>
                   <p className="cards-txt">Holistic Advancement Architecture</p>
                   <span className="cards-desc">
@@ -106,16 +101,16 @@ const Home = () => {
                   <div className="d-flex wrap-btn">
                     <button class="left-btn btn">Virtual experience</button>
                     <button class="right-btn btn">
-                      <img src={logoMetaWheel} />
+                      <img alt="no image" src={logoMetaWheel} />
                       <span className="read-more-btn">
                         Read More
-                        <img src={rightArrow} />
+                        <img alt="no image" src={rightArrow} />
                       </span>
                     </button>
                   </div>
                 </div>
                 <div className="card-wrapper">
-                  <img className="card-img" src={Cart} />
+                  <img alt="no image" className="card-img" src={Cart} />
                   <p className="cards-title">SANCTUARY STORE</p>
                   <p className="cards-txt">Increasing Health Span</p>
                   <span className="cards-desc">
@@ -139,7 +134,7 @@ const Home = () => {
             <Col md={5}>
               <div className="list-wrapper">
                 <div className="list-img">
-                  <img src={Biospherically} />
+                  <img alt="no image" src={Biospherically} />
                 </div>
                 <div className="list-desc">
                   Biospherically Correct shopping and services experience,
@@ -156,7 +151,7 @@ const Home = () => {
         <Row className="align-items-center ml-0 mr-0">
           <Col md={4} className="pl-0 pr-0">
             <div className="img-with-txt h-100">
-              <img src={leafImg} className="h-100 w-100 leaf-img" />
+              <img alt="no image" src={leafImg} className="h-100 w-100 leaf-img" />
               <div className="img-txt">Life Force Food</div>
               <button class="btn img-btn">Read More </button>
             </div>
@@ -176,22 +171,22 @@ const Home = () => {
               </p>
               <div className="icon-wrapper">
                 <div className="setion-name">
-                  <img src={Cluster1} className="img-fluid" />
+                  <img alt="no image" src={Cluster1} className="img-fluid" />
                   <p>Health</p>
                 </div>
 
                 <div className="setion-name">
-                  <img src={Cluster2} />
+                  <img alt="no image" src={Cluster2} />
                   <p>Prosperity</p>
                 </div>
 
                 <div className="setion-name">
-                  <img src={Cluster3} />
+                  <img alt="no image" src={Cluster3} />
                   <p>Inspiration</p>
                 </div>
 
                 <div className="setion-name">
-                  <img src={Cluster4} />
+                  <img alt="no image" src={Cluster4} />
                   <p>Joy</p>
                 </div>
               </div>
@@ -204,7 +199,7 @@ const Home = () => {
         <Row className="align-items-center ml-0 mr-0">
           <Col md={4} className="grid-wrap">
             <div className="img-with-txt ">
-              <img src={card1} className="w-100 img-fluid" />
+              <img alt="no image" src={card1} className="w-100 img-fluid" />
               <div className="img-txt">
                 Advanced Holistic <br />
                 Testing & Apps
@@ -214,7 +209,7 @@ const Home = () => {
           </Col>
           <Col md={4} className="grid-wrap">
             <div className="img-with-txt">
-              <img src={card2} className="w-100 img-fluid" />
+              <img alt="no image" src={card2} className="w-100 img-fluid" />
               <div className="img-txt">Advancement Exercises</div>
 
               <button class="btn img-btn">Read More </button>
@@ -222,7 +217,7 @@ const Home = () => {
           </Col>
           <Col md={4} className="grid-wrap">
             <div className="img-with-txt">
-              <img src={card3} className="w-100 img-fluid" />
+              <img alt="no image" src={card3} className="w-100 img-fluid" />
               <div className="img-txt">
                 <span className="span1">
                   Natural Biospherically <br />
@@ -236,7 +231,7 @@ const Home = () => {
           </Col>
           <Col md={6} className="grid-wrap">
             <div className="img-with-txt">
-              <img src={card4} />
+              <img alt="no image" src={card4} />
               <div className="img-txt">
                 <span className="span1">In-house Health Specialists</span>
                 <span className="span2">Protocols & Consultancy</span>
@@ -249,7 +244,7 @@ const Home = () => {
           </Col>
           <Col md={6} className="grid-wrap">
             <div className="img-with-txt">
-              <img src={card5} />
+              <img alt="no image" src={card5} />
               <div className="img-txt">
                 <span className="span1">Advanced Learning</span>
                 <span className="span2">Guides, Workshops & Courses</span>
@@ -265,21 +260,21 @@ const Home = () => {
       <div class="img-slides">
         <Slider {...settings}>
           <div class="position-relative">
-            <img src={mobileBg} />
+            <img alt="no image" src={mobileBg} />
             <h3>
               OUR <br />
               <div className="spn-txt">APPLICATIONS</div>
             </h3>
           </div>
           <div class="position-relative">
-            <img src={mobileBg} />
+            <img alt="no image" src={mobileBg} />
             <h3>
               OUR <br />
               APPLICATIONS
             </h3>
           </div>
           <div class="position-relative">
-            <img src={mobileBg} />
+            <img alt="no image" src={mobileBg} />
             <h3>
               OUR <br />
               APPLICATIONS
@@ -291,7 +286,7 @@ const Home = () => {
         <Container fluid>
           <Row className="align-items-center">
             <Col md={6} className="text-center">
-              <img src={globeHands} />
+              <img alt="no image" src={globeHands} />
             </Col>
             <Col md={6}>
               <div className="story-txt">
@@ -328,7 +323,7 @@ const Home = () => {
                     <i className="fab fa-instagram"></i>
                     <i className="fab fa-twitter"></i>
                     <i className="fab fa-facebook-f"></i>
-                    <img src={web} />
+                    <img alt="no image" src={web} />
                   </div>
                 </div>
               </div>
@@ -356,17 +351,17 @@ const Home = () => {
               <Tabs defaultActiveKey="first">
                 <Tab eventKey="first" title="World">
                   <div className="table-data">
-                    <img src={map} />
+                    <img alt="no image" src={map} />
                   </div>
                 </Tab>
                 <Tab eventKey="second" title="Australia & New Zealand">
                   <div className="chart-sec">
-                    <img src={map} />
+                    <img alt="no image" src={map} />
                   </div>
                 </Tab>
                 <Tab eventKey="third" title="Auckland">
                   <div className="chart-sec">
-                    <img src={map} />
+                    <img alt="no image" src={map} />
                   </div>
                 </Tab>
               </Tabs>
@@ -460,7 +455,7 @@ const Home = () => {
                     <i className="fab fa-instagram"></i>
                     <i className="fab fa-twitter"></i>
                     <i className="fab fa-facebook-f"></i>
-                    <img src={web} />
+                    <img alt="no image" src={web} />
                   </div>
                 </div>
                 <p>
