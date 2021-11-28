@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container,Row,Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -52,36 +53,36 @@ const ExerciseDetailSigmentTab = () => {
                   <Slider {...sigCard}>
                     <div className="sig-card">
                       <p>Okinawan Garden</p>
-                      <img alt="no image" src={sigment1} />
+                      <img src={sigment1} />
                     </div>
 
                     <div className="sig-card">
                       <p>Tropical Beach</p>
-                      <img alt="no image" src={sigment2} />
+                      <img src={sigment2} />
                     </div>
                     <div className="sig-card">
                       <p>New York loft</p>
-                      <img alt="no image" src={sigment3} />
+                      <img src={sigment3} />
                     </div>
                     <div className="sig-card">
                       <p>Warehouse</p>
-                      <img alt="no image" src={sigment4} />
+                      <img src={sigment4} />
                     </div>
                     <div className="sig-card">
                       <p>High Tech Studio</p>
-                      <img alt="no image" src={sigment5} />
+                      <img src={sigment5} />
                     </div>
                     <div className="sig-card">
                       <p>Forest Water Fall</p>
-                      <img alt="no image" src={sigment6} />
+                      <img src={sigment6} />
                     </div>
                     <div className="sig-card">
                       <p>Lake</p>
-                      <img alt="no image" src={sigment7} />
+                      <img src={sigment7} />
                     </div>
                     <div className="sig-card">
                       <p>High Tech Studio</p>
-                      <img alt="no image" src={sigment5} />
+                      <img src={sigment5} />
                     </div>
                   </Slider>
                 </Tab>
@@ -89,35 +90,35 @@ const ExerciseDetailSigmentTab = () => {
                   <Slider {...sigCard}>
                     <div className="sig-card">
                       <p>Okinawan Garden</p>
-                      <img alt="no image" src={sigment1} />
+                      <img src={sigment1} />
                     </div>
                     <div className="sig-card">
                       <p>Tropical Beach</p>
-                      <img alt="no image" src={sigment2} />
+                      <img src={sigment2} />
                     </div>
                     <div className="sig-card">
                       <p>New York loft</p>
-                      <img alt="no image" src={sigment3} />
+                      <img src={sigment3} />
                     </div>
                     <div className="sig-card">
                       <p>Warehouse</p>
-                      <img alt="no image" src={sigment4} />
+                      <img src={sigment4} />
                     </div>
                     <div className="sig-card">
                       <p>High Tech Studio</p>
-                      <img alt="no image" src={sigment5} />
+                      <img src={sigment5} />
                     </div>
                     <div className="sig-card">
                       <p>Forest Water Fall</p>
-                      <img alt="no image" src={sigment6} />
+                      <img src={sigment6} />
                     </div>
                     <div className="sig-card">
                       <p>Lake</p>
-                      <img alt="no image" src={sigment7} />
+                      <img src={sigment7} />
                     </div>
                     <div className="sig-card">
                       <p>High Tech Studio</p>
-                      <img alt="no image" src={sigment5} />
+                      <img src={sigment5} />
                     </div>
                   </Slider>
                 </Tab>

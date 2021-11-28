@@ -24,7 +24,7 @@ const HomeSlider = () => {
           <a>
             <div className="tb-info" >
               <span className={`hide-text dot-text${i + 1}`}>{textDot[i]}</span>
-              <img alt="no image" src={`${'Cluster-'}${i + 1}.png`} />
+              <img src={`${'Cluster-'}${i + 1}.png`} />
             </div>
           </a>
         );
@@ -49,14 +49,14 @@ const HomeSlider = () => {
                   </p>
                   <button className="learn-more-btn">
                     LEARN ABOUT US
-                    <img alt="no image" src={Path} />
+                    <img src={Path} />
                   </button>
                   <div className="arrow-icon">
-                    <img alt="no image" src={barrow} />
+                    <img src={barrow} />
                   </div>
                 </div>
                
-                <img alt="no image" className="banner-img" src={slide1} />
+                <img className="banner-img" src={slide1} />
               </div>
               <div className="slider-conatiner">
                 <div className=" slider-txt">
@@ -71,14 +71,14 @@ const HomeSlider = () => {
                   </p>
                   <button className="learn-more-btn">
                     LEARN ABOUT US
-                    <img alt="no image" src={Path} />
+                    <img src={Path} />
                   </button>
                   <div className="arrow-icon">
-                    <img alt="no image" src={barrow} />
+                    <img src={barrow} />
                   </div>
                 </div>
 
-                <img alt="no image" className="banner-img" src={slide1} />
+                <img className="banner-img" src={slide1} />
               </div>
               <div className="slider-conatiner">
                 <div className=" slider-txt">
@@ -93,13 +93,13 @@ const HomeSlider = () => {
                   </p>
                   <button className="learn-more-btn">
                     LEARN ABOUT US
-                    <img alt="no image" src={Path} />
+                    <img src={Path} />
                   </button>
                   <div className="arrow-icon">
-                    <img alt="no image" src={barrow} />
+                    <img src={barrow} />
                   </div>
                 </div>
-                <img alt="no image" className="banner-img" src={slide1} />
+                <img className="banner-img" src={slide1} />
               </div>
               <div className="slider-conatiner">
                 <div className=" slider-txt">
@@ -114,14 +114,14 @@ const HomeSlider = () => {
                   </p>
                   <button className="learn-more-btn">
                     LEARN ABOUT US
-                    <img alt="no image" src={Path} />
+                    <img src={Path} />
                   </button>
                   <div className="arrow-icon">
-                    <img alt="no image" src={barrow} />
+                    <img src={barrow} />
                   </div>
                 </div>
 
-                <img alt="no image" className="banner-img" src={slide1} />
+                <img className="banner-img" src={slide1} />
               </div>
             </Slider>
           </Col>
@@ -148,7 +148,7 @@ const HomeSlider = () => {
                     and a Mejestic natural lifestyle of Self Sufficiency
                   </p>
                 </div>
-                <img alt="no image" className="banner-img" src={BannerHome2} />
+                <img className="banner-img" src={BannerHome2} />
               </div>
               <div className="slider-conatiner">
                 <div className=" slider-txt">
@@ -169,7 +169,7 @@ const HomeSlider = () => {
                   </p>
                 </div>
                
-                <img alt="no image" className="banner-img" src={BannerHome2} />
+                <img className="banner-img" src={BannerHome2} />
               </div>
               <div className="slider-conatiner">
                 <div className=" slider-txt">
@@ -189,7 +189,7 @@ const HomeSlider = () => {
                     and a Mejestic natural lifestyle of Self Sufficiency
                   </p>
                 </div>
-                <img alt="no image" className="banner-img" src={BannerHome2} />
+                <img className="banner-img" src={BannerHome2} />
               </div>
               <div className="slider-conatiner">
                 <div className=" slider-txt">
@@ -210,7 +210,7 @@ const HomeSlider = () => {
                   </p>
                 </div>
                
-                <img alt="no image" className="banner-img" src={BannerHome2} />
+                <img className="banner-img" src={BannerHome2} />
               </div>
             </Slider>
           </Col>

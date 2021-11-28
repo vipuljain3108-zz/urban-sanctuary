@@ -10,10 +10,10 @@ const BeComeButton = () => {
     <>
       {/* <button id="btn-image"><img src={btnlogo}/><p><span>Become</span> <br/>Visionaire</p></button> */}
       <div className="btn-image">
-        {(pathname === '/store-service-skin-analysis') || pathname === '/store-service-inbody-scanning' ? (
-          <img src={greenButton} alt="no image"/>
+        {(pathname =='/store-service-skin-analysis') || pathname =='/store-service-inbody-scanning' ? (
+          <img src={greenButton} />
         ) : (
-          <img src={btnlogo} alt="no image" />
+          <img src={btnlogo} />
         )}
       </div>
     </>

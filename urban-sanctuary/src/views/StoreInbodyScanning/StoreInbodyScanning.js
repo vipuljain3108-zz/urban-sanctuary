@@ -40,7 +40,7 @@ const StoreInbodyScanning = () => {
             </div>
             <div className="img-content">
               <div className="skinNewobs">
-                <img alt="no image" src={weighting} />
+                <img src={weighting} />
                 <h4>OBSERV 520X</h4>
               </div>
               <span className="skin-banner-txt">
@@ -49,10 +49,10 @@ const StoreInbodyScanning = () => {
                 <p>InBody’s medical-grade body composition analyzers use four pillars of technology to provide accurate, precise direct segmental measurement multi-frequency bioelectrical impedance analysis (DSM-MFBIA) extensively validated to gold-standard methods.</p>
               </span>
               <div className="scannNewsRun">
-                <img alt="no image" src={compositionInbody} />
+                <img src={compositionInbody} />
               </div>
             </div>
-            <img alt="no image" src={machinesBanner} />
+            <img src={machinesBanner} />
           </div>
         </Col>
         <Col sm={12} md={12}>
@@ -65,35 +65,35 @@ const StoreInbodyScanning = () => {
                     <p>Providing necessary parameters for Healthcare Professionals to assist in their treatment and prevention in various non-communicable conditions.</p>
                     <ul>
                       <li>
-                        <img alt="no image" src={scannChecked} />
+                        <img src={scannChecked} />
                         <div>
                           <p>Visceral Fat</p>
                           <span>Identify potential increased risk associated with various conditions.</span>
                         </div>
                       </li>
                       <li>
-                        <img alt="no image" src={scannChecked} />
+                        <img src={scannChecked} />
                         <div>
                           <p>Phase Angle</p>
                           <span>Cellular indicator of cell integrity.</span>
                         </div>
                       </li>
                       <li>
-                        <img alt="no image" src={scannChecked} />
+                        <img src={scannChecked} />
                         <div>
                           <p>ECW/TBW Analysis</p>
                           <span>Assess potential fluid accumulation to assist the healthcare professional between dialysis sessions.</span>
                         </div>
                       </li>
                       <li>
-                        <img alt="no image" src={scannChecked} />
+                        <img src={scannChecked} />
                         <div>
                           <p>Segmental Lean Analysis</p>
                           <span>Assess potential fluid accumulation to assist the healthcare professional between dialysis sessions.</span>
                         </div>
                       </li>
                       <li>
-                        <img alt="no image" src={scannChecked} />
+                        <img src={scannChecked} />
                         <div>
                           <p>Body Composition History</p>
                           <span>Enables a Healthcare Professional ability to track and quantify fluid retention, progress of conditions
@@ -101,24 +101,24 @@ const StoreInbodyScanning = () => {
                         </div>
                       </li>
                     </ul>
-                    <p><a href="#">Click Here</a> to read Inbody Scan detailed Clinical Publication</p>
+                    <p><a href="">Click Here</a> to read Inbody Scan detailed Clinical Publication</p>
                   </div>
                 </Col>
                 <Col sm={12} md={5}>
                   <div className="runnig-img">
-                    <img alt="no image" src={runningStaire} />
+                    <img src={runningStaire} />
                   </div>
                 </Col>
               </Row>
             </div>
-            <img alt="no image" src={scanningRunBack} />
+            <img src={scanningRunBack} />
           </div>
         </Col>
       </Row>
       <Row>
         <Col sm={12} md={12}>
           <div className="scanning-info">
-            <img alt="no image" src={degreeLeft} />
+            <img src={degreeLeft} />
             <div className="scanning-text">
               <h4>About Sanctuary Inbody Scan</h4>
               <p>We believe in the importance of understanding your full body health for a complete wellbeing. It is not just about knowing what you weigh, but more about how the weight is distributed within your body. Our medically approved InBody scanner can accurately measure, report and track your results. The Inbody scanner along with our Health creator and Weight Shifter app can help you track and understand your body better to achieve the best required results.
@@ -151,7 +151,7 @@ const StoreInbodyScanning = () => {
           </Col>
           <Col sm={12} md={6}>
             <div className="scanning-data-img">
-              <img alt="no image" src={scanData} />
+              <img src={scanData} />
             </div>
           </Col>
         </Row>
@@ -160,13 +160,13 @@ const StoreInbodyScanning = () => {
       <Row>
         <Col sm={12} md={4}>
           <div className="scan-gallery-img">
-            <img alt="no image" src={Fit3ddata} />
+            <img src={Fit3ddata} />
             <h3>InBody Measurements  & Reports</h3>
           </div>
         </Col>
         <Col sm={12} md={4}>
           <div className="scan-gallery-img">
-            <img alt="no image" src={scannMobile} />
+            <img src={scannMobile} />
             <h3>Track Fat Loss, Body Comp,
               & Muscle mass on our
               Weight Shifter App</h3>
@@ -174,7 +174,7 @@ const StoreInbodyScanning = () => {
         </Col>
         <Col sm={12} md={4}>
           <div className="scan-gallery-img">
-            <img alt="no image" src={bodybuilder} />
+            <img src={bodybuilder} />
             <h3>BMR & Body Fat Percentage </h3>
           </div>
         </Col>
@@ -201,7 +201,7 @@ const StoreInbodyScanning = () => {
                   <p>Use our online booking calendar (or phone 021-026-71849 for appointment outside these available times). </p>
                 </div>
             </div>
-            <button><img alt="no image" src={BookAppointment} />Book an <br/>Appointment</button>
+            <button><img src={BookAppointment} />Book an <br/>Appointment</button>
           </div>
         </Col>
       </Row>
@@ -213,14 +213,14 @@ const StoreInbodyScanning = () => {
               <Col sm={12} md={6}>
                 <div className="con-profile">
                   <div className="con-pro">
-                    <img alt="no image" src={pic1} />
+                    <img src={pic1} />
                     <h2>Jonathan Walker</h2>
                   </div>
                   <p>In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque est rhoncus massa, tristique rutrum nisl risus at libero.</p>
                 </div>
                 <div className="con-profile">
                   <div className="con-pro">
-                    <img alt="no image" src={pic3} />
+                    <img src={pic3} />
                     <h2>Brenda Mercer</h2>
                   </div>
                   <p>In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque est rhoncus massa, tristique rutrum nisl risus at libero.</p>
@@ -228,8 +228,8 @@ const StoreInbodyScanning = () => {
               </Col>
               <Col sm={12} md={6}>
                 <div className="con-img">
-                  <img alt="no image" src={vedioscanning} />
-                  <img alt="no image" src={skinPlayerBtn} />
+                  <img src={vedioscanning} />
+                  <img src={skinPlayerBtn} />
                 </div>
               </Col>
             </Row>

@@ -1,5 +1,5 @@
-import React from "react";
-import { Row, Col } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Container, Row, Col } from 'react-bootstrap';
 import './FrequentlyAskedQuestions.scss';
 const FrequentlyAskedQuestions = () => {
     return (

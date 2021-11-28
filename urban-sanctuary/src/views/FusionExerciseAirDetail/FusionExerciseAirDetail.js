@@ -8,7 +8,6 @@ import Slider from "react-slick";
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import { Bar } from 'react-chartjs-2';
-import Chart from 'chart.js/auto'
 import playerIcon from '../../assets/images/personHealth.png';
 import bannerIng from '../../assets/images/fu-exercise2.png';
 import circleIon from '../../assets/images/circle-ion.png';
@@ -124,9 +123,9 @@ const FusionExerciseAirDetail = () => {
               <h1>Fusion Exercise</h1>
             </div>
             <div className="right-img">
-              <img alt="no image" src={playerIcon} />
+              <img src={playerIcon} />
             </div>
-            <img alt="no image" src={bannerIng} />
+            <img src={bannerIng} />
           </div>
         </Col>
       </Row>
@@ -136,24 +135,24 @@ const FusionExerciseAirDetail = () => {
           <Col sm={12} md={5}>
             <div className="info-sec">
               <span className="info-left">
-                <img alt="no image" src={circleIon} />
+                <img src={circleIon} />
                 <p>Health</p>
               </span>
               <p>When phasellus dignissim, in pellentesuqe?</p>
-              <img alt="no image" src={editIcons} />
+              <img src={editIcons} />
             </div>
 
           </Col>
           <Col sm={12} md={2}>
 
             <div className="tb-info">
-              <img alt="no image" className="activeimg" src={Cluster1} />
+              <img className="activeimg" src={Cluster1} />
             </div>
           </Col>
           <Col sm={12} md={5}>
             <div className="app-btn">
-              <button><img alt="no image" src={shifterApp} /> WEIGHT SHIFTER APP</button>
-              <button><img alt="no image" src={creatorApp} /> HEALTH CREATOR APP</button>
+              <button><img src={shifterApp} /> WEIGHT SHIFTER APP</button>
+              <button><img src={creatorApp} /> HEALTH CREATOR APP</button>
             </div>
           </Col>
         </Row>
@@ -163,14 +162,14 @@ const FusionExerciseAirDetail = () => {
         <Row >
           <Col sm={12} md={12}>
             <div className="sigment-img">
-              <img alt="no image" src={nounVideo} className="sigment-img-right" />
+              <img src={nounVideo} className="sigment-img-right" />
               <ExerciseDetailSigmentTab></ExerciseDetailSigmentTab>
             </div>
           </Col>
           <Col sm={12} md={12}>
             <div className="cust-review">
               <h1>Customer Reviews</h1>
-              <img alt="no image" src={editIcon} title="WRITE REVIEWS" />
+              <img src={editIcon} title="WRITE REVIEWS" />
             </div>
           </Col>
         </Row >
@@ -181,7 +180,7 @@ const FusionExerciseAirDetail = () => {
           <div className="review-card">
             <div className="card-review">
               <div className="head-sec">
-                <img alt="no image" src={pic1} />
+                <img src={pic1} />
                 <div className="head-info">
                   <p>Aliquam tellus </p>
                   <h1>Chris Andrews</h1>
@@ -198,9 +197,9 @@ const FusionExerciseAirDetail = () => {
                 <p>Home Workout</p>
               </div>
               <div className="info2">
-                <img alt="no image" src={startCom} />
+                <img src={startCom} />
                 <p>Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium sem libero, vel pellentesque purus ultrices ut. In quis leo id massa pulvinar euismod cursus non justo. </p>
-                <img alt="no image" src={endCom} className="img2" />
+                <img src={endCom} className="img2" />
                 <span>26/01/2020</span>
               </div>
             </div>
@@ -208,7 +207,7 @@ const FusionExerciseAirDetail = () => {
           <div className="review-card">
             <div className="card-review">
               <div className="head-sec">
-                <img alt="no image" src={pic2} />
+                <img src={pic2} />
                 <div className="head-info">
                   <p>Aliquam tellus </p>
                   <h1>Chris Andrews</h1>
@@ -225,9 +224,9 @@ const FusionExerciseAirDetail = () => {
                 <p>Home Workout</p>
               </div>
               <div className="info2">
-                <img alt="no image" src={startCom} />
+                <img src={startCom} />
                 <p>Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium sem libero, vel pellentesque purus ultrices ut. In quis leo id massa pulvinar euismod cursus non justo. </p>
-                <img alt="no image" src={endCom} className="img2" />
+                <img src={endCom} className="img2" />
                 <span>26/01/2020</span>
               </div>
             </div>
@@ -235,7 +234,7 @@ const FusionExerciseAirDetail = () => {
           <div className="review-card">
             <div className="card-review">
               <div className="head-sec">
-                <img alt="no image" src={pic3} />
+                <img src={pic3} />
                 <div className="head-info">
                   <p>Aliquam tellus </p>
                   <h1>Chris Andrews</h1>
@@ -252,9 +251,9 @@ const FusionExerciseAirDetail = () => {
                 <p>Home Workout</p>
               </div>
               <div className="info2">
-                <img alt="no image" src={startCom} />
+                <img src={startCom} />
                 <p>Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium sem libero, vel pellentesque purus ultrices ut. In quis leo id massa pulvinar euismod cursus non justo. </p>
-                <img alt="no image" src={endCom} className="img2" />
+                <img src={endCom} className="img2" />
                 <span>26/01/2020</span>
               </div>
             </div>
@@ -262,7 +261,7 @@ const FusionExerciseAirDetail = () => {
           <div className="review-card">
             <div className="card-review">
               <div className="head-sec">
-                <img alt="no image" src={pic1} />
+                <img src={pic1} />
                 <div className="head-info">
                   <p>Aliquam tellus </p>
                   <h1>Chris Andrews</h1>
@@ -279,9 +278,9 @@ const FusionExerciseAirDetail = () => {
                 <p>Home Workout</p>
               </div>
               <div className="info2">
-                <img alt="no image" src={startCom} />
+                <img src={startCom} />
                 <p>Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium sem libero, vel pellentesque purus ultrices ut. In quis leo id massa pulvinar euismod cursus non justo. </p>
-                <img alt="no image" src={endCom} className="img2" />
+                <img src={endCom} className="img2" />
                 <span>26/01/2020</span>
               </div>
             </div>
@@ -289,7 +288,7 @@ const FusionExerciseAirDetail = () => {
           <div className="review-card">
             <div className="card-review">
               <div className="head-sec">
-                <img alt="no image" src={pic1} />
+                <img src={pic1} />
                 <div className="head-info">
                   <p>Aliquam tellus </p>
                   <h1>Chris Andrews</h1>
@@ -306,9 +305,9 @@ const FusionExerciseAirDetail = () => {
                 <p>Home Workout</p>
               </div>
               <div className="info2">
-                <img alt="no image" src={startCom} />
+                <img src={startCom} />
                 <p>Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium sem libero, vel pellentesque purus ultrices ut. In quis leo id massa pulvinar euismod cursus non justo. </p>
-                <img alt="no image" src={endCom} className="img2" />
+                <img src={endCom} className="img2" />
                 <span>26/01/2020</span>
               </div>
             </div>
@@ -323,25 +322,25 @@ const FusionExerciseAirDetail = () => {
               <Slider {...settings}>
                 <div className="exercise-pro">
                   <div className="sig-card">
-                    <img alt="no image" src={otherImg1} />
+                    <img src={otherImg1} />
                     <p>Yoga</p>
                   </div>
                 </div>
                 <div className="exercise-pro">
                   <div className="sig-card">
-                    <img alt="no image" src={otherImg2} />
+                    <img src={otherImg2} />
                     <p>Home Workouts</p>
                   </div>
                 </div>
                 <div className="exercise-pro">
                   <div className="sig-card">
-                    <img alt="no image" src={otherImg3} />
+                    <img src={otherImg3} />
                     <p>Dance</p>
                   </div>
                 </div>
                 <div className="exercise-pro">
                   <div className="sig-card">
-                    <img alt="no image" src={otherImg4} />
+                    <img src={otherImg4} />
                     <p>Mind Health Exercise</p>
                   </div>
                 </div>
@@ -441,7 +440,7 @@ const FusionExerciseAirDetail = () => {
                     </table>
                   </div>
                 </Tab>
-                <Tab eventKey="second" title="View 2">
+                <Tab eventKey="second" title="View 1">
                   <div className="chart-sec">
                   <Bar data={data} options={options} />
                   </div>

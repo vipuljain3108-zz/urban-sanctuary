@@ -43,31 +43,31 @@ const FusionMasterSlider = () => {
         <>
             <Slider {...settings}>
                 <div className="slider-item">
-                    <img alt="no image" src={blackDiamond} />
+                    <img src={blackDiamond} />
                     <h2>Kim Larking</h2>
                     <p>Exp: 35 years</p>
                     <p>Kim Larking, creator of Mind X Body Fusion Exercise, author of the book Health Psychology, 6th degree Kiaido Ryu black belt, aikido and yoga enthusiast, anti-aging and health span educator.</p>
                 </div>
                 <div className="slider-item">
-                    <img alt="no image" src={GrowDefault} />
+                    <img src={GrowDefault} />
                     <h2>Watch Our Team <br />Grow</h2>
                     <p>As We Train Up Other</p>
                     <p>Fusion Experts</p>
                 </div>
                 <div className="slider-item">
-                    <img alt="no image" src={GrowDefault} />
+                    <img src={GrowDefault} />
                     <h2>Watch Our Team <br />Grow</h2>
                     <p>As We Train Up Other</p>
                     <p>Fusion Experts</p>
                 </div>
                 <div className="slider-item">
-                    <img alt="no image" src={GrowDefault} />
+                    <img src={GrowDefault} />
                     <h2>Watch Our Team <br />Grow</h2>
                     <p>As We Train Up Other</p>
                     <p>Fusion Experts</p>
                 </div>
                 <div className="slider-item">
-                    <img alt="no image" src={GrowDefault} />
+                    <img src={GrowDefault} />
                     <h2>Watch Our Team <br />Grow</h2>
                     <p>As We Train Up Other</p>
                     <p>Fusion Experts</p>

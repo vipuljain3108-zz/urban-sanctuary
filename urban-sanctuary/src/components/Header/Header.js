@@ -68,8 +68,8 @@ const Header=() =>{
                 <Col md={3} className="mobile-hide">
                         {/* <!-- Logo --> */}
                         <a className="navbar-brand">
-                        <img alt="no image" src={lineIcon}/>
-                        <img alt="no image" src={logo}/></a>
+                        <img src={lineIcon}/>
+                        <img src={logo}/></a>
                     </Col>
                     <Col md={6} className="mobile-hide">
                         <nav className="custom-navbar">
@@ -110,22 +110,22 @@ const Header=() =>{
                         <ul className="d-flex justify-content-end align-items-center">
                             <li className="nav-item">
                                 <a className="nav-link">
-                                    <img alt="no image" src={searchIcon}/>
+                                    <img src={searchIcon}/>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link">
-                                <img alt="no image" src={cartIcon}/>
+                                <img src={cartIcon}/>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link">
-                                <img alt="no image" src={profileIcon}/>
+                                <img src={profileIcon}/>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link">
-                                <img alt="no image" src={moreIcons}/>
+                                <img src={moreIcons}/>
                                 </a>
                             </li>
 
@@ -134,7 +134,7 @@ const Header=() =>{
 
                     <Col md={12} className="desk-hide">
                         <div className="mobile-menu">
-                            <a className="navbar-brand"><img alt="no image" src={logo}/></a>
+                            <a className="navbar-brand"><img src={logo}/></a>
                             <span onClick={toggleSideNav}>&#9776;</span>
                         </div>
                         <div id="mySidenav" className="sidenav">
