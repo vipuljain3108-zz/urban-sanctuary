@@ -44,9 +44,10 @@ const StoreSkinAnalysis = () => {
               <span className="skin-banner-txt">
                 <h1>Beautiful Skin!</h1>
                 <h4>Beauty from within</h4>
-                <p>We believe that great skin is a reflection of inner health and beauty- your skin is representative of what going on inside of you.</p>
-                <p>A skin test will reveal not just the condition of your skin and how to proactively nurture the skin to make it more beautiful but also contributes to a piece of the puzzle of our comprehensive heath testing services to integrate a holistic road map for you to optimise health which will involve glowing skin.</p>
-                <p>We recommend refining diet to achieve the very best nutrition that provides the body what it needs to experience great health and fresh skin, and we recommend using the fully natural and nutrition rich Vision Products skin and hair care products and specialised treatment plans to compliment this beauty.</p>
+                <p className="head-txt">Authentic beauty and radiant skin</p>
+                <p>At the Sanctuary we believe that great skin is a reflection of inner health, and that full health and hence true beauty shows itself through the radiance of the eyes, hair and skin. Health and Beauty is represented by what is going on inside of your mind-body, and by the way you protect, nurture and nourish your skin and hair.</p>
+                <p>A skin test will reveal not just the condition of your skin, and how to externally look after it, but also contributes to an overview of our comprehensive heath testing services. This holistic health map can identify toxins, nutrient deficiencies, as well as other health conditions which impact appearance, all important information that can then be cross referenced to integrate a natural improvement program for you to achieve greater Vitality and Longevity - which will involve glowing, youthful skin.</p>
+                <p>We recommend using the fully natural and nutrient rich Vision Products skin and hair care range, along with specialised treatments to compliment this authentic beauty approach.</p>
 
                 <div className="link-img">
                   <a href="#"> <i className="fa fa-globe"></i>Read More</a>
@@ -90,8 +91,8 @@ const StoreSkinAnalysis = () => {
             </Col>
             <Col sm={12} md={7}>
               <div className="link-cont-img">
-                <h1>Link Skin Analysis System with our Hair test and Health Creator app </h1>
-                <p>Discover the nutrients that you may be lacking that are contributing to dull and dry skin, by also doing our specialised hair test. Allow us to put together a health and nutrition program focused on improving long term skin health and achieving extra ordinary glowing radiance and beauty.</p>
+                <h1>Seek out authentic, natural beauty through true health</h1>
+                <p>Combine our other Testing Services and Health Creator App to achieve the very best beauty appearance possible! Discover the factors and nutrients that you may be lacking, that contribute to wrinkled, dull and dry skin. Allow us to put together a comprehensive and customised skin, health, nutrition and personal care products program for you, focused on improving long term skin suppleness and extra ordinary glowing radiance and beauty.Combine our other Testing Services and Health Creator App to achieve the very best beauty appearance possible! Discover the factors and nutrients that you may be lacking, that contribute to wrinkled, dull and dry skin. Allow us to put together a comprehensive and customised skin, health, nutrition and personal care products program for you, focused on improving long term skin suppleness and extra ordinary glowing radiance and beauty.</p>
                 <Row>
                   <Col sm={12} md={4}>
                     <img alt="no image" src={testingDevice} />

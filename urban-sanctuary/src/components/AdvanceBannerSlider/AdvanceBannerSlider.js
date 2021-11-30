@@ -52,7 +52,7 @@ const AdvanceBannerSlider = () => {
                 <div className="cente-text">
                   <h1>Advancement exercises</h1>
                   <p>Can be done anywhere- no specialised equipment required</p>
-                  <button>Start Todat</button>
+                  <button>START TODAY</button>
                   <div className="arrow-icon">
                     <img alt="no image" src={barrow} />
                   </div>
@@ -63,7 +63,7 @@ const AdvanceBannerSlider = () => {
                 <div className="cente-text">
                   <h1>Advancement exercises</h1>
                   <p>Can be done anywhere- no specialised equipment required</p>
-                  <button>Start Todat</button>
+                  <button>START TODAY</button>
                   <div className="arrow-icon">
                     <img alt="no image" src={barrow} />
                   </div>
@@ -74,7 +74,7 @@ const AdvanceBannerSlider = () => {
                 <div className="cente-text">
                   <h1>Advancement exercises</h1>
                   <p>Can be done anywhere- no specialised equipment required</p>
-                  <button>Start Todat</button>
+                  <button>START TODAY</button>
                   <div className="arrow-icon">
                     <img alt="no image" src={barrow} />
                   </div>
@@ -85,7 +85,7 @@ const AdvanceBannerSlider = () => {
                 <div className="cente-text">
                   <h1>Advancement exercises</h1>
                   <p>Can be done anywhere- no specialised equipment required</p>
-                  <button>Start Todat</button>
+                  <button>START TODAY</button>
                   <div className="arrow-icon">
                     <img alt="no image" src={barrow} />
                   </div>
