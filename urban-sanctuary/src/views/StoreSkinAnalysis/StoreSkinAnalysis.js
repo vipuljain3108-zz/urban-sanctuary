@@ -92,7 +92,7 @@ const StoreSkinAnalysis = () => {
             <Col sm={12} md={7}>
               <div className="link-cont-img">
                 <h1>Seek out authentic, natural beauty through true health</h1>
-                <p>Combine our other Testing Services and Health Creator App to achieve the very best beauty appearance possible! Discover the factors and nutrients that you may be lacking, that contribute to wrinkled, dull and dry skin. Allow us to put together a comprehensive and customised skin, health, nutrition and personal care products program for you, focused on improving long term skin suppleness and extra ordinary glowing radiance and beauty.Combine our other Testing Services and Health Creator App to achieve the very best beauty appearance possible! Discover the factors and nutrients that you may be lacking, that contribute to wrinkled, dull and dry skin. Allow us to put together a comprehensive and customised skin, health, nutrition and personal care products program for you, focused on improving long term skin suppleness and extra ordinary glowing radiance and beauty.</p>
+                <p>Combine our other Testing Services and Health Creator App to achieve the very best beauty appearance possible! Discover the factors and nutrients that you may be lacking, that contribute to wrinkled, dull and dry skin. Allow us to put together a comprehensive and customised skin, health, nutrition and personal care products program for you, focused on improving long term skin suppleness and extra ordinary glowing radiance and beauty.</p>
                 <Row>
                   <Col sm={12} md={4}>
                     <img alt="no image" src={testingDevice} />
