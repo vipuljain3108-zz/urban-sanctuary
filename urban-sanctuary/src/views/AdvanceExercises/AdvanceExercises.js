@@ -14,12 +14,7 @@ import personHealth from "../../assets/images/personHealth.png";
 import "./AdvanceExercises.scss";
 
 const AdvanceExercises = () => {
-  const [scrollPage, setOffset] = useState(0);
-  useEffect(() => {
-    window.onscroll = () => {
-      setOffset(window.pageYOffset);
-    };
-  }, []);
+  const [scrollPage, setOffset] = useState(false);
   console.log(scrollPage);
 
   // const changeImg=(i)=>{
@@ -55,7 +50,11 @@ const AdvanceExercises = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={12}>
+        <Col sm={12} md={12}>  
+        <div className="weight-shifter-plan">
+        <h1 onClick={()=>setOffset(!scrollPage)}>Weight Shifter Exercise Plan</h1>
+        </div>
+            
           <div className="exercise-secion-right">
             <div className="section-right">
               <h1>FUSION Exercise Series </h1>
@@ -342,7 +341,7 @@ const AdvanceExercises = () => {
 
       <div
         className={`shifter-plan ${
-          scrollPage > 2050 ? "showForm" : "hideForm"
+          scrollPage? "showForm" : "hideForm"
         }`}
       >
         <h3>WEIGHT SHIFTER PLAN</h3>

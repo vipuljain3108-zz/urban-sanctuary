@@ -289,15 +289,16 @@
                     }
                 }
             }
-            .cluster {
-                position: absolute;
-                right: -58px;
-                margin-top: 15px;
-                li {
-                    padding: 20px 0;
-                    img {
-                        width: 70px;
-                    }
+        }
+        .cluster {
+            position: absolute;
+            right: -58px;
+            margin-top: 84px;
+            cursor: pointer;
+            li {
+                padding: 20px 0;
+                img {
+                    width: 70px;
                 }
             }
         }
@@ -573,6 +574,14 @@
                 }
             }
         }
+    }
+    
+    .air-content-show {
+        display: block;
+    }
+    
+    .air-content-hide {
+        display: none;
     }
     
     @media (max-width:1025px) {

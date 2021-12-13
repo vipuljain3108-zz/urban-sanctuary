@@ -121,6 +121,17 @@
     }
 }
 
+.weight-shifter-plan {
+    h1 {
+        font-family: 'Lato-Bold';
+        font-size: 22px;
+        color: #8DD54E;
+        margin-bottom: 20px;
+        margin-left: 35px;
+        cursor: pointer;
+    }
+}
+
 .advance-Exercise {
     .info-wraper {
         background-color: #eff8e5;
@@ -342,7 +353,7 @@
 
 .advance-Exercise {
     .exercise-secion-left {
-        background-image: linear-gradient(to right, #fff, #daffb8);
+        background-image: linear-gradient(to right, #fff, #ecffdc);
         margin-top: -8px;
         .exe-inner-sp {
             padding: 15px;

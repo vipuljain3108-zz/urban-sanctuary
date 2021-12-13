@@ -3,6 +3,10 @@
     z-index: 99;
 }
 
+.align-items-center {
+    justify-content: center;
+}
+
 .header-info {
     padding: 10px;
 }
@@ -76,7 +80,7 @@
     display: flex;
     img:nth-child(1) {
         margin-right: 15px;
-        width: 50px;
+        width: 60px;
         padding: 8px;
     }
     img:nth-child(2) {

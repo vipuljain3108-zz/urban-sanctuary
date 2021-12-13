@@ -3,7 +3,6 @@
     .banner-secs {
         position: relative;
         img {
-            height: 683px;
             width: 100%;
         }
         &::before {
@@ -148,7 +147,7 @@
     }
     .fusion-gal {
         width: 100%;
-        padding: 10px 50px;
+        padding: 10px 64px;
         .fusion-exe-gl {
             position: relative;
             h4 {
@@ -183,13 +182,15 @@
         justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
+        width: 100%;
         .gal-con {
             width: 50%;
             z-index: 4;
             h1 {
                 font-size: 19px;
                 font-family: 'Montserrat-Medium';
-                color: #595959
+                color: #595959;
+                padding: 0 20px
             }
             .gal-con-text {
                 background-color: #F2F2F2;
@@ -203,7 +204,7 @@
                 }
                 li {
                     display: flex;
-                    justify-content: center;
+                    justify-content: flex-start;
                     align-items: center;
                     font-size: 14px;
                     font-family: 'Lato-Regular';
@@ -333,8 +334,8 @@
             }
             img {
                 border-radius: 50%;
-                height: 250px;
-                width: 250px;
+                width: 200px;
+                margin: 0 auto;
             }
         }
         .slick-prev:before {

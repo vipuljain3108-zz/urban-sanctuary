@@ -10,7 +10,10 @@ import './HomeSlider.scss';
 
 const HomeSlider = () => {
     const { pathname } = useLocation();
-    const textDot = ['HEALTH', 'Prosperity', 'Inspiration', 'Joy'];
+    
+    const [isChecked, setIsChecked] = useState(false);
+    
+    const textDot = ['URBAN SANCTUARY', 'URBAN SANCTUARY', 'URBAN SANCTUARY', 'URBAN SANCTUARY'];
     var settings = {
       dots: true,
       infinite: true,
@@ -21,9 +24,13 @@ const HomeSlider = () => {
       maxWidth: 50,
       customPaging: function (i) {
         return (
-          <a>
+          <a>         
             <div className="tb-info" >
+              <div className={`dotbtns dot-tex${i + 1}`}>
               <span className={`hide-text dot-text${i + 1}`}>{textDot[i]}</span>
+          
+              <input type="radio" name={i} checked={i+1} />
+            </div>
               <img alt="no image" src={`${'Cluster-'}${i + 1}.png`} />
             </div>
           </a>

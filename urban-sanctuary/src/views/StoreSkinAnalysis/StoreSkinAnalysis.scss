@@ -2,7 +2,6 @@
     .banner-skin {
         position: relative;
         img {
-            height: 783px;
             width: 100%;
         }
         &::before {
@@ -16,7 +15,7 @@
         .content-sec {
             position: absolute;
             width: 80%;
-            top: 48px;
+            top: 25px;
             display: flex;
             justify-content: space-between;
             align-self: start;
@@ -50,7 +49,7 @@
             position: absolute;
             right: 0px;
             left: 186px;
-            top: 200px;
+            top: 105px;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -129,6 +128,7 @@
                 font-size: 16px;
                 img {
                     margin-right: 8px;
+                    margin-top: 5px;
                 }
             }
         }
@@ -149,8 +149,7 @@
             font-size: 14px;
         }
         img {
-            width: 200px;
-            height: 200px;
+            width: 100%;
             max-width: 100%;
             max-height: 100%;
         }

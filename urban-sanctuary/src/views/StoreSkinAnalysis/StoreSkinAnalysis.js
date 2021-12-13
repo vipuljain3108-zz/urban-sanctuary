@@ -5,11 +5,11 @@ import Header from '../../components/Header/Header';
 import skinNewobs from '../../assets/images/skin-analysis/skin-newobs.png';
 import bannerImg from '../../assets/images/skin-analysis/skin-banner-img.png';
 import yearRank from '../../assets/images/skin-analysis/year-rank.png';
-import metroPin from '../../assets/images/skin-analysis/Icon-metro-pin.png';
+import checkedImg from '../../assets/images/skin-analysis/checked.png';
 import LightModesFace from '../../assets/images/skin-analysis/8-light-modes-face.png';
-import testingDevice from '../../assets/images/skin-analysis/testing-device.png';
-import mobileImg from '../../assets/images/skin-analysis/mobile-img.png';
-import foodImg from '../../assets/images/skin-analysis/food-img.png';
+import testingDevice from '../../assets/images/skin-analysis/testing-device.jpeg';
+import mobileImg from '../../assets/images/skin-analysis/mobile-img.jpeg';
+import foodImg from '../../assets/images/skin-analysis/food-img.jpeg';
 import skinpanelback from '../../assets/images/skin-analysis/skin-panel-back.png';
 import pic1 from '../../assets/images/pic1.png';
 import pic3 from '../../assets/images/pic3.png';
@@ -67,10 +67,10 @@ const StoreSkinAnalysis = () => {
             <div className="point-section">
               <p>Pin point the condition of your skin and avoid long term damage with our state of the art skin testing service.</p>
               <ul>
-                <li><img alt="no image" src={metroPin} /> Map where your skin health is and heading</li>
-                <li><img alt="no image" src={metroPin} />Determine the best treatments and skin products for you based on the condition of your skin</li>
-                <li><img alt="no image" src={metroPin} />The patented technology of the OBSERV 520 makes it the most advanced visual analysis, diagnostic devise for your skin, that is available today. Providing accurate skin condition diagnosis, at both the epidermal and dermal layer. Modern day lifestyle choices, coupled with environmental stresses make for a perfect storm to impact your health and the quality of your skin.</li>
-                <li><img alt="no image" src={metroPin} />The OBSERV skin analysis device scientifically records visuals within a 30 second time frame to provide the platform to recognise your skins current condition and establish a plan to repair and restore skin texture, radiance and beauty. It is the ideal skin testing device with clinical skin visuals to form a background for consultation and to personalise skin care advise, which can lead onto the best professional in-house skin treatments, or skincare program concerning a bespoke homecare regime.</li>
+                <li><img alt="no image" src={checkedImg} /> Map where your skin health is and heading</li>
+                <li><img alt="no image" src={checkedImg} />Determine the best treatments and skin products for you based on the condition of your skin</li>
+                <li><img alt="no image" src={checkedImg} />The patented technology of the OBSERV 520 makes it the most advanced visual analysis, diagnostic devise for your skin, that is available today. Providing accurate skin condition diagnosis, at both the epidermal and dermal layer. Modern day lifestyle choices, coupled with environmental stresses make for a perfect storm to impact your health and the quality of your skin.</li>
+                <li><img alt="no image" src={checkedImg} />The OBSERV skin analysis device scientifically records visuals within a 30 second time frame to provide the platform to recognise your skins current condition and establish a plan to repair and restore skin texture, radiance and beauty. It is the ideal skin testing device with clinical skin visuals to form a background for consultation and to personalise skin care advise, which can lead onto the best professional in-house skin treatments, or skincare program concerning a bespoke homecare regime.</li>
               </ul>
             </div>
           </Col>

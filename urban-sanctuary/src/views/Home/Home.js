@@ -32,7 +32,7 @@ import Tab from "react-bootstrap/Tab";
 import mobileBg from "../../assets/images/home-img/mobileBg.png";
 const Home = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,

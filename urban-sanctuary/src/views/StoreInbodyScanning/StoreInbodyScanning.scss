@@ -2,7 +2,6 @@
         .banner-scanning {
             position: relative;
             img {
-                height: 783px;
                 width: 100%;
             }
             &::before {
@@ -224,6 +223,7 @@
                         font-size: 14px;
                         color: #595959;
                         padding-bottom: 20px;
+                        padding-left: 100px;
                     }
                 }
             }
@@ -286,7 +286,7 @@
             }
             .circle-section {
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-evenly;
                 flex-wrap: wrap;
                 width: 65%;
                 margin: 0 auto;
@@ -523,6 +523,13 @@
             }
             .scann-data {
                 padding: 30px 15px;
+                .scanning-data {
+                    ul {
+                        li {
+                            padding-left: 15px;
+                        }
+                    }
+                }
             }
             .scan-book-now .circle-section .scan-book {
                 margin: 15px 0;
@@ -625,6 +632,13 @@
             }
             .scann-data {
                 padding: 30px 15px;
+                .scanning-data {
+                    ul {
+                        li {
+                            padding-left: 15px;
+                        }
+                    }
+                }
             }
             .scan-book-now .circle-section .scan-book {
                 margin: 15px 0;
