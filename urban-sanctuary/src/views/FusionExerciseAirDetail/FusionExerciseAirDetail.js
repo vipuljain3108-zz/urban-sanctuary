@@ -370,7 +370,7 @@ const FusionExerciseAirDetail = () => {
               <Tabs defaultActiveKey="first">
                 <Tab eventKey="first" title="View 1">
                   <div className="table-data table-responsive">
-                    <table class="table table-bordered">
+                    <table className="table table-bordered">
                       <thead>
                         <tr>
                           <th>Exercise</th>
@@ -382,56 +382,56 @@ const FusionExerciseAirDetail = () => {
                       </thead>
                       <tbody>
                         <tr>
-                          <td><i class="fas fa-circle"></i>Fusion Air</td>
+                          <td><i className="fas fa-circle"></i>Fusion Air</td>
                           <td>240 Calories</td>
                           <td>220 Calories</td>
                           <td>250 Calories</td>
                           <td>260 Calories</td>
                         </tr>
                         <tr>
-                          <td><i class="fas fa-circle"></i>Fusion Water</td>
+                          <td><i className="fas fa-circle"></i>Fusion Water</td>
                           <td>340 Calories</td>
                           <td>350 Calories</td>
                           <td>320 Calories</td>
                           <td>310 Calories</td>
                         </tr>
                         <tr>
-                          <td><i class="fas fa-circle"></i>Fusion Crystal</td>
+                          <td><i className="fas fa-circle"></i>Fusion Crystal</td>
                           <td>240 Calories</td>
                           <td>220 Calories</td>
                           <td>250 Calories</td>
                           <td>260 Calories</td>
                         </tr>
                         <tr>
-                          <td><i class="fas fa-circle"></i>Fusion Diamond</td>
+                          <td><i className="fas fa-circle"></i>Fusion Diamond</td>
                           <td>240 Calories</td>
                           <td>220 Calories</td>
                           <td>250 Calories</td>
                           <td>260 Calories</td>
                         </tr>
                         <tr>
-                          <td><i class="fas fa-circle"></i>Vinyasa 1</td>
+                          <td><i className="fas fa-circle"></i>Vinyasa 1</td>
                           <td>340 Calories</td>
                           <td>350 Calories</td>
                           <td>320 Calories</td>
                           <td>310 Calories</td>
                         </tr>
                         <tr>
-                          <td><i class="fas fa-circle"></i>Vinyasa 2</td>
+                          <td><i className="fas fa-circle"></i>Vinyasa 2</td>
                           <td>240 Calories</td>
                           <td>220 Calories</td>
                           <td>250 Calories</td>
                           <td>260 Calories</td>
                         </tr>
                         <tr>
-                          <td><i class="fas fa-circle"></i>Modern Dance</td>
+                          <td><i className="fas fa-circle"></i>Modern Dance</td>
                           <td>340 Calories</td>
                           <td>350 Calories</td>
                           <td>320 Calories</td>
                           <td>310 Calories</td>
                         </tr>
                         <tr>
-                          <td><i class="fas fa-circle"></i>Classic Dance</td>
+                          <td><i className="fas fa-circle"></i>Classic Dance</td>
                           <td>240 Calories</td>
                           <td>240 Calories</td>
                           <td>240 Calories</td>

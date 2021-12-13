@@ -166,7 +166,7 @@ const StoreInbodyScanning = () => {
         </Col>
         <Col sm={12} md={4}>
           <div className="scan-gallery-img">
-            <img alt="no image" src={scannMobile} />
+            <img alt="no image" src={scannMobile} className="trackimage" />
             <h3>Track Fat Loss, Body Comp,
               & Muscle mass on our
               Weight Shifter App</h3>
@@ -240,7 +240,7 @@ const StoreInbodyScanning = () => {
         <Row>
           <Col sm={12} md={12}>
             <div className="finds-store">
-              <h4>Create natural beauty through a comprehensive wellness plan</h4>
+              <h4>Create a life of limitless potential with an Optimize epigenetic report and free your genes today?</h4>
               <div className="store-btn">
                 <button>Find a Store</button>
               </div>

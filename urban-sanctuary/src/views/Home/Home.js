@@ -45,7 +45,7 @@ const Home = () => {
       <div className="main-slider">
       <HomeSlider></HomeSlider>
       </div>
-      <div class="user-form">
+      <div className="user-form">
         <Container>
           <Row className="align-items-center">
             <Col md={4}>
@@ -75,7 +75,7 @@ const Home = () => {
         </Container>
       </div>
 
-      <div class="custom-card">
+      <div className="custom-card">
         <Container>
           <Row>
             <Col md={12}>
@@ -99,8 +99,8 @@ const Home = () => {
                     Services
                   </span>
                   <div className="d-flex wrap-btn">
-                    <button class="left-btn btn">Virtual experience</button>
-                    <button class="right-btn btn">
+                    <button className="left-btn btn">Virtual experience</button>
+                    <button className="right-btn btn">
                       <img alt="no image" src={logoMetaWheel} />
                       <span className="read-more-btn">
                         Read More
@@ -147,13 +147,13 @@ const Home = () => {
         </Container>
       </div>
 
-      <div class="sec-wrapper">
+      <div className="sec-wrapper">
         <Row className="align-items-center ml-0 mr-0">
           <Col md={4} className="pl-0 pr-0">
             <div className="img-with-txt h-100">
               <img alt="no image" src={leafImg} className="h-100 w-100 leaf-img" />
               <div className="img-txt">Life Force Food</div>
-              <button class="btn img-btn">Read More </button>
+              <button className="btn img-btn">Read More </button>
             </div>
           </Col>
           <Col md={8}>
@@ -195,7 +195,7 @@ const Home = () => {
         </Row>
       </div>
 
-      <div class="sec-wrapper  img-grid-c">
+      <div className="sec-wrapper  img-grid-c">
         <Row className="align-items-center ml-0 mr-0">
           <Col md={4} className="grid-wrap">
             <div className="img-with-txt ">
@@ -204,7 +204,7 @@ const Home = () => {
                 Advanced Holistic <br />
                 Testing & Apps
               </div>
-              <button class="btn img-btn">Read More </button>
+              <button className="btn img-btn">Read More </button>
             </div>
           </Col>
           <Col md={4} className="grid-wrap">
@@ -212,7 +212,7 @@ const Home = () => {
               <img alt="no image" src={card2} className="w-100 img-fluid" />
               <div className="img-txt">Advancement Exercises</div>
 
-              <button class="btn img-btn">Read More </button>
+              <button className="btn img-btn">Read More </button>
             </div>
           </Col>
           <Col md={4} className="grid-wrap">
@@ -226,7 +226,7 @@ const Home = () => {
                 <span className="span2">Vision Products</span>
               </div>
 
-              <button class="btn img-btn">Read More </button>
+              <button className="btn img-btn">Read More </button>
             </div>
           </Col>
           <Col md={6} className="grid-wrap">
@@ -236,8 +236,8 @@ const Home = () => {
                 <span className="span1">In-house Health Specialists</span>
                 <span className="span2">Protocols & Consultancy</span>
               </div>
-              <div class="bottom-txt">
-                <button class="btn img-btn">Read More </button>
+              <div className="bottom-txt">
+                <button className="btn img-btn">Read More </button>
                 <div className="spn3">Coming Soon</div>
               </div>
             </div>
@@ -249,31 +249,31 @@ const Home = () => {
                 <span className="span1">Advanced Learning</span>
                 <span className="span2">Guides, Workshops & Courses</span>
               </div>
-              <div class="bottom-txt">
-                <button class="btn img-btn">Read More </button>
+              <div className="bottom-txt">
+                <button className="btn img-btn">Read More </button>
                 <div className="spn3">Coming Soon</div>
               </div>
             </div>
           </Col>
         </Row>
       </div>
-      <div class="img-slides">
+      <div className="img-slides">
         <Slider {...settings}>
-          <div class="position-relative">
+          <div className="position-relative">
             <img alt="no image" src={mobileBg} />
             <h3>
               OUR <br />
               <div className="spn-txt">APPLICATIONS</div>
             </h3>
           </div>
-          <div class="position-relative">
+          <div className="position-relative">
             <img alt="no image" src={mobileBg} />
             <h3>
               OUR <br />
               APPLICATIONS
             </h3>
           </div>
-          <div class="position-relative">
+          <div className="position-relative">
             <img alt="no image" src={mobileBg} />
             <h3>
               OUR <br />
@@ -291,11 +291,11 @@ const Home = () => {
             <Col md={6}>
               <div className="story-txt">
                 <div className="story-title">Our Story</div>
-                <p class="light-txt">
+                <p className="light-txt">
                   Vision for Humanity and the Sanctuary Project
                 </p>
-                <p class="bold-txt">Greater people for better planet</p>
-                <p class="story-desc">
+                <p className="bold-txt">Greater people for better planet</p>
+                <p className="story-desc">
                   The VFH Sanctuaries work together as a Biospherically Correct
                   eco system, providing you a stream of organic foods, ethical
                   products and personal development services, all based around
@@ -307,7 +307,7 @@ const Home = () => {
                   Sanctuaries show the path of greater people for better planet.
                   See our Global Metawheel.
                 </p>
-                <p class="story-desc">
+                <p className="story-desc">
                   Consciously shop online or at our Sanctuary Stores, personally
                   advance and grow through our Urban Sanctuary services, enjoy
                   the bliss and serenity of our Master Sanctuary, engage with
@@ -392,7 +392,7 @@ const Home = () => {
               </p>
             </Col>
             <Col md={6}>
-              <button class="btn inquire-btn">ENQUIRE ABOUT THIS</button>
+              <button className="btn inquire-btn">ENQUIRE ABOUT THIS</button>
               <p>
                 Share your skills and passions with others, form your syndicate,
                 build your teams ability, establish each person's role on our

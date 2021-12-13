@@ -15,7 +15,6 @@ import "./AdvanceExercises.scss";
 
 const AdvanceExercises = () => {
   const [scrollPage, setOffset] = useState(false);
-  console.log(scrollPage);
 
   // const changeImg=(i)=>{
   //  dotGlobals(i);

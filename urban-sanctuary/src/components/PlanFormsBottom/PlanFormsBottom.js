@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,Row,Col } from 'react-bootstrap';
+import { Row,Col } from 'react-bootstrap';
 import './PlanFormsBottom.scss';
 
 const PlanFormsBottom = () => {
@@ -9,17 +9,17 @@ const PlanFormsBottom = () => {
           <Col sm={12} md={6} className="mx-auto">
             <div className="ex-plans">
               <p>Create a new Meal Plan</p>
-              <div class="form-group">
+              <div className="form-group">
                 <label>Exercise Plan Name</label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Plan Name"
                 />
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <label>Select Week</label>
-                <select class="form-control">
+                <select className="form-control">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -35,9 +35,9 @@ const PlanFormsBottom = () => {
           {/* <Col sm={12} md={6}>
             <div className="ex-plans">
               <p>or Select an existing Exercise plan</p>
-              <div class="form-group">
+              <div className="form-group">
                 <label>Exercise plan Name</label>
-                <select class="form-control" >
+                <select className="form-control" >
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>

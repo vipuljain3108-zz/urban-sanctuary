@@ -18,7 +18,6 @@ const AdvanceBannerSlider = () => {
         setOffset(window.pageYOffset);
       };
     }, []);
-    console.log(scrollPage);
   
     // const changeImg=(i)=>{
     //  dotGlobals(i);

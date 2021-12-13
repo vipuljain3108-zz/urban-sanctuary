@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container,Row,Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import { useLocation } from 'react-router-dom';
 import barrow from "../../assets/images/b-arrow.png";
@@ -9,38 +9,38 @@ import BannerHome2 from "../../assets/images/home-img/Banner-home2.png";
 import './HomeSlider.scss';
 
 const HomeSlider = () => {
-    const { pathname } = useLocation();
-    
-    const [isChecked, setIsChecked] = useState(false);
-    
-    const textDot = ['URBAN SANCTUARY', 'URBAN SANCTUARY', 'URBAN SANCTUARY', 'URBAN SANCTUARY'];
-    var settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      dotsClass: "slick-dots slick-thumb",
-      slidesToScroll: 1,
-      maxWidth: 50,
-      customPaging: function (i) {
-        return (
-          <a>         
-            <div className="tb-info" >
-              <div className={`dotbtns dot-tex${i + 1}`}>
+  const { pathname } = useLocation();
+
+  const [isChecked, setIsChecked] = useState(false);
+
+  const textDot = ['URBAN SANCTUARY', 'URBAN SANCTUARY', 'URBAN SANCTUARY', 'URBAN SANCTUARY'];
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    dotsClass: "slick-dots slick-thumb",
+    slidesToScroll: 1,
+    maxWidth: 50,
+    customPaging: function (i) {
+      return (
+        <a>
+          <div className="tb-info" >
+            <div className={`dotbtns dot-tex${i + 1}`}>
               <span className={`hide-text dot-text${i + 1}`}>{textDot[i]}</span>
-          
-              <input type="radio" name={i} checked={i+1} />
+
+              <input type="radio" name={i} checked={i + 1} />
             </div>
-              <img alt="no image" src={`${'Cluster-'}${i + 1}.png`} />
-            </div>
-          </a>
-        );
-      },
-    };
+            <img alt="no image" src={`${'Cluster-'}${i + 1}.png`} />
+          </div>
+        </a>
+      );
+    },
+  };
   return (
     <>
-    {(pathname =='/home') ? (
-      <Row>
+      {(pathname == '/home') ? (
+        <Row>
           <Col sm={12} md={12}>
             <Slider {...settings}>
               <div className="slider-conatiner">
@@ -59,10 +59,11 @@ const HomeSlider = () => {
                     <img alt="no image" src={Path} />
                   </button>
                   <div className="arrow-icon">
-                    <img alt="no image" src={barrow} />
+                    <a href=''><img alt="no image" src={barrow} />
+                    </a>
                   </div>
                 </div>
-               
+
                 <img alt="no image" className="banner-img" src={slide1} />
               </div>
               <div className="slider-conatiner">
@@ -133,7 +134,7 @@ const HomeSlider = () => {
             </Slider>
           </Col>
         </Row>
-     ) : (
+      ) : (
         <Row>
           <Col sm={12} md={12}>
             <Slider {...settings}>
@@ -175,7 +176,7 @@ const HomeSlider = () => {
                     and a Mejestic natural lifestyle of Self Sufficiency
                   </p>
                 </div>
-               
+
                 <img alt="no image" className="banner-img" src={BannerHome2} />
               </div>
               <div className="slider-conatiner">
@@ -216,13 +217,13 @@ const HomeSlider = () => {
                     and a Mejestic natural lifestyle of Self Sufficiency
                   </p>
                 </div>
-               
+
                 <img alt="no image" className="banner-img" src={BannerHome2} />
               </div>
             </Slider>
           </Col>
         </Row>
-     )}
+      )}
     </>
   );
 }
