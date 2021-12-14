@@ -114,7 +114,7 @@ const StoreSkinAnalysis = () => {
         <Col sm={12} md={12}>
               <div className="link-cont-text">
                 <h1>Holistic beauty programs</h1>
-                <p>Natural nutrient rich skin and hair products with naturally occurring active ingredients compliments the skin to help achieve beautiful glowing long term skin health and wellbeing</p>
+                <p>Natural nutrient rich skin and hair products with naturally occurring active ingredients <br/>compliments the skin to help achieve beautiful glowing long term skin health and wellbeing</p>
                 <p>Specific treatments flush out toxins from the body aiding the skin's appearance</p>
                 <p>Nutritious food is a key to developing  better skin tone and health</p>
               </div>

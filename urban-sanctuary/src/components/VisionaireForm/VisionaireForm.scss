@@ -1,5 +1,5 @@
 .form-section h1 {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: 300;
     letter-spacing: 0.1rem;
@@ -8,7 +8,7 @@
 }
 
 .login-form {
-    width: 230px;
+    width: 280px;
     margin: 0 auto;
     padding: 20px 0px;
     label {
@@ -38,6 +38,7 @@
         font-family: 'Lato-Regular';
         font-size: 14px;
     }
+    text-align: center;
 }
 
 .sub-btn {
@@ -49,7 +50,7 @@
         border-color: #a1a1a1;
         color: #fff;
         transition: .5s;
-        padding: 5px 70px;
+        padding: 9px 70px;
         font-family: 'Lato-Regular';
         font-size: 14px;
     }

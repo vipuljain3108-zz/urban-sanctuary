@@ -26,28 +26,48 @@ const FusionExerciseAirTab = () => {
                             <div className="fusion-exe-gl" onClick={() => tabChange(1)}>
                                 <img alt="no image" src={fusionexc1} />
                                 <h4>AIR</h4>
-                                <div className={`${showTabs == 1 ? 'fu-active-gal' : ''}`}></div>
+                                <div className={`${showTabs == 1 ? 'fu-active-gal' : ''}`}>
+                                    <div class="triangle-wrapper-100">
+                                        <div class="triangle-left"></div>
+                                        <div class="triangle-right"></div>
+                                    </div>
+                                </div>
                             </div>
                         </Col>
                         <Col sm={6} md={3} onClick={() => tabChange(2)}>
                             <div className="fusion-exe-gl">
                                 <img alt="no image" src={fusionexc2} />
                                 <h4>WATER</h4>
-                                <div className={`${showTabs == 2 ? 'fu-active-gal' : ''}`}></div>
+                                <div className={`${showTabs == 2 ? 'fu-active-gal' : ''}`}>
+                                    <div class="triangle-wrapper-100">
+                                        <div class="triangle-left"></div>
+                                        <div class="triangle-right"></div>
+                                    </div>
+                                </div>
                             </div>
                         </Col>
                         <Col sm={6} md={3} onClick={() => tabChange(3)}>
                             <div className="fusion-exe-gl">
                                 <img alt="no image" src={fusionexc3} />
                                 <h4>CRYSTAL</h4>
-                                <div className={`${showTabs == 3 ? 'fu-active-gal' : ''}`}></div>
+                                <div className={`${showTabs == 3 ? 'fu-active-gal' : ''}`}>
+                                    <div class="triangle-wrapper-100">
+                                        <div class="triangle-left"></div>
+                                        <div class="triangle-right"></div>
+                                    </div>
+                                </div>
                             </div>
                         </Col>
                         <Col sm={6} md={3}>
                             <div className="fusion-exe-gl" onClick={() => tabChange(4)}>
                                 <img alt="no image" src={fusionexc4} />
                                 <h4>DIAMOND</h4>
-                                <div className={`${showTabs == 4 ? 'fu-active-gal' : ''}`}></div>
+                                <div className={`${showTabs == 4 ? 'fu-active-gal' : ''}`}>
+                                    <div class="triangle-wrapper-100">
+                                        <div class="triangle-left"></div>
+                                        <div class="triangle-right"></div>
+                                    </div>
+                                </div>
                             </div>
                         </Col>
                     </Row>

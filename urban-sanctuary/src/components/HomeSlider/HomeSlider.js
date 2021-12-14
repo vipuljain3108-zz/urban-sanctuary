@@ -52,7 +52,7 @@ const HomeSlider = () => {
                   <p>Human Well-being & Advancement Centre.</p>
                   <p>
                     Develop your full Life Force, Holistic Human Vibrancy,
-                    Significance and Purpose.
+                    Significance<br/> and Purpose.
                   </p>
                   <button className="learn-more-btn">
                     LEARN ABOUT US
@@ -75,7 +75,7 @@ const HomeSlider = () => {
                   <p>Human Well-being & Advancement Centre.</p>
                   <p>
                     Develop your full Life Force, Holistic Human Vibrancy,
-                    Significance and Purpose.
+                    Significance<br/> and Purpose.
                   </p>
                   <button className="learn-more-btn">
                     LEARN ABOUT US
@@ -97,7 +97,7 @@ const HomeSlider = () => {
                   <p>Human Well-being & Advancement Centre.</p>
                   <p>
                     Develop your full Life Force, Holistic Human Vibrancy,
-                    Significance and Purpose.
+                    Significance<br/> and Purpose.
                   </p>
                   <button className="learn-more-btn">
                     LEARN ABOUT US
@@ -118,7 +118,7 @@ const HomeSlider = () => {
                   <p>Human Well-being & Advancement Centre.</p>
                   <p>
                     Develop your full Life Force, Holistic Human Vibrancy,
-                    Significance and Purpose.
+                    Significance<br/> and Purpose.
                   </p>
                   <button className="learn-more-btn">
                     LEARN ABOUT US

@@ -574,6 +574,83 @@
                 }
             }
         }
+        .slick-dots {
+            position: absolute;
+            top: 50%;
+            display: grid !important;
+            width: 100%;
+            right: -50px;
+            padding: 10;
+            justify-content: end;
+            margin: 0;
+            transform: translateY(-50%);
+            list-style: none;
+            text-align: center;
+            transition: bottom 300ms;
+            .slick-active {
+                background-image: url(../../assets/images/personHealth.png);
+                background-position: top;
+                background-position: bottom;
+                background-position: left;
+                background-position: right;
+                background-position: center;
+                background-size: 50px 50px;
+            }
+        }
+        .slick-dots li {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin: 4px;
+            padding: 0;
+            cursor: pointer;
+        }
+        .slick-dots li.slick-active button:before {
+            font-size: 15px;
+            color: blue;
+        }
+        .slick-dots[data-current-slide="3"] {
+            bottom: -20px;
+        }
+        .hide-text {
+            display: none;
+        }
+        .slick-active {
+            .tb-info {
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                margin-bottom: 5px;
+                span {
+                    font-family: 'Lato-Bold';
+                    font-size: 16px;
+                    margin-right: 10px;
+                    width: 100px;
+                    display: block;
+                    text-transform: uppercase;
+                    text-align: right;
+                    .hide-text {
+                        display: block;
+                    }
+                }
+                img {
+                    width: 70px;
+                }
+                .dot-text1 {
+                    color: #51be58;
+                }
+                .dot-text2 {
+                    color: #fc00fe;
+                }
+                .dot-text3 {
+                    color: #fec604;
+                }
+                .dot-text4 {
+                    color: #0491fe;
+                }
+            }
+        }
     }
     
     .air-content-show {
@@ -658,5 +735,14 @@
         }
         .fusion-exe-detail-warper .vedio-sec .profile-info .profile-wrap .health {
             margin: 0 auto;
+        }
+        .fusion-exe-detail-warper .slick-dots {
+            position: static;
+            display: flex !important;
+            justify-content: center;
+        }
+        .fusion-exe-detail-warper .vedio-sec .profile-info .profile-wrap {
+            padding: 0 0px;
+            font-size: 16px;
         }
     }

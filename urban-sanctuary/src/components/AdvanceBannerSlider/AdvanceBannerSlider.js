@@ -50,7 +50,7 @@ const AdvanceBannerSlider = () => {
               <div className="slider-conatiner">
                 <div className="cente-text">
                   <h1>Advancement exercises</h1>
-                  <p>Can be done anywhere- no specialised equipment required</p>
+                  <p>Can be done anywhere- no specialised equipment <br/>required</p>
                   <button>START TODAY</button>
                   <div className="arrow-icon">
                     <img alt="no image" src={barrow} />
@@ -61,7 +61,7 @@ const AdvanceBannerSlider = () => {
               <div className="slider-conatiner">
                 <div className="cente-text">
                   <h1>Advancement exercises</h1>
-                  <p>Can be done anywhere- no specialised equipment required</p>
+                  <p>Can be done anywhere- no specialised equipment <br/>required</p>
                   <button>START TODAY</button>
                   <div className="arrow-icon">
                     <img alt="no image" src={barrow} />
@@ -72,7 +72,7 @@ const AdvanceBannerSlider = () => {
               <div className="slider-conatiner">
                 <div className="cente-text">
                   <h1>Advancement exercises</h1>
-                  <p>Can be done anywhere- no specialised equipment required</p>
+                  <p>Can be done anywhere- no specialised equipment <br/>required</p>
                   <button>START TODAY</button>
                   <div className="arrow-icon">
                     <img alt="no image" src={barrow} />
@@ -83,7 +83,7 @@ const AdvanceBannerSlider = () => {
               <div className="slider-conatiner">
                 <div className="cente-text">
                   <h1>Advancement exercises</h1>
-                  <p>Can be done anywhere- no specialised equipment required</p>
+                  <p>Can be done anywhere- no specialised equipment <br/>required</p>
                   <button>START TODAY</button>
                   <div className="arrow-icon">
                     <img alt="no image" src={barrow} />

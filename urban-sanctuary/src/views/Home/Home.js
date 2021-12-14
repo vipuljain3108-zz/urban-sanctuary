@@ -344,7 +344,7 @@ const Home = () => {
                 Franchise System
                 <br />
                 to establish a meaningful livelihood.{" "}
-                <a>Find out how to apply here</a>
+                <a> Find out how to apply here</a>
               </p>
             </Col>
             <Col md={12} className="text-center map-tab">

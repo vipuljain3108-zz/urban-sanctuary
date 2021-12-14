@@ -160,7 +160,7 @@
             padding-bottom: 0.5em;
         }
         p {
-            font-size: 20px;
+            font-size: 18px;
             color: rgba(255, 255, 255, 0.7);
             margin-bottom: 0;
             white-space: nowrap;
@@ -385,6 +385,7 @@
             display: block;
             font-family: "Lato-Light";
             margin-top: 5px;
+            letter-spacing: 1.5px;
         }
         .spn3 {
             position: absolute;
@@ -450,18 +451,20 @@
         .map-desc {
             font-family: "Lato-Light";
             color: #595959;
-            .map-info .map-desc>a {
-                border-bottom: 1px solid #000;
-                color: #000;
-            }
+        }
+        .map-desc>a {
+            border-bottom: 1px solid #000;
+            color: #000;
         }
     }
     .map-tab {
         .nav-tabs {
-            margin: auto !important;
+            display: flex;
+            margin: 8px auto !important;
             border: 1px solid #707070;
             border-radius: 8px;
-            max-width: 507px;
+            max-width: 454px;
+            justify-content: center;
             .nav-link.active {
                 color: #262626;
                 background-color: transparent;
@@ -473,18 +476,32 @@
                 border-top-left-radius: 0;
                 border-top-right-radius: 0;
                 color: #a8a8a8;
+                padding: 9px 24.5px;
+                font-size: 15px;
                 &:hover {
-                    border-bottom: 1px solid #707070;
+                    border-bottom: 0px solid #707070 !important;
                 }
                 &:focus {
-                    border-bottom: 1px solid #707070;
+                    border-bottom: 0px solid #707070!important;
                 }
                 &:active {
-                    border-bottom: 1px solid #707070;
+                    border-bottom: 0px solid #707070!important;
                 }
+            }
+            .nav-link .active,
+            .nav-link .fucus-visible,
+            .nav-link .focus {
+                color: #262626;
+                background-color: transparent;
+                border: 0px !important;
             }
             .nav-link:last-child {
                 border-right: none;
+            }
+            .nav-link {
+                border: 0px solid transparent !important;
+                border-top-left-radius: 0.25rem;
+                border-top-right-radius: 0.25rem;
             }
         }
     }
@@ -739,7 +756,7 @@
         margin-top: -60px;
     }
     position: absolute;
-    right: 74px;
+    right: 110px;
     display: flex;
     align-items: center;
     top: 25px;

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Row,Col } from 'react-bootstrap';
+import Slider from "react-slick";
 import blackDiamond from '../../assets/images/black-diamond.png';
 import Yoga from '../../assets/images/exercise_air_detail/yoga.png';
 import favIcon1 from '../../assets/images/fav_icon1.png';
@@ -13,20 +14,31 @@ import Yoga1 from '../../assets/images/other-img-2.png';
 import './ExerciseDetailVideo.scss';
 
 const ExerciseDetailVideo = () => {
-  const [showTabs, tabChange] = useState(1);
+  const [dotGlobal, changeImg] = useState(1);
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    dotsClass: "slick-dots slick-thumb",
+    slidesToScroll: 1,
+    maxWidth: 50,
+    customPaging: function (i) {
+      return (
+        <a>
+          <div className="tb-info" >
+            <img alt="no image" src={`${'Cluster-'}${i + 1}.png`} onClick={() => changeImg(i + 1)} />
+          </div>
+        </a>
+      );
+    },
+  };
   return (
     <>
       <Row>
           <Col sm={12} md={12}>
-          <div className="cluster">
-                <ul>
-                  <li onClick={() => tabChange(1)}><img alt="no image" src={Cluster1} /></li>
-                  <li onClick={() => tabChange(2)}><img alt="no image" src={Cluster2} /></li>
-                  <li onClick={() => tabChange(3)}><img alt="no image" src={Cluster3} /></li>
-                  <li onClick={() => tabChange(4)}><img alt="no image" src={Cluster4} /></li>
-                </ul>
-            </div>
-            <div className={`${showTabs == 1 ? 'air-content-show' : 'air-content-hide'}`}>
+          <Slider {...settings}>
+            <div>
             <div className="vedio-sec" >
               <div className="vedio-con">
                 <div className="vedios">
@@ -125,7 +137,7 @@ const ExerciseDetailVideo = () => {
               </div>
             </div>
             </div>
-            <div className={`${showTabs == 2 ? 'air-content-show' : 'air-content-hide'}`}>
+            <div>
             <div className="vedio-sec">
               <div className="vedio-con">
                 <div className="vedios">
@@ -224,7 +236,7 @@ const ExerciseDetailVideo = () => {
               </div>
             </div>
             </div>
-            <div className={`${showTabs == 3 ? 'air-content-show' : 'air-content-hide'}`}>
+            <div>
             <div className="vedio-sec">
               <div className="vedio-con">
                 <div className="vedios">
@@ -323,7 +335,7 @@ const ExerciseDetailVideo = () => {
               </div>
             </div>
             </div>
-            <div className={`${showTabs == 4 ? 'air-content-show' : 'air-content-hide'}`}>
+            <div>
             <div className="vedio-sec">
               <div className="vedio-con">
                 <div className="vedios">
@@ -422,7 +434,7 @@ const ExerciseDetailVideo = () => {
               </div>
             </div>
             </div>
-           
+           </Slider>
           </Col>
         </Row >
     </>

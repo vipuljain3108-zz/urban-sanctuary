@@ -383,6 +383,7 @@
             font-size: 20px;
             font-family: 'Lato-Light';
             font-weight: 400;
+            letter-spacing: 1.5px;
         }
         .spn3 {
             position: absolute;
@@ -741,7 +742,7 @@
         margin-top: -60px;
     }
     position: absolute;
-    right: 74px;
+    right: 110px;
     display: flex;
     align-items: center;
     top: 25px;
@@ -813,6 +814,14 @@
     .home2-white-slider .slick-dots {
         top: 45%;
     }
+}
+
+.slider-lrg-txt {
+    font-size: 40px;
+}
+
+.slider-middle-txt {
+    font-size: 30px;
 }
 
 @media(max-width:768px) {
