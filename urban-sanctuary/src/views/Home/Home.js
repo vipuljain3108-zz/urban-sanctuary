@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Header from "../../components/Header/Header";
 import HomeSlider from "../../components/HomeSlider/HomeSlider";
-
 import "./Home.scss";
 import "../../assets/styles/responsive.scss";
 import Slider from "react-slick";
@@ -172,22 +171,22 @@ const Home = () => {
               <div className="icon-wrapper">
                 <div className="setion-name">
                   <img alt="no image" src={Cluster1} className="img-fluid" />
-                  <p>Health</p>
+                  <p className="greentext">Health</p>
+                </div>
+
+                <div className="setion-name">
+                <img alt="no image" src={Cluster4} />
+                  <p className="blueText">Prosperity</p>
                 </div>
 
                 <div className="setion-name">
                   <img alt="no image" src={Cluster2} />
-                  <p>Prosperity</p>
+                  <p className="purpletext">Inspiration</p>
                 </div>
 
                 <div className="setion-name">
                   <img alt="no image" src={Cluster3} />
-                  <p>Inspiration</p>
-                </div>
-
-                <div className="setion-name">
-                  <img alt="no image" src={Cluster4} />
-                  <p>Joy</p>
+                  <p className="yellowText">Joy</p>
                 </div>
               </div>
             </div>
@@ -316,7 +315,7 @@ const Home = () => {
                   Franchise System opportunity.
                 </p>
                 <div className="social-icons">
-                  <p className="mb-0">
+                  <p className="mb-0 font-weight-bold text-lg-left">
                     Discover your Magnificence at the Sanctuary
                   </p>
                   <div className="icons-cover">

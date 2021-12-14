@@ -72,7 +72,7 @@ const FusionExerciseAirTab = () => {
                         </Col>
                     </Row>
                 </div>
-                <Row>
+                <Row className="mt-4">
                     <Col sm={12} md={12}>
                         <div className={`${showTabs == 1 ? 'tab-content-show' : 'tab-content-hide'}`}>
                             <div className="fusion-con-gl">

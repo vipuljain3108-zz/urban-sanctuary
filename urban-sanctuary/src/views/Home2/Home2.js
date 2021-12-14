@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Header from "../../components/Header/Header";
 import HomeSlider from "../../components/HomeSlider/HomeSlider";
-
+import Slider from "react-slick";
 import "./Home2.scss";
 import "../../assets/styles/responsive.scss";
 import Cluster1 from "../../assets/images/Cluster-1.png";
@@ -25,7 +25,7 @@ import card6 from "../../assets/images/home-img/card6.png";
 import globeHands from "../../assets/images/home-img/globe-hands.png";
 import web from "../../assets/images/home-img/web.png";
 import Form from "react-bootstrap/Form";
-
+import mobileBg from "../../assets/images/home-img/mobileBg.png";
 
 const Home = () => {
   var settings = {
@@ -164,24 +164,24 @@ const Home = () => {
                 products with your Urban Sanctuary account.
               </p>
               <div className="icon-wrapper">
-                <div className="setion-name">
-                  <img src={Cluster1} className="img-fluid" />
-                  <p>Health</p>
+              <div className="setion-name">
+                  <img alt="no image" src={Cluster1} className="img-fluid" />
+                  <p className="greentext">Health</p>
                 </div>
 
                 <div className="setion-name">
-                  <img src={Cluster2} />
-                  <p>Prosperity</p>
+                <img alt="no image" src={Cluster4} />
+                  <p className="blueText">Prosperity</p>
                 </div>
 
                 <div className="setion-name">
-                  <img src={Cluster3} />
-                  <p>Inspiration</p>
+                  <img alt="no image" src={Cluster2} />
+                  <p className="purpletext">Inspiration</p>
                 </div>
 
                 <div className="setion-name">
-                  <img src={Cluster4} />
-                  <p>Joy</p>
+                  <img alt="no image" src={Cluster3} />
+                  <p className="yellowText">Joy</p>
                 </div>
               </div>
             </div>
@@ -208,7 +208,7 @@ const Home = () => {
           </Col>
           <Col md={6} className="grid-wrap">
             <div className="img-with-txt">
-              <img src={card4} />
+              <img className="image-height" src={card4} />
               <div className="img-txt">
                 <span className="span1">Weekend advancement workshops</span>
                 <span className="span2">Guides, Workshops & Courses</span>
@@ -253,7 +253,31 @@ const Home = () => {
           </Col>
         </Row>
       </div>
-
+      <div className="img-slides">
+        <Slider {...settings}>
+          <div className="position-relative">
+            <img alt="no image" src={mobileBg} />
+            <h3>
+              OUR <br />
+              <div className="spn-txt">APPLICATIONS</div>
+            </h3>
+          </div>
+          <div className="position-relative">
+            <img alt="no image" src={mobileBg} />
+            <h3>
+              OUR <br />
+              APPLICATIONS
+            </h3>
+          </div>
+          <div className="position-relative">
+            <img alt="no image" src={mobileBg} />
+            <h3>
+              OUR <br />
+              APPLICATIONS
+            </h3>
+          </div>
+        </Slider>
+      </div>
       <div className="our-story">
         <Container fluid>
           <Row className="align-items-center">

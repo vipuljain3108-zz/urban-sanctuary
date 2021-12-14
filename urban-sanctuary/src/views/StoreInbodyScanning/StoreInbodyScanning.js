@@ -210,20 +210,20 @@ const StoreInbodyScanning = () => {
           <div className="sacnning-head">
             <h1>Our Customers</h1>
             <Row>
-              <Col sm={12} md={6}>
-                <div className="con-profile">
+              <Col sm={12} md={6} className="mt-5">
+                <div className="con-profile mt-4">
                   <div className="con-pro">
                     <img alt="no image" src={pic1} />
                     <h2>Jonathan Walker</h2>
                   </div>
-                  <p>In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque est rhoncus massa, tristique rutrum nisl risus at libero.</p>
+                  <p className="mt-2">In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque est rhoncus massa, tristique rutrum nisl risus at libero.</p>
                 </div>
-                <div className="con-profile">
+                <div className="con-profile mt-5">
                   <div className="con-pro">
                     <img alt="no image" src={pic3} />
                     <h2>Brenda Mercer</h2>
                   </div>
-                  <p>In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque est rhoncus massa, tristique rutrum nisl risus at libero.</p>
+                  <p className="mt-2">In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus massa vitae lobortis. Duis consequat, nunc a pretium imperdiet, neque est rhoncus massa, tristique rutrum nisl risus at libero.</p>
                 </div>
               </Col>
               <Col sm={12} md={6}>

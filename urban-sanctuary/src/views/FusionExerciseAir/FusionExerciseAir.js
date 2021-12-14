@@ -67,44 +67,42 @@ const FusionExerciseAir = () => {
                 </Row>
             </div>
             <FusionExerciseAirTab />
-            <Container>
-                <Row>
-                    <Col sm={12} md={12}>
-                        <div className="slider-secs">
-                            <h1>Our Fusion Facilitators and Masters</h1>
-                            <FusionMasterSlider></FusionMasterSlider>
-                        </div>
 
-                    </Col>
-                </Row>
-            </Container>
-            <Container>
-                <Row>
-                    <Col sm={12} md={3}>
-                        <div className="left-clender">
-                            <ul>
-                                <li>On Demand</li>
-                                <li className="cal-active">Live Session</li>
-                                <li>Calories</li>
-                                <li>Calender </li>
-                                <li>Guides</li>
-                                <li>Workshops</li>
-                                <li>Courses</li>
-                            </ul>
-                        </div>
+            <Row className="m-5">
+                <Col sm={12} md={12}>
+                    <div className="slider-secs">
+                        <h1>Our Fusion Facilitators and Masters</h1>
+                        <FusionMasterSlider></FusionMasterSlider>
+                    </div>
 
-                    </Col>
-                    <Col sm={12} md={9}>
-                        <div className="gal-clender">
-                            <h1>More Information</h1>
-                            <ScheduleComponent>
-                                <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
-                            </ScheduleComponent>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+                </Col>
+            </Row>
+
+            <Row className="margins">
+                <Col sm={12} md={3}>
+                    <div className="left-clender">
+                        <ul>
+                            <li>On Demand</li>
+                            <li className="cal-active">Live Session</li>
+                            <li>Calories</li>
+                            <li>Calender </li>
+                            <li>Guides</li>
+                            <li>Workshops</li>
+                            <li>Courses</li>
+                        </ul>
+                    </div>
+
+                </Col>
+                <Col sm={12} md={9}>
+                    <div className="gal-clender">
+                        <h1>More Information</h1>
+                        <ScheduleComponent>
+                            <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
+                        </ScheduleComponent>
+                    </div>
+                </Col>
+            </Row>
+            ]        </div>
     );
 }
 

@@ -117,11 +117,12 @@ const FusionExerciseAirDetail = () => {
   return (
     <div className="fusion-exe-detail-warper">
       <Header />
+      
       <Row>
         <Col sm={12} md={12}>
           <div className="banner-secss">
             <div className="content-sec">
-              <h1>Fusion Exercise</h1>
+              <h1>Fusion Exercise > Air</h1>
             </div>
             <div className="right-img">
               <img alt="no image" src={playerIcon} />
@@ -130,9 +131,9 @@ const FusionExerciseAirDetail = () => {
           </div>
         </Col>
       </Row>
+
       <div className="info-wraper">
         <Row>
-
           <Col sm={12} md={5}>
             <div className="info-sec">
               <span className="info-left">
@@ -142,10 +143,8 @@ const FusionExerciseAirDetail = () => {
               <p>When phasellus dignissim, in pellentesuqe?</p>
               <img alt="no image" src={editIcons} />
             </div>
-
           </Col>
           <Col sm={12} md={2}>
-
             <div className="tb-info">
               <img alt="no image" className="activeimg" src={Cluster1} />
             </div>
@@ -158,7 +157,8 @@ const FusionExerciseAirDetail = () => {
           </Col>
         </Row>
       </div>
-      <Container>
+
+      <div className='marginss'>
        <ExerciseDetailVideo/>
         <Row >
           <Col sm={12} md={12}>
@@ -174,8 +174,8 @@ const FusionExerciseAirDetail = () => {
             </div>
           </Col>
         </Row >
+      </div>
 
-      </Container>
       <div className="revie-slider">
         <Slider {...settings}>
           <div className="review-card">
@@ -315,11 +315,11 @@ const FusionExerciseAirDetail = () => {
           </div>
         </Slider>
       </div>
-      <Container>
+      <div className='marginss'>
         <Row >
           <Col sm={12} md={12}>
             <div className="exercise-programs">
-              <h1>other exercise programs you may like</h1>
+              <h1>Other exercise programs you may like</h1>
               <Slider {...settings}>
                 <div className="exercise-pro">
                   <div className="sig-card">
@@ -349,8 +349,11 @@ const FusionExerciseAirDetail = () => {
             </div>
           </Col>
         </Row>
-      </Container>
-      <Container>
+      </div>
+      <div className="exercise-programs">
+      <h1>More Information</h1>
+  </div>
+      <div className='marginsLast mb-5'>
         <Row >
           <Col sm={12} md={3}>
             <div className="left-chart">
@@ -451,7 +454,7 @@ const FusionExerciseAirDetail = () => {
             </div>
           </Col>
         </Row>
-      </Container>
+      </div>
     </div>
   );
 }

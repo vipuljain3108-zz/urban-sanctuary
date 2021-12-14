@@ -127,7 +127,7 @@ const ExerciseDetailVideo = () => {
                         <img alt="no image" src={favIcon1} />
                         <img alt="no image" src={favIcon2} />
                       </div>
-                      <div className="max-health">
+                      <div className="max-health mt-2">
                         <a href="">Pre Workout Life Force Food</a>
                         <a href="">Post Work Life Force Food</a>
                       </div>

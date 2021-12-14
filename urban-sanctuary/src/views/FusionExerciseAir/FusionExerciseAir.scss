@@ -1,3 +1,6 @@
+.margins{
+    margin: 0px 8%;
+}
 .exercise-air-wrapper {
     overflow-x: hidden;
     .banner-secs {
@@ -200,7 +203,7 @@
             width: 50%;
             z-index: 4;
             h1 {
-                font-size: 19px;
+                font-size: 30px;
                 font-family: 'Montserrat-Medium';
                 color: #595959;
                 padding: 0 20px
@@ -356,14 +359,14 @@
             font-family: "Font Awesome 5 Free";
             content: "\f053";
             color: #000;
-            font-size: 20px;
+            font-size: 30px;
             font-weight: bold;
         }
         .slick-next:before {
             font-family: "Font Awesome 5 Free";
             content: "\f054";
             color: #000;
-            font-size: 20px;
+            font-size: 30px;
             font-weight: bold;
         }
     }
