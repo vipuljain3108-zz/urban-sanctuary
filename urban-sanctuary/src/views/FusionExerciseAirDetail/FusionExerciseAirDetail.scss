@@ -1,12 +1,14 @@
-    .marginss{
+    .marginss {
         margin-left: 5%;
         margin-right: 10%;
     }
-    .marginsLast{
+    
+    .marginsLast {
         margin: 0% 10%;
     }
+    
     .fusion-exe-detail-warper {
-        overflow: hidden;
+        overflow-x: hidden;
         .banner-secss {
             position: relative;
             img {
@@ -326,7 +328,7 @@
                 display: inline-flex;
                 padding: 0;
                 border-radius: 4px;
-                margin-bottom: 15px;
+                margin: 15px 0 !important;
             }
             .nav-link {
                 display: block;
@@ -364,7 +366,8 @@
             text-align: center;
             h1 {
                 font-size: 25px;
-                color: #8C8C8C
+                color: #8C8C8C;
+                margin-bottom: 25px;
             }
             img {
                 position: absolute;
@@ -752,5 +755,21 @@
         .fusion-exe-detail-warper .vedio-sec .profile-info .profile-wrap {
             padding: 0 0px;
             font-size: 16px;
+        }
+        .fusion-exe-detail-warper .banner-secss .content-sec {
+            position: absolute;
+            width: 100%;
+            color: #fff;
+            top: 50px;
+            padding-left: 40px;
+            z-index: 9;
+        }
+        .fusion-exe-detail-warper .sigment-img .nav-tabs {
+            width: 100%;
+        }
+        .fusion-exe-detail-warper .sigment-img .nav-tabs .nav-item {
+            width: 50%;
+            border-bottom: 1px solid #b7b7b7;
+            margin-bottom: 20px;
         }
     }

@@ -26,10 +26,10 @@ import globeHands from "../../assets/images/home-img/globe-hands.png";
 import web from "../../assets/images/home-img/web.png";
 import Form from "react-bootstrap/Form";
 import mobileBg from "../../assets/images/home-img/mobileBg.png";
-
+import btnlogo from '../../assets/images/btnlogo.png';
 const Home = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -46,7 +46,10 @@ const Home = () => {
         <Container>
           <Row className="align-items-center">
             <Col md={4}>
-              <BeComeButton />
+              <div className="btnImgesLbl">
+                <img src={btnlogo} />
+                <p>Create your account today !</p>
+              </div>
             </Col>
             <Col md={8}>
               <p className="main-txt">

@@ -29,6 +29,7 @@ import Form from "react-bootstrap/Form";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import mobileBg from "../../assets/images/home-img/mobileBg.png";
+import btnlogo from '../../assets/images/btnlogo.png';
 const Home = () => {
   var settings = {
     dots: false,
@@ -42,13 +43,16 @@ const Home = () => {
     <div className="homepage-info">
       <Header />
       <div className="main-slider">
-      <HomeSlider></HomeSlider>
+        <HomeSlider></HomeSlider>
       </div>
       <div className="user-form">
         <Container>
           <Row className="align-items-center">
             <Col md={4}>
-              <BeComeButton />
+              <div className="btnImgesLbl">
+                <img src={btnlogo} />
+                <p>Create your account today !</p>
+              </div>
             </Col>
             <Col md={8}>
               <p className="main-txt">
@@ -175,7 +179,7 @@ const Home = () => {
                 </div>
 
                 <div className="setion-name">
-                <img alt="no image" src={Cluster4} />
+                  <img alt="no image" src={Cluster4} />
                   <p className="blueText">Prosperity</p>
                 </div>
 

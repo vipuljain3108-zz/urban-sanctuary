@@ -1,13 +1,16 @@
-.greentext{
+.greentext {
     color: green;
 }
-.purpletext{
+
+.purpletext {
     color: rgb(248, 17, 248);
 }
-.blueText{
+
+.blueText {
     color: rgb(64, 64, 190);
 }
-.yellowText{
+
+.yellowText {
     color: rgb(151, 151, 69);
 }
 
@@ -262,7 +265,6 @@
         }
         .cards-title {
             text-align: center;
-            color: rgba(88, 88, 88, 0.7);
             font-family: "Montserrat-Bold";
             font-size: 22px;
             margin-bottom: 0;
@@ -838,6 +840,18 @@
     }
 }
 
+.btnImgesLbl {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    p {
+        margin-top: -12px;
+        font-size: 9px;
+        margin-left: 27px;
+        font-family: Lato-Light;
+    }
+}
+
 @media(min-width:900px) and (max-width:992px) {
     .homepage-info .img-slides h3 {
         top: 16%;
@@ -875,9 +889,54 @@
         width: 100%;
         justify-content: center;
     }
+    .homepage-info .tb-info .dotbtns {
+        display: none;
+    }
+    .homepage-info .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin: 4px;
+        padding: 0;
+        cursor: pointer;
+    }
+    .homepage-info .tb-info img {
+        width: 40px;
+    }
+    .homepage-info .slick-active .tb-info img {
+        width: 40px;
+    }
+    .homepage-info .slick-dots .slick-active {
+        background-size: 41px 41px;
+    }
+    .homepage-info .slick-dots {
+        display: flex !important;
+        width: 100%;
+        right: auto;
+        padding: 10px;
+        justify-content: center;
+        margin: 0;
+        bottom: 10px;
+        top: 96%;
+        transition: bottom 300ms;
+        height: 55px;
+    }
+    .homepage-info .form-cover input {
+        width: 253px;
+        margin: 0 auto;
+    }
+    .homepage-info .nav-tabs .nav-item {
+        width: 100%;
+        border-bottom: 1px solid #b7b7b7;
+    }
 }
 
 @media(max-width:767px) {
+    .homepage-info .slider-txt .large-txt {
+        font-size: 28px;
+        padding-bottom: 0.5em;
+    }
     .homepage-info .men-grp {
         padding: 20px;
     }

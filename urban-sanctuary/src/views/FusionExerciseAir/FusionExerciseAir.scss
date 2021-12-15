@@ -1,6 +1,7 @@
-.margins{
+.margins {
     margin: 0px 8%;
 }
+
 .exercise-air-wrapper {
     overflow-x: hidden;
     .banner-secs {
@@ -439,6 +440,13 @@
     .exercise-air-wrapper .fusion-con-gl .gal-con-img .fu-dis .fu-dis-con .fu-dis-btn {
         padding: 0 0px 20px;
     }
+    .exercise-air-wrapper .banner-secs .content-sec {
+        position: absolute;
+        width: 84%;
+        color: #fff;
+        top: 34px;
+        padding-left: 50px;
+    }
 }
 
 @media (max-width:768px) {
@@ -542,6 +550,19 @@
     }
     .exercise-air-wrapper .banner-secs img {
         width: 100%;
-        min-height: 620px;
+        min-height: 680px;
+    }
+    .exercise-air-wrapper .fusion-gal {
+        width: 100%;
+        padding: 20px 17px 18px;
+        .col-sm-3 {
+            padding: 0 5px;
+        }
+    }
+    .exercise-air-wrapper .fusion-gal .fusion-exe-gl h4 {
+        font-size: 13PX;
+    }
+    .m-5 {
+        margin: 15px !important;
     }
 }

@@ -22,7 +22,7 @@ const FusionExerciseAirTab = () => {
                 </Col>
                 <div className="fusion-gal">
                     <Row>
-                        <Col sm={6} md={3}>
+                        <Col xs={3} sm={3} md={3}>
                             <div className="fusion-exe-gl" onClick={() => tabChange(1)}>
                                 <img alt="no image" src={fusionexc1} />
                                 <h4>AIR</h4>
@@ -34,7 +34,7 @@ const FusionExerciseAirTab = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={6} md={3} onClick={() => tabChange(2)}>
+                        <Col xs={3} sm={3} md={3} onClick={() => tabChange(2)}>
                             <div className="fusion-exe-gl">
                                 <img alt="no image" src={fusionexc2} />
                                 <h4>WATER</h4>
@@ -46,7 +46,7 @@ const FusionExerciseAirTab = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={6} md={3} onClick={() => tabChange(3)}>
+                        <Col xs={3} sm={3} md={3} onClick={() => tabChange(3)}>
                             <div className="fusion-exe-gl">
                                 <img alt="no image" src={fusionexc3} />
                                 <h4>CRYSTAL</h4>
@@ -58,7 +58,7 @@ const FusionExerciseAirTab = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={6} md={3}>
+                        <Col xs={3} sm={3} md={3}>
                             <div className="fusion-exe-gl" onClick={() => tabChange(4)}>
                                 <img alt="no image" src={fusionexc4} />
                                 <h4>DIAMOND</h4>
