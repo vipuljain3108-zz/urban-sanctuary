@@ -14,8 +14,6 @@
     color: rgb(151, 151, 69);
 }
 
-
-
 .homepage-info2 {
     font-family: "Montserrat-Medium", serif;
     color: #8c8c8c;
@@ -919,6 +917,10 @@
         align-items: center;
         flex-wrap: wrap;
         font-family: Lato-Light;
+    }
+    .homepage-info2 .slider-txt p {
+        word-wrap: break-word;
+        white-space: break-spaces;
     }
 }
 
