@@ -25,7 +25,7 @@ import card6 from "../../assets/images/home-img/card6.png";
 import globeHands from "../../assets/images/home-img/globe-hands.png";
 import web from "../../assets/images/home-img/web.png";
 import Form from "react-bootstrap/Form";
-import mobileBg from "../../assets/images/home-img/mobileBg.png";
+import mobileBg from "../../assets/images/home-img/HCPhone.png";
 import btnlogo from '../../assets/images/btnlogo.png';
 const Home = () => {
   var settings = {
