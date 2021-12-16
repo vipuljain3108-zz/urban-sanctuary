@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cb7f32e.chunk.css",
-    "main.js": "/static/js/main.74833bdf.chunk.js",
-    "main.js.map": "/static/js/main.74833bdf.chunk.js.map",
+    "main.css": "/static/css/main.1702e6fd.chunk.css",
+    "main.js": "/static/js/main.fb5c452a.chunk.js",
+    "main.js.map": "/static/js/main.fb5c452a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c6ba08d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.c6ba08d6.js.map",
     "static/css/2.195d012c.chunk.css": "/static/css/2.195d012c.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.7003abc7.chunk.js.map": "/static/js/2.7003abc7.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.195d012c.chunk.css.map": "/static/css/2.195d012c.chunk.css.map",
-    "static/css/main.3cb7f32e.chunk.css.map": "/static/css/main.3cb7f32e.chunk.css.map",
+    "static/css/main.1702e6fd.chunk.css.map": "/static/css/main.1702e6fd.chunk.css.map",
     "static/js/2.7003abc7.chunk.js.LICENSE.txt": "/static/js/2.7003abc7.chunk.js.LICENSE.txt",
     "static/media/8-light-modes-face.98c8883f.png": "/static/media/8-light-modes-face.98c8883f.png",
     "static/media/style.scss": "/static/media/georgiai.123ecf32.ttf",
@@ -28,7 +28,7 @@
     "static/media/card1.16928ba1.png": "/static/media/card1.16928ba1.png",
     "static/media/card2.34d710ee.png": "/static/media/card2.34d710ee.png",
     "static/media/card3.ef67e9c1.png": "/static/media/card3.ef67e9c1.png",
-    "static/media/card4.b723d5e3.png": "/static/media/card4.b723d5e3.png",
+    "static/media/card4.6316b264.png": "/static/media/card4.6316b264.png",
     "static/media/card5.5c0b37fe.png": "/static/media/card5.5c0b37fe.png",
     "static/media/card6.b648bce7.png": "/static/media/card6.b648bce7.png",
     "static/media/composition-inbody.f01ece52.png": "/static/media/composition-inbody.f01ece52.png",
@@ -49,6 +49,7 @@
     "static/media/map.7b67fc32.png": "/static/media/map.7b67fc32.png",
     "static/media/mobile-img.ed7cb798.jpeg": "/static/media/mobile-img.ed7cb798.jpeg",
     "static/media/mobileBg.c77657bb.png": "/static/media/mobileBg.c77657bb.png",
+    "static/media/mobileBg2.51827192.png": "/static/media/mobileBg2.51827192.png",
     "static/media/other-img-1.f7a898dc.png": "/static/media/other-img-1.f7a898dc.png",
     "static/media/other-img-2.82af7b27.png": "/static/media/other-img-2.82af7b27.png",
     "static/media/other-img-3.0e8d36cc.png": "/static/media/other-img-3.0e8d36cc.png",
@@ -80,7 +81,7 @@
     "static/js/runtime-main.c6ba08d6.js",
     "static/css/2.195d012c.chunk.css",
     "static/js/2.7003abc7.chunk.js",
-    "static/css/main.3cb7f32e.chunk.css",
-    "static/js/main.74833bdf.chunk.js"
+    "static/css/main.1702e6fd.chunk.css",
+    "static/js/main.fb5c452a.chunk.js"
   ]
 }
