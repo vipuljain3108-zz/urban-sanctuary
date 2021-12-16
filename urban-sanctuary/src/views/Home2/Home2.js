@@ -10,8 +10,8 @@ import Cluster2 from "../../assets/images/Cluster-2.png";
 import Cluster3 from "../../assets/images/Cluster-3.png";
 import Cluster4 from "../../assets/images/Cluster-4.png";
 import BeComeButton from "../../components/BeComeButton/BeComeButton";
-import Park from "../../assets/images/home-img/park.png";
-import Group from "../../assets/images/home-img/Group.png";
+import Park from "../../assets/images/home-img/park-active.png";
+import Group from "../../assets/images/home-img/Group2.png";
 import Cart from "../../assets/images/home-img/cart.png";
 import rightArrow from "../../assets/images/home-img/right-arrow.png";
 import logoMetaWheel from "../../assets/images/home-img/Logo MetaWheel_1.png";
@@ -81,14 +81,14 @@ const Home = () => {
             <Col md={12}>
               <div className="card-info">
                 <div className="card-wrapper">
-                  <img className="card-img" src={Park} />
+                  <img className="card-img" src={Group} />
                   <p className="cards-title">URBAN SANCTUARY</p>
                   <span className="cards-desc">
                     Human Well-being &<br /> Advancement Services{" "}
                   </span>
                 </div>
                 <div className="card-wrapper purple-card">
-                  <img className="card-img" src={Group} />
+                  <img className="card-img" src={Park} />
                   <p className="cards-txt">MASTER SANCTUARY</p>
                   <span className="cards-desc">
                     Master Retreat & <br /> Conscious Lifestyle Experience
