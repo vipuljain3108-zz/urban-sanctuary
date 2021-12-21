@@ -201,7 +201,7 @@
         flex-wrap: wrap;
         width: 100%;
         .gal-con {
-            width: 50%;
+            width: 45%;
             z-index: 4;
             h1 {
                 font-size: 30px;
@@ -240,12 +240,18 @@
             }
         }
         .gal-con-img {
-            width: 50%;
+            width: 49%;
             z-index: 4;
+            position: relative;
             .fu-dis {
-                width: 65%;
+                width: 70%;
                 margin: 0 auto;
-                margin-top: 50px;
+                margin-top: 14px;
+                position: absolute;
+                top: 66%;
+                left: 0;
+                right: 0;
+                transform: translateY(-50%);
                 .fu-head {
                     background: #fff;
                     margin: 0;
@@ -326,10 +332,10 @@
             position: absolute;
             right: 15px;
             top: 0px;
-            width: 54%;
+            width: 60%;
             img {
                 width: 100%;
-                height: 444px;
+                height: 500px;
             }
         }
     }
@@ -424,18 +430,22 @@
     }
 }
 
-@media (max-width:1025px) {
+@media (max-width:1125px) {
     .exercise-air-wrapper .fusion-con-gl .back-img {
         img {
             width: 100%;
-            height: 502px;
+            height: 555px;
         }
     }
     .exercise-air-wrapper .fusion-con-gl .gal-con-img .fu-dis {
-        width: 65%;
+        width: 76%;
         margin: 0 auto;
         margin-top: 50px;
-        margin-right: 131px;
+        margin-right: 70px;
+        position: static;
+        left: 0;
+        right: 0;
+        transform: none;
     }
     .exercise-air-wrapper .fusion-con-gl .gal-con-img .fu-dis .fu-dis-con .fu-dis-btn {
         padding: 0 0px 20px;
@@ -482,6 +492,10 @@
         width: 80%;
         background: #cdc7c7;
         margin: 80px auto 0;
+        position: static;
+        left: 0;
+        right: 0;
+        transform: none;
     }
     .exercise-air-wrapper .slider-secs .slider-item img {
         width: 135px;

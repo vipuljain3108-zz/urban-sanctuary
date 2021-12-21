@@ -10,7 +10,7 @@
         position: relative;
         .cente-text {
             position: absolute;
-            top: 37%;
+            top: 30%;
             left: 0;
             right: 0;
             width: 80%;
@@ -230,10 +230,12 @@
         display: flex;
         width: 100%;
         justify-content: center;
-        padding: 25px 0px;
+        padding: 10px 0px 10px;
         margin-bottom: 0px;
         margin-top: 0px;
         flex-wrap: wrap;
+        border-bottom: 1px solid #8dd54e;
+        margin-bottom: 20px;
         .setion-name {
             display: flex;
             align-items: center;
@@ -258,7 +260,7 @@
 
 .advance-Exercise {
     .exercise-secion-right {
-        background-image: linear-gradient(to right, #b6b6b6, #fff);
+        background-image: linear-gradient(to right, #b6b6b6 28%, #fff 50%);
         margin-top: -8px;
         .exe-inner-sp {
             padding: 15px;
@@ -280,7 +282,7 @@
             font-family: 'Lato-Regular';
             font-size: 35px;
             color: #8c8c8c;
-            padding: 20px 8px;
+            padding: 30px 8px;
             opacity: .2;
             text-transform: uppercase;
             margin-bottom: 0;
@@ -331,7 +333,7 @@
             }
             p {
                 font-family: 'Lato-Regular';
-                font-size: 13px;
+                font-size: 14px;
                 color: #fff
             }
         }
@@ -355,7 +357,7 @@
 
 .advance-Exercise {
     .exercise-secion-left {
-        background-image: linear-gradient(to right, #fff, #ecffdc);
+        background-image: linear-gradient(to right, #fff 28%, #ecffdc 50%);
         margin-top: -8px;
         .exe-inner-sp {
             padding: 15px;
@@ -377,7 +379,7 @@
             font-size: 35px;
             color: #8c8c8c;
             opacity: .2;
-            padding: 20px 0;
+            padding: 30px 0;
             text-transform: uppercase;
         }
         .exe-inner {
@@ -521,13 +523,16 @@
 .advance-Exercise-slider {
     .slick-dots {
         position: absolute;
-        bottom: 74px;
+        bottom: 0;
         display: grid !important;
         width: 100%;
         right: 50px;
         padding: 10;
         justify-content: end;
         margin: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: bottom .3s;
         list-style: none;
         text-align: center;
         transition: bottom 300ms;

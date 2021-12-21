@@ -77,14 +77,14 @@
         }
         .right-icon {
             position: absolute;
-            top: 37%;
-            bottom: 0;
             right: 3%;
+            top: 50%;
+            transform: translateY(-50%);
             .tb-info {
                 display: flex;
                 justify-content: right;
                 align-items: center;
-                margin-bottom: 5px;
+                margin-bottom: 15px;
                 span {
                     padding: 5px 10px;
                     background: #fff;
@@ -633,7 +633,7 @@
     .img-with-txt {
         img {
             object-fit: cover;
-            min-height: 160px;
+            min-height: 228px;
             width: 100%;
         }
     }
@@ -655,7 +655,7 @@
         transition: bottom 300ms;
         height: 308px;
         .slick-active {
-            background-image: url(../../assets/images/personHealth.png);
+            // background-image: url(../../assets/images/personHealth.png);
             background-position: top;
             background-position: bottom;
             background-position: left;
@@ -688,7 +688,7 @@
             display: flex;
             justify-content: right;
             align-items: center;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
             input[type="radio"]:checked {
                 border-color: #fff !important;
             }
@@ -764,16 +764,16 @@
 
 .dotbtns {
     &.dot-tex1 {
-        margin-top: 60px;
+        margin-top: 80px;
     }
     &.dot-tex2 {
         margin-top: 20px;
     }
     &.dot-tex3 {
-        margin-top: -20px;
+        margin-top: -40px;
     }
     &.dot-tex4 {
-        margin-top: -60px;
+        margin-top: -80px;
     }
     position: absolute;
     right: 110px;
@@ -890,7 +890,9 @@
         justify-content: center;
     }
     .homepage-info .tb-info .dotbtns {
-        display: none;
+        span {
+            display: none;
+        }
     }
     .homepage-info .slick-dots li {
         position: relative;
@@ -936,6 +938,42 @@
     }
     .homepage-info .setion-name>p {
         margin: 0 30px 0 0px;
+    }
+    .homepage-info .tb-info {
+        .dotbtns {
+            position: absolute;
+            right: 0px;
+            left: 0;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            top: 0px;
+        }
+        .dot-tex1 {
+            color: #000 !important;
+            margin-top: 0px;
+        }
+        .dot-tex2 {
+            color: #000 !important;
+            margin-top: 0px;
+        }
+        .dot-tex3 {
+            color: #000 !important;
+            margin-top: 0px;
+        }
+        .dot-tex4 {
+            color: #000 !important;
+            margin-top: 0px;
+        }
+        span {
+            display: none;
+            .hide-text {
+                display: block;
+            }
+        }
+        img {
+            width: 70px;
+        }
     }
 }
 
