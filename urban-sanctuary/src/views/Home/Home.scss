@@ -84,7 +84,7 @@
                 display: flex;
                 justify-content: right;
                 align-items: center;
-                margin-bottom: 15px;
+                margin-bottom: 20px;
                 span {
                     padding: 5px 10px;
                     background: #fff;
@@ -633,7 +633,7 @@
     .img-with-txt {
         img {
             object-fit: cover;
-            min-height: 228px;
+            min-height: 282px;
             width: 100%;
         }
     }
@@ -688,7 +688,7 @@
             display: flex;
             justify-content: right;
             align-items: center;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             input[type="radio"]:checked {
                 border-color: #fff !important;
             }
@@ -920,7 +920,7 @@
         justify-content: center;
         margin: 0;
         bottom: 10px;
-        top: 96%;
+        top: 99%;
         transition: bottom 300ms;
         height: 55px;
     }
