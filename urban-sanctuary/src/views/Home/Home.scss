@@ -84,7 +84,7 @@
                 display: flex;
                 justify-content: right;
                 align-items: center;
-                margin-bottom: 20px;
+                margin-bottom: 30px;
                 span {
                     padding: 5px 10px;
                     background: #fff;
@@ -144,6 +144,7 @@
     .banner-img {
         min-height: 600px;
         object-fit: cover;
+        width: 100%;
     }
     .radio-btn {
         position: absolute;
@@ -440,6 +441,9 @@
             color: #434343;
         }
     }
+    .position-relative {
+        border-top: 2px solid white;
+    }
     .icons-cover {
         padding-top: 10px;
     }
@@ -688,7 +692,7 @@
             display: flex;
             justify-content: right;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             input[type="radio"]:checked {
                 border-color: #fff !important;
             }
@@ -779,7 +783,7 @@
     right: 110px;
     display: flex;
     align-items: center;
-    top: 25px;
+    top: 10px;
     label {
         margin: 0;
         padding: 5px 10px;
@@ -920,7 +924,7 @@
         justify-content: center;
         margin: 0;
         bottom: 10px;
-        top: 99%;
+        top: 96%;
         transition: bottom 300ms;
         height: 55px;
     }

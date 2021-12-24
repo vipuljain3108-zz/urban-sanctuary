@@ -5,6 +5,7 @@
     .slider-img {
         min-height: 600px;
         object-fit: cover;
+        width: 100%;
     }
     .slider-conatiner {
         position: relative;
@@ -292,7 +293,6 @@
             border-radius: 20px 0 0 20px;
             position: relative;
             background-position: center;
-            background-size: cover;
         }
         .exe-inner::before {
             background-color: #282727ad;
@@ -387,7 +387,6 @@
             border-radius: 0px 20px 20px 0px;
             position: relative;
             background-position: center;
-            background-size: cover;
         }
         .exe-inner::before {
             background-color: #282727ad;
@@ -589,16 +588,57 @@
             .dot-text1 {
                 color: #51be58;
             }
-            .dot-text2 {
+            .dot-text3 {
                 color: #fc00fe;
             }
-            .dot-text3 {
+            .dot-text4 {
                 color: #fec604;
             }
-            .dot-text4 {
+            .dot-text2 {
                 color: #0491fe;
             }
         }
+    }
+}
+
+@media (min-width:1700px) {
+    .advance-Exercise .exercise-secion-left .content-inner p {
+        font-size: 24px;
+    }
+    .advance-Exercise .exercise-secion-left .content-inner h3 {
+        font-size: 28px;
+    }
+    .advance-Exercise .exercise-secion-left .line-inner {
+        margin-top: 70px;
+        align-items: center;
+    }
+    .advance-Exercise .exercise-secion-left .v-text {
+        font-size: 30px;
+    }
+    .advance-Exercise .exercise-secion-right .content-inner p {
+        font-size: 24px;
+    }
+    .advance-Exercise .exercise-secion-right .content-inner h3 {
+        font-size: 28px;
+    }
+    .advance-Exercise .exercise-secion-right .line-inner {
+        margin-top: 70px;
+        align-items: center;
+    }
+    .advance-Exercise .exercise-secion-right .v-text {
+        font-size: 30px;
+    }
+    .advance-Exercise .exercise-secion-right .exe-inner {
+        min-height: 500px;
+    }
+    .advance-Exercise .exercise-secion-left .exe-inner {
+        min-height: 500px;
+    }
+    .advance-Exercise .exercise-secion-right .v-line {
+        min-height: 308px;
+    }
+    .advance-Exercise .exercise-secion-left .v-line {
+        min-height: 308px;
     }
 }
 

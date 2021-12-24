@@ -72,13 +72,13 @@ const HomeSlider = () => {
                     <img className="activeimg" src={Cluster1} />
                   </div>
                   <div className="tb-info">
+                    <img src={Cluster4} />
+                  </div>
+                  <div className="tb-info">
                     <img src={Cluster2} />
                   </div>
                   <div className="tb-info">
                     <img src={Cluster3} />
-                  </div>
-                  <div className="tb-info">
-                    <img src={Cluster4} />
                   </div>
                 </div>
                 <img alt="no image" className="banner-img" src={slide1} />
@@ -107,13 +107,13 @@ const HomeSlider = () => {
                     <img className="activeimg" src={Cluster1} />
                   </div>
                   <div className="tb-info">
+                    <img src={Cluster4} />
+                  </div>
+                  <div className="tb-info">
                     <img src={Cluster2} />
                   </div>
                   <div className="tb-info">
                     <img src={Cluster3} />
-                  </div>
-                  <div className="tb-info">
-                    <img src={Cluster4} />
                   </div>
                 </div>
                 <img alt="no image" className="banner-img" src={slide1} />
@@ -142,13 +142,13 @@ const HomeSlider = () => {
                     <img className="activeimg" src={Cluster1} />
                   </div>
                   <div className="tb-info">
+                    <img src={Cluster4} />
+                  </div>
+                  <div className="tb-info">
                     <img src={Cluster2} />
                   </div>
                   <div className="tb-info">
                     <img src={Cluster3} />
-                  </div>
-                  <div className="tb-info">
-                    <img src={Cluster4} />
                   </div>
                 </div>
                 <img alt="no image" className="banner-img" src={slide1} />
@@ -183,13 +183,13 @@ const HomeSlider = () => {
                     <img className="activeimg" src={Cluster1} />
                   </div>
                   <div className="tb-info">
+                    <img src={Cluster4} />
+                  </div>
+                  <div className="tb-info">
                     <img src={Cluster2} />
                   </div>
                   <div className="tb-info">
                     <img src={Cluster3} />
-                  </div>
-                  <div className="tb-info">
-                    <img src={Cluster4} />
                   </div>
                 </div>
                 <img alt="no image" className="banner-img" src={BannerHome2} />
@@ -217,13 +217,13 @@ const HomeSlider = () => {
                     <img className="activeimg" src={Cluster1} />
                   </div>
                   <div className="tb-info">
+                    <img src={Cluster4} />
+                  </div>
+                  <div className="tb-info">
                     <img src={Cluster2} />
                   </div>
                   <div className="tb-info">
                     <img src={Cluster3} />
-                  </div>
-                  <div className="tb-info">
-                    <img src={Cluster4} />
                   </div>
                 </div>
                 <img alt="no image" className="banner-img" src={BannerHome2} />
@@ -251,13 +251,13 @@ const HomeSlider = () => {
                     <img className="activeimg" src={Cluster1} />
                   </div>
                   <div className="tb-info">
+                    <img src={Cluster4} />
+                  </div>
+                  <div className="tb-info">
                     <img src={Cluster2} />
                   </div>
                   <div className="tb-info">
                     <img src={Cluster3} />
-                  </div>
-                  <div className="tb-info">
-                    <img src={Cluster4} />
                   </div>
                 </div>
                 <img alt="no image" className="banner-img" src={BannerHome2} />
