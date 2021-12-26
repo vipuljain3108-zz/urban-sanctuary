@@ -5,6 +5,7 @@ import BookingPlan  from '../views/BookingPlan/BookingPlan';
 import FusionExerciseAir  from '../views/FusionExerciseAir/FusionExerciseAir';
 import FusionExerciseAirDetail  from '../views/FusionExerciseAirDetail/FusionExerciseAirDetail';
 import Home2  from '../views/Home2/Home2';
+import AboutUs from '../views/AboutUs';
 
 import StoreSkinAnalysis  from '../views/StoreSkinAnalysis/StoreSkinAnalysis';
 
@@ -39,6 +40,9 @@ export const RouteLinks = {
     },
     StoreInbodyScanning: {
       component: StoreInbodyScanning, path: '/store-service-inbody-scanning',
+    },
+    AboutUs: {
+      component: AboutUs, path: '/about-us',
     },
 
 }

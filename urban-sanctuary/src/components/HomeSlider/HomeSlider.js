@@ -69,7 +69,7 @@ const HomeSlider = () => {
                 </div>
                 <div className="right-icon">
                   <div className="tb-info">
-                    <img className="activeimg" src={Cluster1} />
+                    <img src={Cluster1} />
                   </div>
                   <div className="tb-info">
                     <img src={Cluster4} />

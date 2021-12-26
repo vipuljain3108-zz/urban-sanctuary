@@ -7,8 +7,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Slider from "react-slick";
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-import { Bar } from 'react-chartjs-2';
-import Chart from 'chart.js/auto'
+//import { Bar } from 'react-chartjs-2';
+//import Chart from 'chart.js/auto'
 import playerIcon from '../../assets/images/personHealth.png';
 import bannerIng from '../../assets/images/fu-exercise2.png';
 import circleIon from '../../assets/images/circle-ion.png';
@@ -446,7 +446,7 @@ const FusionExerciseAirDetail = () => {
                 </Tab>
                 <Tab eventKey="second" title="View 2">
                   <div className="chart-sec">
-                  <Bar data={data} options={options} />
+                  {/* <Bar data={data} options={options} /> */}
                   </div>
                     
                 </Tab>
