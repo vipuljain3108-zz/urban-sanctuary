@@ -316,6 +316,21 @@
             margin-top: 20px;
             margin-left: 20px;
         }
+        .v-line5,
+        .v-line3 {
+            min-height: 221px;
+            margin-top: 0px;
+        }
+        .v-line1 {
+            min-height: 170px;
+            margin-top: 0px;
+        }
+        .line-inner1 {
+            margin-top: 40px;
+        }
+        .line-inner3 {
+            margin-top: 16px;
+        }
         .v-text {
             font-family: 'Lato-Regular';
             font-size: 18px;
@@ -399,8 +414,11 @@
         }
         .line-inner {
             display: flex;
-            align-items: end;
+            align-items: center;
             justify-content: end;
+        }
+        .line-4 {
+            margin-top: 30px;
         }
         .v-line {
             width: 3px;
@@ -410,6 +428,18 @@
             margin-right: 15px;
             margin-top: 20px;
             margin-left: 20px;
+        }
+        .line-inner {
+            margin-top: 31px
+        }
+        .v-line4,
+        .v-line2 {
+            min-height: 170px;
+            margin-top: 0px;
+        }
+        .v-line5 {
+            min-height: 220px;
+            margin-top: 0px;
         }
         .v-text {
             font-family: 'Lato-Regular';
@@ -453,22 +483,31 @@
 
 .exe-bg1 {
     background-image: url(../../assets/images/advance-exercises/fu-exercise.png);
+    background-size: cover;
+    min-height: 328px;
 }
 
 .exe-bg2 {
     background-image: url(../../assets/images/advance-exercises/home-workout.png);
+    background-size: cover;
+    min-height: 328px;
 }
 
 .exe-bg3 {
     background-image: url(../../assets/images/advance-exercises/yoga.png);
+    background-size: cover;
+    min-height: 328px;
 }
 
 .exe-bg4 {
     background-image: url(../../assets/images/advance-exercises/dance.png);
+    background-size: cover;
+    min-height: 328px;
 }
 
 .exe-bg5 {
     background-image: url(../../assets/images/advance-exercises/mind-health.png);
+    background-size: cover;
 }
 
 .shifter-plan {
