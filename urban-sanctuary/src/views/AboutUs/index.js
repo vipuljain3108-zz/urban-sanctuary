@@ -18,6 +18,11 @@ import AboutUsImage10 from '../../assets/images/aboutUs/10.png';
 import AboutUsImage11 from '../../assets/images/aboutUs/11.png';
 import AboutUsImage12 from '../../assets/images/aboutUs/12.png';
 import AboutUsImage13 from '../../assets/images/aboutUs/13.png';
+import Banner1 from '../../assets/images/aboutUs/single.png';
+import Banner2 from '../../assets/images/aboutUs/two1.png';
+import Banner3 from '../../assets/images/aboutUs/two2.png';
+import FooterLogo from '../../assets/images/aboutUs/footer_logo.png';
+import Earth from '../../assets/images/aboutUs/earth.png';
 
 import Accordion from '../../components/Accordion';
 
@@ -108,7 +113,7 @@ const Index = () => {
     return (
         <div className='about'>
             <Header />
-            <div className='banner_head'>
+            <div className='head_banner'>
                 <>
                     <div className='title'>ABOUT US</div>
                     <div className='desc'>The VFH Sanctuaries are the endeavours of the Vision for Humanity Charitable Trust. Find out more about us here by reading through our Structural Flow</div>
@@ -122,6 +127,59 @@ const Index = () => {
             </div>
             <div className='accordion'>
                 <Accordion panels={panels} />
+            </div>
+            <div className='banners'>
+                <div className='banners_one' style={{ backgroundImage: `url(${Banner1})`}}>
+                    <div className='title'>The VFH Sanctuary Concept</div>
+                    <p>The VFH Sanctuary Concept <br/>Elevate Global Consciousness through the metamorphic transformation of the human being. Discover your Magnificence and by default, as a result of your greater physical, mental, emotional and spiritual capacity transform the world in which you live. Allow us the honour to help you become the very best version of yourself – by investing in you we all invest in Health, Prosperity, Inspiration and Joy.</p>
+                </div>
+                <div className='displayFlex'>
+                    <div className='banners_two' style={{ backgroundImage: `url(${Banner2})`}}>
+                        <div className='title'>The Plato Franchise System</div>
+                        <div className='banners_two_button'>READ MORE</div>
+                    </div>
+                    <div className='banners_two' style={{ backgroundImage: `url(${Banner3})`}}>
+                        <div className='title'>Higher Conscious Energy</div>
+                        <div className='banners_two_button'>READ MORE</div>
+                    </div>
+                </div>
+            </div>
+            <div className='table'>
+                <div className='displayFlex'>
+                    <img src={Earth} alt='earth' />
+                    <div className='table_head'>
+                        <div className='table_head_title'>
+                            BIOSPHERICALLY CORRECT 
+                        </div>
+                        <div className='table_head_desc'>
+                            The Sanctuary Project is being designed via Biospherically Correct principles, an initiative developed by Vision for Humanity as a result of the charities Vision for Business. All built form, products and services are being created in alignment with the five key BC criteria arenas, while Biospherically Correct Service Management Chain (BCSMC) are being established with all suppliers. BC is the design ethos used to establish the highest environmental and social standards for sister charity Vision Products in 2011
+                        </div>
+                    </div>
+                </div>
+                <div className='table_body'>
+                    <div className="table_body_head">
+                        <div className='table_body_head_item active'>Diversity Protection</div>
+                        <div className='table_body_head_item'>Green Ingredient </div>
+                        <div className='table_body_head_item'>Positive Functionality </div>
+                        <div className='table_body_head_item'>ECO Process</div>
+                        <div className='table_body_head_item'>Trade Intergrity</div>
+                    </div>
+                    <div className='table_body_desc'>
+                    <br/><br/><b>Protecting our key pillars:</b> Biospheric services / Biodiversity / Cultural diversity
+
+                    <br/><br/><b>Orientation: Security</b> - how ecologically and socially conscious is the sourcing of the raw materials?
+
+                    <br/><br/><b>Context statement:</b> In the broadest thinking terms, life on our planet relies on the interlocking of three key pillars: healthy Biospheric services, the biodiversity of life and the vital cultural diversity of humans.
+
+                    <br/><br/><b>Guiding Question:</b> To what extent does the sourcing (cultivation and extraction) of the raw materials necessary to produce the Service (built form, a product or service or facility) enhance the diversity of life, that is, aids the greater biospheric services of the planet, the localised eco systems (species and habitat protection) and preserves the associated knowledge, customs and prosperity of the indigenous cultures of the territory?     Read more
+                    </div>
+                </div>
+            </div>
+            <div className='footer_banner'>
+                <img src={FooterLogo} alt='logo'/>
+                <div className='title'>Urban Sanctuary</div>
+                <div className='coloredText'>Discover your Magnificence</div>
+                <div className='desc'>Sanctuaries for human wellbeing and advancement, Elevating Global Consciousness, and helping create “A Successful Planet.”</div>
             </div>
         </div>
     )
