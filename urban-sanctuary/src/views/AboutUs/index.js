@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from "../../components/Header/Header";
 import './index.scss';
 import Cluster1 from "../../assets/images/Cluster-1.png";
@@ -110,6 +110,19 @@ const Index = () => {
         },
     ];
 
+    const [activeTab, setActiveTab] = useState('Diversity Protection');
+
+    const renderTabs = () => {
+        let tabs = ['Diversity Protection', 'Green Ingredient', 'Positive Functionality', 'ECO Process', 'Trade Intergrity'];
+
+        return (
+            <div className="table_body_head">
+                {tabs.map(item => {
+                    return <div className={`table_body_head_item ${activeTab === item ? 'active' : ''}`} onClick={() => setActiveTab(item)}>{item}</div>
+                })}
+            </div>
+        )
+    }
     return (
         <div className='about'>
             <Header />
@@ -157,13 +170,7 @@ const Index = () => {
                     </div>
                 </div>
                 <div className='table_body'>
-                    <div className="table_body_head">
-                        <div className='table_body_head_item active'>Diversity Protection</div>
-                        <div className='table_body_head_item'>Green Ingredient </div>
-                        <div className='table_body_head_item'>Positive Functionality </div>
-                        <div className='table_body_head_item'>ECO Process</div>
-                        <div className='table_body_head_item'>Trade Intergrity</div>
-                    </div>
+                    {renderTabs()}
                     <div className='table_body_desc'>
                     <br/><br/><b>Protecting our key pillars:</b> Biospheric services / Biodiversity / Cultural diversity
 
