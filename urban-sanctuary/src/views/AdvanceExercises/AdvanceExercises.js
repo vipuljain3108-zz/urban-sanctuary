@@ -61,8 +61,8 @@ const AdvanceExercises = () => {
                 <div className="exe-inner-sp">
                   <Row>
                     <Col sm={4} md={3}>
-                      <div className="line-inner">
-                        <div className="v-line"></div>
+                      <div className="line-inner line-inner1">
+                        <div className="v-line v-line1"></div>
                         <ul className="v-text">
                           <li>AIR</li>
                           <li>WATER</li>
@@ -149,14 +149,14 @@ const AdvanceExercises = () => {
                       </div>
                     </Col>
                     <Col sm={4} md={3}>
-                      <div className="line-inner">
+                      <div className="line-inner ">
                         <ul className="v-text">
                           <li>Stretching</li>
                           <li>Calisthenics</li>
                           <li>Isometrics</li>
                           <li>Hiit</li>
                         </ul>
-                        <div className="v-line"></div>
+                        <div className="v-line v-line2"></div>
                       </div>
                     </Col>
                   </Row>
@@ -174,8 +174,8 @@ const AdvanceExercises = () => {
                 <div className="exe-inner-sp">
                   <Row>
                     <Col sm={4} md={3}>
-                      <div className="line-inner">
-                        <div className="v-line"></div>
+                      <div className="line-inner line-inner3">
+                        <div className="v-line v-line3"></div>
                         <ul className="v-text">
                           <li>Vanyasa FLOW 1</li>
                           <li>Vanyasa FLOW 2</li>
@@ -263,14 +263,14 @@ const AdvanceExercises = () => {
                       </div>
                     </Col>
                     <Col sm={4} md={3}>
-                      <div className="line-inner">
+                      <div className="line-inner line-4">
                         <ul className="v-text">
                           <li>modern</li>
                           <li>salsa</li>
                           <li>tango</li>
                           <li>Cha cha</li>
                         </ul>
-                        <div className="v-line"></div>
+                        <div className="v-line v-line4"></div>
                       </div>
                     </Col>
                   </Row>
@@ -289,7 +289,7 @@ const AdvanceExercises = () => {
                   <Row>
                     <Col sm={4} md={3}>
                       <div className="line-inner">
-                        <div className="v-line"></div>
+                        <div className="v-line v-line5"></div>
                         <ul className="v-text">
                           <li>Affirmations</li>
                           <li>Visualisations</li>
