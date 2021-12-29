@@ -4,7 +4,7 @@ var express = require('express');
 
 /*
   ===========================================================================
-            Setup express + passportjs server for authentication
+            Setup express 
   ===========================================================================
 */
 
