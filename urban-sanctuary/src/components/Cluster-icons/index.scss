@@ -1,0 +1,35 @@
+.right_icon {
+    position: absolute;
+    right: 20px;
+    top: 32%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+
+    img {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .right_icon {
+        position: relative;
+        top: 110%;
+        left: 50%;
+        margin-top: 30px;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 15px;
+
+        img {
+            height: 50px;
+            width: 50px;
+            margin-bottom: 35px;
+        }
+    }
+}
+
