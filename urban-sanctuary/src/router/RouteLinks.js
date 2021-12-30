@@ -5,10 +5,9 @@ import BookingPlan  from '../views/BookingPlan/BookingPlan';
 import FusionExerciseAir  from '../views/FusionExerciseAir/FusionExerciseAir';
 import FusionExerciseAirDetail  from '../views/FusionExerciseAirDetail/FusionExerciseAirDetail';
 import Home2  from '../views/Home2/Home2';
-import AboutUs from '../views/AboutUs';
-
+import AboutUs from '../views/About-us';
+import TechHairTesting from '../views/Tech-hair-testing';
 import StoreSkinAnalysis  from '../views/StoreSkinAnalysis/StoreSkinAnalysis';
-
 import StoreInbodyScanning  from '../views/StoreInbodyScanning/StoreInbodyScanning';
 
 
@@ -43,6 +42,9 @@ export const RouteLinks = {
     },
     AboutUs: {
       component: AboutUs, path: '/about-us',
+    },
+    TechHairTesting: {
+      component: TechHairTesting, path: '/tech-hair-testing',
     },
 
 }

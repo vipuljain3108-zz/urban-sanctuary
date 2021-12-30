@@ -1,10 +1,6 @@
 import React, {useState} from 'react';
 import Header from "../../components/Header/Header";
 import './index.scss';
-import Cluster1 from "../../assets/images/Cluster-1.png";
-import Cluster2 from "../../assets/images/Cluster-2.png";
-import Cluster3 from "../../assets/images/Cluster-3.png";
-import Cluster4 from "../../assets/images/Cluster-4.png";
 import AboutUsImage1 from '../../assets/images/aboutUs/1.png';
 import AboutUsImage2 from '../../assets/images/aboutUs/2.png';
 import AboutUsImage3 from '../../assets/images/aboutUs/3.png';
@@ -21,10 +17,10 @@ import AboutUsImage13 from '../../assets/images/aboutUs/13.png';
 import Banner1 from '../../assets/images/aboutUs/single.png';
 import Banner2 from '../../assets/images/aboutUs/two1.png';
 import Banner3 from '../../assets/images/aboutUs/two2.png';
-import FooterLogo from '../../assets/images/aboutUs/footer_logo.png';
 import Earth from '../../assets/images/aboutUs/earth.png';
-
 import Accordion from '../../components/Accordion';
+import FooterBanner from '../../components/Footer-banner';
+import ClusterIcons from '../../components/Cluster-icons';
 
 const Index = () => {
     const panels = [
@@ -130,12 +126,7 @@ const Index = () => {
                 <>
                     <div className='title'>ABOUT US</div>
                     <div className='desc'>The VFH Sanctuaries are the endeavours of the Vision for Humanity Charitable Trust. Find out more about us here by reading through our Structural Flow</div>
-                    <div className="right_icon">
-                        <img src={Cluster1} alt='clusterImage'/>
-                        <img src={Cluster4}alt='clusterImage'/>
-                        <img src={Cluster2} alt='clusterImage' />
-                        <img src={Cluster3} alt='clusterImage'/>
-                    </div>
+                    <ClusterIcons />
                 </>
             </div>
             <div className='accordion'>
@@ -182,12 +173,7 @@ const Index = () => {
                     </div>
                 </div>
             </div>
-            <div className='footer_banner'>
-                <img src={FooterLogo} alt='logo'/>
-                <div className='title'>Urban Sanctuary</div>
-                <div className='coloredText'>Discover your Magnificence</div>
-                <div className='desc'>Sanctuaries for human wellbeing and advancement, Elevating Global Consciousness, and helping create “A Successful Planet.”</div>
-            </div>
+            <FooterBanner />
         </div>
     )
 }
