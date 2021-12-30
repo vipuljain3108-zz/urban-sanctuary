@@ -200,7 +200,7 @@
 
     .table {
         padding: 70px 30px 50px 30px;
-        max-width: 1350px;
+        max-width: 1320px;
         color: #707070;
         font-family: 'Lato';
         margin: auto;
@@ -244,13 +244,14 @@
                     background-color: #F2F2F2;
                     padding: 15px 50px;
                     cursor: pointer;
+                    font-size: 17px;
                 }
             }
 
             &_desc {
                 padding: 50px;
                 padding-top: unset;
-                font-size: 15px;
+                font-size: 17px;
             }
         }
 
