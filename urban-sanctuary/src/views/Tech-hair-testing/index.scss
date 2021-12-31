@@ -60,7 +60,7 @@ $gray-text-color: #8C8C8C;
                     width: 400px;
                 }
     
-                @media only screen and (max-width: 1500px) {
+                @media only screen and (max-width: 1600px) {
                     column-gap: 60px;
                     align-items: center;
                     justify-content: center;
@@ -136,7 +136,7 @@ $gray-text-color: #8C8C8C;
                 width: 38%;
             }
 
-            @media only screen and (max-width: 1500px) {
+            @media only screen and (max-width: 1600px) {
                 align-items: center;
                 justify-content: center;
             }
@@ -183,7 +183,7 @@ $gray-text-color: #8C8C8C;
             }
         }
 
-        @media only screen and (max-width: 1500px) {
+        @media only screen and (max-width: 1600px) {
             align-items: flex-start;
             justify-content: center;
         }
@@ -253,7 +253,7 @@ $gray-text-color: #8C8C8C;
             }
         }
 
-        @media only screen and (max-width: 1500px) {
+        @media only screen and (max-width: 1600px) {
 
             top: unset;
             padding-top: 40px;
@@ -304,7 +304,7 @@ $gray-text-color: #8C8C8C;
             margin-top: 40px;
         }
 
-        @media only screen and (max-width: 1500px) {
+        @media only screen and (max-width: 1600px) {
             top: unset;
         }
 
@@ -335,7 +335,7 @@ $gray-text-color: #8C8C8C;
             }
 
 
-            @media only screen and (max-width: 1500px) {
+            @media only screen and (max-width: 1600px) {
                 height: 380px;
             }
 
@@ -393,20 +393,20 @@ $gray-text-color: #8C8C8C;
                 padding: 100px 30px 10px 30px;
                 position: relative;
 
-                // &_step {
-                //     background-color: #7E489C;
-                //     color: white;
-                //     width: 180px;
-                //     height: 180px;
-                //     border-radius: 50%;
-                //     position: absolute;
-                //     top: -80px;
-                //     left: 50%;
-                //     transform: translate(-50%);
-                //     padding-top: 110px;
-                //     font-family: 'Lato';
-                //     font-size: 25px;
-                // }
+                img {
+                    position: absolute;
+                    top: 0px;
+                    left: 96px;          
+                }
+                &_step {
+                    position: absolute;
+                    top: 12px;
+                    left: 123px;
+                    font-size: 30px;
+                    color: white;
+                    font-family: 'Lato';
+                    font-weight: 500;
+                }
             }
         }
 
@@ -437,8 +437,18 @@ $gray-text-color: #8C8C8C;
                     border-radius: 50%;
                     height: 280px;
                     width: 280px;
-                    padding: 50px 20px 10px 20px;
+                    padding: 100px 20px 10px 20px;
                     position: relative;
+                    img {
+                        position: absolute;
+                        top: 0px;
+                        left: 65px;          
+                    }
+                    &_step {
+                        position: absolute;
+                        top: 12px;
+                        left: 97px;
+                    }
                 }
             }
 
