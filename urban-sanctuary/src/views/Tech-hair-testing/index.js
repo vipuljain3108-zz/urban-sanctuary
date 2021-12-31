@@ -12,8 +12,6 @@ import ClusterIcons from '../../components/Cluster-icons';
 import EyeImg from '../../assets/images/tech-hair-testing/eyeImg.png'
 import Telescope from '../../assets/images/tech-hair-testing/telescope.png'
 import PieChart from '../../assets/images/tech-hair-testing/pieChart.png'
-import Phones from '../../assets/images/tech-hair-testing/phones.png'
-import PhoneBg from '../../assets/images/tech-hair-testing/phoneBg.png'
 import Bg1 from '../../assets/images/tech-hair-testing/b1.png'
 import Bg2 from '../../assets/images/tech-hair-testing/b2.png'
 import Bg3 from '../../assets/images/tech-hair-testing/b3.png'

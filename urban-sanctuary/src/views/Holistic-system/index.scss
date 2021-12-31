@@ -1,0 +1,155 @@
+.holistic_system {
+    .section1 {
+        background-image: url('../../assets/images/holistic-system/topBg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+
+        &_banner {
+            max-width: 1700px;
+            padding: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: auto;
+    
+            &_head {
+                font-size: 50px;
+                font-family: 'Lato';
+                max-width: 60%;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+
+                &_border {
+                    width: 90px;
+                    border-top: 4px solid white;
+                    margin-bottom: 25px;
+                }
+            }
+
+            &_side {
+                margin-bottom: 30px;
+                position: relative;
+                font-style: italic;
+                font-size: 17px;
+                text-align: center;
+                text-transform: capitalize;
+
+                img {
+                    width: 240px;
+                    height: 120px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .side1 {
+                position: relative;
+                left: -100px;
+            }
+
+            .side3 {
+                position: relative;
+                left: -40px;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            background-size: unset;
+
+            &_banner {
+                padding: 30px;
+                justify-content: center;
+
+                &_head {
+                    font-size: 40px;
+                    max-width: unset;
+                    margin-bottom: 30px;
+                }
+
+                .side1 {
+                    left: unset;
+                }
+    
+                .side3 {
+                    left: unset;
+                }
+            }
+        }
+
+        @media only screen and (min-width: 1920px) {
+            background-size: cover;
+        }
+    }
+
+    .section2 {
+        font-size: 30px;
+        padding: 50px 120px;
+        max-width: 1800px;
+        margin: auto;
+        font-family: 'Lato-bold';
+
+        &_desc {
+            font-size: 18px;
+            font-family: 'Lato';
+            margin-top: 20px;
+        }
+
+        @media only screen and (max-width: 800px) {
+            padding: 30px;
+        }
+    }
+
+    .commonSection {
+
+        &_content {
+            font-size: 17px;
+            padding: 60px 120px;
+            max-width: 1800px;
+            margin: auto;
+            font-family: 'Lato';
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+            color: #7D7D7D;
+
+            &_image {
+                height: 450px;
+                width: 540px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 70px;
+                text-align: center;
+                font-family: 'Lato-bold';
+                font-size: 24px;
+
+                &_desc {
+                    font-family: 'Lato';
+                    font-size: 17px;
+                }
+
+            }
+
+            &_text {
+                height: 550px;
+                width: 500px;
+                background-color: #F5F5F5;
+                padding: 30px;
+            }
+
+            &_main {
+                height: 600px;
+                width: 420px;
+                font-size: 15px;
+            }
+
+            @media only screen and (max-width: 800px) {
+                padding: 30px;
+            }
+        }
+    }
+}
