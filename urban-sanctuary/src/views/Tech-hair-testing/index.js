@@ -18,10 +18,6 @@ import Bg1 from '../../assets/images/tech-hair-testing/b1.png'
 import Bg2 from '../../assets/images/tech-hair-testing/b2.png'
 import Bg3 from '../../assets/images/tech-hair-testing/b3.png'
 import Calender from '../../assets/images/tech-hair-testing/calender.png'
-import curve1 from '../../assets/intersection.svg'
-import curve2 from '../../assets/intersection_yellow.svg'
-import curve3 from '../../assets/intersection_blue.svg'
-
 import VideoThumbnail from '../../assets/images/tech-hair-testing/videoThumbnail.png'
 import User1 from '../../assets/images/tech-hair-testing/brenda-user.png'
 import User2 from '../../assets/images/tech-hair-testing/walker-user.png'
@@ -133,17 +129,14 @@ const Index = () => {
                 <div className='section7_title'>BOOKING PROCESS</div>
                 <div className='section7_content'>
                     <div className='section7_content_item' style={{ backgroundColor: '#E6C7F7' }}>
-                        <img src={curve1} alt='curve' />
                         <div className='section7_content_item_step'>Step 1</div>
                         <p><b>Schedule a time</b> - Use our online booking calendar or phone us for an appointment on 021 505170 and confirm your appointment with a payment</p>
                     </div>
                     <div className='section7_content_item' style={{ backgroundColor: '#E4E893' }}>
-                        <img src={curve2} alt='curve' />
                         <div className='section7_content_item_step'>Step 2</div>
                         <p><b>Attend our Sanctuary</b> - Come into our Sanctuary at your scheduled appointment time allowing 1 hour. We will carefully take 4 hair strands from the nape of your neck for analysis, and review your report once it is complete.</p>
                     </div>
                     <div className='section7_content_item' style={{ backgroundColor: '#B5D9F1' }}>
-                        <img src={curve3} alt='curve' />
                         <div className='section7_content_item_step'>Step 3</div>
                         <p><b>Consultation and data integration</b> - We will discuss your test results with you, highlight areas of health excellence and concern, and if you wish, assist with the down load and integration of your new health data into the Health Creator App. </p>
                     </div>
