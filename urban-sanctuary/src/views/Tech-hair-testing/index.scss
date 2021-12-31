@@ -60,7 +60,7 @@ $gray-text-color: #8C8C8C;
                     width: 400px;
                 }
     
-                @media only screen and (max-width: 1500px) {
+                @media only screen and (max-width: 1600px) {
                     column-gap: 60px;
                     align-items: center;
                     justify-content: center;
@@ -115,7 +115,7 @@ $gray-text-color: #8C8C8C;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-            padding: 35px 150px;
+            padding: 35px 130px;
             color: $gray-text-color;
             justify-content: center;
             &_title {
@@ -136,7 +136,7 @@ $gray-text-color: #8C8C8C;
                 width: 38%;
             }
 
-            @media only screen and (max-width: 1500px) {
+            @media only screen and (max-width: 1600px) {
                 align-items: center;
                 justify-content: center;
             }
@@ -154,7 +154,7 @@ $gray-text-color: #8C8C8C;
         align-items: flex-start;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 60px 150px;
+        padding: 60px 100px;
         color: $gray-text-color;
 
         img {
@@ -183,7 +183,7 @@ $gray-text-color: #8C8C8C;
             }
         }
 
-        @media only screen and (max-width: 1500px) {
+        @media only screen and (max-width: 1600px) {
             align-items: flex-start;
             justify-content: center;
         }
@@ -253,7 +253,7 @@ $gray-text-color: #8C8C8C;
             }
         }
 
-        @media only screen and (max-width: 1500px) {
+        @media only screen and (max-width: 1600px) {
 
             top: unset;
             padding-top: 40px;
@@ -304,7 +304,7 @@ $gray-text-color: #8C8C8C;
             margin-top: 40px;
         }
 
-        @media only screen and (max-width: 1500px) {
+        @media only screen and (max-width: 1600px) {
             top: unset;
         }
 
@@ -335,7 +335,7 @@ $gray-text-color: #8C8C8C;
             }
 
 
-            @media only screen and (max-width: 1500px) {
+            @media only screen and (max-width: 1600px) {
                 height: 380px;
             }
 

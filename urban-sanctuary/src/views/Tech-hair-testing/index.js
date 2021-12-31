@@ -26,7 +26,7 @@ const Index = () => {
     return (
         <div className='hair_testing'>
             <Header />
-            <div className='section1' style={{ backgroundImage: `url(${BannerBg})`}}>
+            <div className='section1' style={{ backgroundImage: `url(${BannerBg})` }}>
                 <div className='section1_banner'>
                     <div className='breadCrumbs'>
                         <div className='breadCrumbs_links'>{`Services > Tech Testing > Hair Testing`}</div>
@@ -46,9 +46,9 @@ const Index = () => {
                                 <div>{`Personalized Epigenetic Nutritional & 
                                     Wellbeing Reports`}</div>
                             </div>
-                            <br/>
+                            <br />
                             Benefit from a full 30+ page report, which includes over 800 nutritional and environmental markers. This personalised data is delivered within 20 minutes via a German Based Digital Epigenetic Mapping Service, all from the scan of four of your hair strands. The Cell Wellbeing test helps to provide a piece of the puzzle around personalised nutritional epigenetic mapping, as well as personalised optimisation strategies.
-                            <br/><br/>Your epigenetic report highlights potential functional impacts caused by Environmental Toxins, Electro Magnetic Impacts, Nutritional Diet, Life Style and Underlying Food Stressors. Each report also provides nutritional advice on optimising your wellbeing. The Sanctuary uses this specific test to help evaluate a wide range of nutritional information including: Vitamins, Minerals, Amino Acids, Fatty Acids, and Anti-Oxidants to help craft the nutritional optimisation of meal plans. Cell Wellbeing is compliant with FDA rulings</div>
+                            <br /><br />Your epigenetic report highlights potential functional impacts caused by Environmental Toxins, Electro Magnetic Impacts, Nutritional Diet, Life Style and Underlying Food Stressors. Each report also provides nutritional advice on optimising your wellbeing. The Sanctuary uses this specific test to help evaluate a wide range of nutritional information including: Vitamins, Minerals, Amino Acids, Fatty Acids, and Anti-Oxidants to help craft the nutritional optimisation of meal plans. Cell Wellbeing is compliant with FDA rulings</div>
                     </div>
                     <ClusterIcons />
                 </div>
@@ -58,7 +58,7 @@ const Index = () => {
                     <div>
                         <div className='section2_content_title'>Discover your epigenetic health priorities to best strategise greater wellness
                         </div>
-                        <div className='section2_content_desc'>The Cell Wellbeing Hair Test assesses your epigenetics for vitamins, parasites and viruses, nutrition, toxins, antioxidants, microbiology, minerals, fatty acids, EFA and EMF (radiation), as well as system supports including adrenals, digestion, brain health, circulation, and emotions.</div><br/>
+                        <div className='section2_content_desc'>The Cell Wellbeing Hair Test assesses your epigenetics for vitamins, parasites and viruses, nutrition, toxins, antioxidants, microbiology, minerals, fatty acids, EFA and EMF (radiation), as well as system supports including adrenals, digestion, brain health, circulation, and emotions.</div><br />
                         <div>
                             <li>Are you nutritionally balanced or deficient in certain vitamins, amino’s, EFA’s, antioxidants and minerals?</li>
                             <li>How are your key bodily systems such as; immune, gastrointestinal, adrenals, and musculoskeletal systems fairing?</li>
@@ -70,7 +70,7 @@ const Index = () => {
                             <li>Is your sports performance, work ethic, life passions, mojo or general energy being hindered by unknown energy sapping factors? </li>
                         </div>
                     </div>
-                    <img src={EyeImg} alt='eye'/>
+                    <img src={EyeImg} alt='eye' />
                 </div>
             </div>
             <div className='section3'>
@@ -78,7 +78,7 @@ const Index = () => {
                 <div className='section3_content'>
                     <div className='section3_content_title'>German Based Digital Epigenetic Mapping Service</div>
                     <div className='section3_content_body'>Modern science now understands how your genes are largely influenced by lifestyle factors and the environment as opposed to purely genetic inheritance. With the Cell Wellbeing Digital S-Drive system it’s now possible to map out your personal epigenetic indicators in less than 20 minutes with only four strands of your hair.
-                       <br/><br/> Hair carries personal information concerning the state of your body and hence represents a method of analysis to obtain value bio-markers. The S drive and its associated German based analysis system, now enables the mapping of this epigenetic information to provide over 800 wellness indicators that can then be used to create a blue print of your wellbeing.
+                        <br /><br /> Hair carries personal information concerning the state of your body and hence represents a method of analysis to obtain value bio-markers. The S drive and its associated German based analysis system, now enables the mapping of this epigenetic information to provide over 800 wellness indicators that can then be used to create a blue print of your wellbeing.
                     </div>
                     <br></br>
                     <div className='displayFlex'>
@@ -87,15 +87,15 @@ const Index = () => {
                     </div>
                 </div>
             </div>
-            <div className='section4' style={{ backgroundImage: `url(${PhoneBg})`}}>
+            <div className='section4' style={{ backgroundImage: `url(${PhoneBg})` }}>
                 <div className='section4_content'>
                     <p>
-                    Integrate all health testing into one place. Gain a broad perspective of your results so that you can then identify and prioritise the most pro-active actions, and Sanctuary health services, to advance your well-being. Plan for optimal nutritional intake, rapid and precise weight shifting, physiological efficiencies, and better health psychology practises through recording and monitoring health data.
-                    <br/><br/>The Sanctuary Apps also assist you to project potential outcomes, habituate positive habits, and further evaluate toxin exposure, fitness and flexibility, your health approach, and your holistic health as a whole. Tie everything together to optimise your wellbeing via the most advanced strategies, systems and tech available.
+                        Integrate all health testing into one place. Gain a broad perspective of your results so that you can then identify and prioritise the most pro-active actions, and Sanctuary health services, to advance your well-being. Plan for optimal nutritional intake, rapid and precise weight shifting, physiological efficiencies, and better health psychology practises through recording and monitoring health data.
+                        <br /><br />The Sanctuary Apps also assist you to project potential outcomes, habituate positive habits, and further evaluate toxin exposure, fitness and flexibility, your health approach, and your holistic health as a whole. Tie everything together to optimise your wellbeing via the most advanced strategies, systems and tech available.
 
-                    <br/><br/>-Use the <span className='highlight'>Health Creator</span> app to create greater health span by programing and charting intermittent fasting, Sanctuary meals and sleep.
+                        <br /><br />-Use the <span className='highlight'>Health Creator</span> app to create greater health span by programing and charting intermittent fasting, Sanctuary meals and sleep.
 
-                    <br/><br/>-Use our <span className='highlight'>Weight Shifter</span> App to take control of your body composition, sculpting and weight management by combining optimum nutritional analysis with calorie associated exercise plans.
+                        <br /><br />-Use our <span className='highlight'>Weight Shifter</span> App to take control of your body composition, sculpting and weight management by combining optimum nutritional analysis with calorie associated exercise plans.
                     </p>
                     <div className='section4_content_floatingImg'>
                         <img src={Phones} alt='mobile' />
@@ -104,23 +104,23 @@ const Index = () => {
                 </div>
             </div>
             <div className='section5'>
-                <span className='section5_boldText'>Health psychology principle Guide and book</span> <br/>
-                A perfect learning companion to our Sanctuary Testing is the Principle Guide and book Health Psychology which thoroughly illustrates the processors and methods to epigenetic expression - and how to effectively advance health and evolve your life. 
-                <br/><br/>
-                <span className='section5_boldText'>Nutritional and Environmental Markers</span><br/>
+                <span className='section5_boldText'>Health psychology principle Guide and book</span> <br />
+                A perfect learning companion to our Sanctuary Testing is the Principle Guide and book Health Psychology which thoroughly illustrates the processors and methods to epigenetic expression - and how to effectively advance health and evolve your life.
+                <br /><br />
+                <span className='section5_boldText'>Nutritional and Environmental Markers</span><br />
                 Most health problems are easy to understand, treat and rectify, while others seem a mystery. More thorough and diverse testing can help provide you, your doctor and your health professionals the missing information to navigate a path to a better quality of life.
                 <div className='section5_link'>See all Sanctuary Testing.</div>
             </div>
             <div className='section6'>
-                <div className='section6_item' style={{backgroundImage: `url(${Bg1})`}}>
+                <div className='section6_item' style={{ backgroundImage: `url(${Bg1})` }}>
                     <div className='section6_item_title'>Quick and simple epigenetic testing</div>
                     <br /><div className='section6_item_body'>We carefully take 4 hair follicles from the nape of your neck, which are scanned by our S drive and analysed by the Cell-wellbeing team in Germany.</div>
                 </div>
-                <div className='section6_item' style={{backgroundImage: `url(${Bg2})`}}>
+                <div className='section6_item' style={{ backgroundImage: `url(${Bg2})` }}>
                     <div className='section6_item_title'>Detailed 30 page report within 20 minutes</div>
                     <br /><div className='section6_item_body'>Acomprehensive 30 + page report is received which provides insights into how your health and well-being can be improved, especially from nutritional and environmental stand points.</div>
                 </div>
-                <div className='section6_item' style={{backgroundImage: `url(${Bg3})`}}>
+                <div className='section6_item' style={{ backgroundImage: `url(${Bg3})` }}>
                     <div className='section6_item_title'>Health strategies and data integration</div>
                     <br /><div className='section6_item_body'>Based on your test results, and the health priorities identified, we discuss with you how you might maximise your time to most effectively improve your health. Plus integrate the Hair Test data with other Sanctuary testing for a broader health profile, to further fine tune effective strategies.</div>
                 </div>
@@ -153,7 +153,7 @@ const Index = () => {
             <div className='section8'>
                 <div className='section8_content'>
                     <div className='section8_content_body'>
-                        <div className='section8_content_body_head'>Our Customers</div>      
+                        <div className='section8_content_body_head'>Our Customers</div>
                         <div className='section8_content_body_user'>
                             <div className='section8_content_body_user_head'>
                                 <img src={User1} alt='user' />
@@ -169,7 +169,7 @@ const Index = () => {
                             <div>Lorem ipsum dolor sit amet consectetur adipiscing elit sodales primis, mollis viverra conubia ligula inceptos laoreet libero tortor, nascetur non habitasse iaculis tempor nec egestas fames augue, platea porta integer nostra curae sed arcu. Nec ut diam vulputate ante scelerisque ridiculus lobortis orci mi curae.</div>
                         </div>
                     </div>
-                    <img src={VideoThumbnail} alt='video'/>
+                    <img src={VideoThumbnail} alt='video' />
                 </div>
             </div>
             <FooterBanner />
