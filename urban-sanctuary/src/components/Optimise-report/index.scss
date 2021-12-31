@@ -1,0 +1,113 @@
+.content {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    .highlight {
+        color: #8CBF4B;
+        border: 1px solid #8CBF4B;
+        border-radius: 3px;
+    }
+
+    &_container {
+        font-family: 'Lato-light';
+        margin: auto;
+        max-width: 1800px;
+        font-size: 18px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 100px 60px 100px;
+        color: white;
+
+        &_link {
+            text-decoration: underline;
+        }
+
+        p {
+            max-width: 800px;
+            text-align: right;
+
+            .head {
+                font-family: 'Lato-bold';
+                font-size: 22px;
+                opacity: 65%;
+                margin-bottom: 20px;
+
+                &_title {
+                    font-size: 60px;
+                }
+            }
+        }
+
+        &_floatingImg {
+            position: relative;
+            bottom: -100px;
+            left: -40px;
+
+            img {
+                height: auto;
+                width: 500px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1600px) {
+
+        top: unset;
+        padding-top: 40px;
+
+        &_container {
+            align-items: flex-start;
+            justify-content: center;
+
+            &_floatingImg {
+                position: relative;
+                bottom: unset;
+                left: unset;
+                order: 2;
+
+                img {
+                    height: auto;
+                    width: 360px;
+                }
+            }
+
+            &_link {
+                order: 3;
+            }
+
+            p {
+                text-align: unset;
+    
+                .head {
+                    font-size: 20px;
+    
+                    &_title {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+
+        &_container {
+            padding: 30px;
+
+            p {
+                max-width: unset;
+    
+                .head {
+                    font-size: 18px;
+    
+                    &_title {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
