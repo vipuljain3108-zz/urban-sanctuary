@@ -16,7 +16,7 @@ $gray-text-color: #8C8C8C;
         &_banner {
             color: white;
             font-family: 'Lato';
-            padding: 80px 120px 60px 120px;
+            padding: 80px 150px 60px 150px;
             max-width: 1800px;
             margin: auto;
     
@@ -77,7 +77,7 @@ $gray-text-color: #8C8C8C;
     
             &_desc {
                 max-width: 800px;
-                font-size: 17px;
+                font-size: 18px;
     
                 &_head {
                     border-left: 6px solid #56B703;
@@ -110,13 +110,13 @@ $gray-text-color: #8C8C8C;
 
         &_content {
             margin: auto;
-            max-width: 1800px;
+            max-width: 1650px;
             font-size: 15px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
-            padding: 35px 120px;
+            padding: 35px 150px;
             color: $gray-text-color;
 
             &_title {
@@ -150,13 +150,13 @@ $gray-text-color: #8C8C8C;
     }
 
     .section3 {
-        max-width: 1800px;
+        max-width: 1680px;
         margin: auto;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 60px 120px;
+        padding: 60px 150px;
         color: $gray-text-color;
 
         img {
@@ -167,7 +167,7 @@ $gray-text-color: #8C8C8C;
 
         &_content {
             max-width: 760px;
-            font-size: 16px;
+            font-size: 18px;
 
             p {
                 max-width: 300px;
@@ -227,12 +227,12 @@ $gray-text-color: #8C8C8C;
             font-family: 'Lato-light';
             margin: auto;
             max-width: 1800px;
-            font-size: 17px;
+            font-size: 18px;
             display: flex;
             align-items: flex-end;
             justify-content: space-between;
             flex-wrap: wrap;
-            padding: 0 120px 60px 120px;
+            padding: 0 150px 60px 150px;
             color: white;
 
             &_link {
@@ -286,14 +286,14 @@ $gray-text-color: #8C8C8C;
     }
 
     .section5 {
-        max-width: 1500px;
+        max-width: 1350px;
         margin: auto;
         background-color: #F6F6F6;
-        padding: 60px 140px;
+        padding: 60px 100px;
         position: relative;
         top: -80px;
         font-family: 'Lato';
-        font-size: 17px;
+        font-size: 18px;
 
         &_boldText {
             font-family: 'Lato-bold';
@@ -327,7 +327,7 @@ $gray-text-color: #8C8C8C;
             background-position: center;
             background-size: cover;
             font-family: 'Lato';
-            font-size: 17px;
+            font-size: 18px;
             padding: 30px 60px;
 
             &_title {
@@ -359,12 +359,12 @@ $gray-text-color: #8C8C8C;
     .section7 {
         text-align: center;
         font-family: 'Lato';
-        font-size: 17px;
+        font-size: 18px;
         max-width: 1800px;
         margin: auto;
         color: #595959;
         position: relative;
-        padding: 0 120px;
+        padding: 0 150px;
 
         &_title {
             font-family: 'Lato-bold';
@@ -392,21 +392,22 @@ $gray-text-color: #8C8C8C;
                 width: 340px;
                 padding: 100px 30px 10px 30px;
                 position: relative;
+                overflow: hidden;
 
-                // &_step {
-                //     background-color: #7E489C;
-                //     color: white;
-                //     width: 180px;
-                //     height: 180px;
-                //     border-radius: 50%;
-                //     position: absolute;
-                //     top: -80px;
-                //     left: 50%;
-                //     transform: translate(-50%);
-                //     padding-top: 110px;
-                //     font-family: 'Lato';
-                //     font-size: 25px;
-                // }
+                &_step {
+                    background-color: #7E489C;
+                    color: white;
+                    width: 180px;
+                    height: 180px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -100px;
+                    left: 50%;
+                    transform: translate(-50%);
+                    padding-top: 125px;
+                    font-family: 'Lato';
+                    font-size: 25px;
+                }
             }
         }
 
@@ -437,8 +438,16 @@ $gray-text-color: #8C8C8C;
                     border-radius: 50%;
                     height: 280px;
                     width: 280px;
-                    padding: 50px 20px 10px 20px;
+                    padding: 85px 20px 10px 20px;
                     position: relative;
+
+                    &_step {
+                        width: 160px;
+                        height: 160px;
+                        top: -90px;
+                        padding-top: 100px;
+                        font-size: 23px;
+                    }
                 }
             }
 
@@ -456,7 +465,7 @@ $gray-text-color: #8C8C8C;
         &_content {
             max-width: 1800px;
             margin: auto;   
-            padding: 60px 120px;
+            padding: 60px 150px;
             display: flex;
             align-items: flex-end;
             justify-content: space-around;
@@ -502,11 +511,7 @@ $gray-text-color: #8C8C8C;
                         &_user {
                             margin-top: 30px;
                             max-width: unset;
-                            font-size: 16px;
-
-                            &_head {
-                                font-size: 16px;
-                            }
+                            font-size: 18px;
                         }
                     }
                 }
