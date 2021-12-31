@@ -21,6 +21,7 @@ import Calender from '../../assets/images/tech-hair-testing/calender.png'
 import VideoThumbnail from '../../assets/images/tech-hair-testing/videoThumbnail.png'
 import User1 from '../../assets/images/tech-hair-testing/brenda-user.png'
 import User2 from '../../assets/images/tech-hair-testing/walker-user.png'
+import OptimiseReports from '../../components/Optimise-report'
 
 const Index = () => {
     return (
@@ -87,21 +88,8 @@ const Index = () => {
                     </div>
                 </div>
             </div>
-            <div className='section4' style={{ backgroundImage: `url(${PhoneBg})` }}>
-                <div className='section4_content'>
-                    <p>
-                        Integrate all health testing into one place. Gain a broad perspective of your results so that you can then identify and prioritise the most pro-active actions, and Sanctuary health services, to advance your well-being. Plan for optimal nutritional intake, rapid and precise weight shifting, physiological efficiencies, and better health psychology practises through recording and monitoring health data.
-                        <br /><br />The Sanctuary Apps also assist you to project potential outcomes, habituate positive habits, and further evaluate toxin exposure, fitness and flexibility, your health approach, and your holistic health as a whole. Tie everything together to optimise your wellbeing via the most advanced strategies, systems and tech available.
-
-                        <br /><br />-Use the <span className='highlight'>Health Creator</span> app to create greater health span by programing and charting intermittent fasting, Sanctuary meals and sleep.
-
-                        <br /><br />-Use our <span className='highlight'>Weight Shifter</span> App to take control of your body composition, sculpting and weight management by combining optimum nutritional analysis with calorie associated exercise plans.
-                    </p>
-                    <div className='section4_content_floatingImg'>
-                        <img src={Phones} alt='mobile' />
-                    </div>
-                    <div className='section4_content_link'>See our Directive Health Package</div>
-                </div>
+            <div className='section4'>
+                <OptimiseReports />
             </div>
             <div className='section5'>
                 <span className='section5_boldText'>Health psychology principle Guide and book</span> <br />

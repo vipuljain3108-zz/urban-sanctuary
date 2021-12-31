@@ -209,76 +209,35 @@ $gray-text-color: #8C8C8C;
         }
     }
 
-    .section4 {
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        top: -180px;
-
-        .highlight {
-            color: #8CBF4B;
-            border: 1px solid #8CBF4B;
-            border-radius: 3px;
-        }
-
-        &_content {
-            font-family: 'Lato-light';
-            margin: auto;
-            max-width: 1800px;
-            font-size: 18px;
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            padding: 0 100px 60px 100px;
-            color: white;
-
-            &_link {
-                text-decoration: underline;
-            }
-
-            p {
-                max-width: 800px;
-            }
-
-            &_floatingImg {
-                position: relative;
-                bottom: -140px;
-                left: 80px;
-
-                img {
-                    height: 580px;
-                    width: auto;
+    .section4{
+        .content {
+            position: relative;
+            top: -180px;
+        
+            &_container {
+                &_link {
+                    order: 3;
                 }
-            }
-        }
-
-        @media only screen and (max-width: 1600px) {
-
-            top: unset;
-            padding-top: 40px;
-
-            &_content {
-                align-items: flex-start;
-                justify-content: center;
-
-                &_floatingImg {
-                    position: relative;
-                    bottom: unset;
-                    left: unset;
-    
-                    img {
-                        height: 480px;
-                        width: auto;
+        
+                p {
+                    order: 1;
+                    text-align: unset !important;
+        
+                    .head {
+                        visibility: hidden;
                     }
                 }
-            }
-        }
+        
+                &_floatingImg {
+                    position: relative;
+                    bottom: -140px;
+                    left: unset !important;
+                    order: 2;
 
-        @media only screen and (max-width: 800px) {
-
-            &_content {
-                padding: 30px;
+                    @media only screen and (max-width: 1400px) {
+                        bottom: unset;
+                    }
+                }
             }
         }
     }
