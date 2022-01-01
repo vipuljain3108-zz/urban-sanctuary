@@ -10,6 +10,16 @@ import ClusterIcons from '../../components/Cluster-icons';
 import FiveMen from '../../components/Five-men';
 import CommonImage1 from '../../assets/images/holistic-system/s1-1.png';
 import MainImage1 from '../../assets/images/holistic-system/s1-2.png';
+import CommonImage2 from '../../assets/images/holistic-system/s2-1.png';
+import MainImage2 from '../../assets/images/holistic-system/s2-2.png';
+import CommonImage3 from '../../assets/images/holistic-system/s3-1.png';
+import MainImage3 from '../../assets/images/holistic-system/s3-2.png';
+import CommonImage4 from '../../assets/images/holistic-system/s4-1.png';
+import MainImage4 from '../../assets/images/holistic-system/s4-2.png';
+import CommonImage5 from '../../assets/images/holistic-system/s5-1.png';
+import MainImage5 from '../../assets/images/holistic-system/s5-2.png';
+import TestTube from '../../assets/images/holistic-system/testTube.png';
+import SanctuaryServices from '../../components/Sanctuary-services';
 
 const Index = () => {
     return (
@@ -60,7 +70,7 @@ const Index = () => {
                     </div>
                     <div className='commonSection_content_main'>
                         <div className='commonSection_content_main_title'>
-                            Skin Analyser
+                            INBODY SCANNER
                         </div>
                         <img src={MainImage1} alt='img' />
                         <div className='commonSection_content_main_desc'>
@@ -69,7 +79,171 @@ const Index = () => {
                     </div>
                 </div>
             </div>
+            <div className='commonSection'>
+                <div className='commonSection_content'>
+                    <div className='commonSection_content_main'>
+                        <div className='commonSection_content_main_title'>
+                            HAIR TESTING
+                        </div>
+                        <div style={{ textAlign: 'left', position: 'relative', left: '-60px', top: '-5px', fontSize: '18px'}}>Cell Wellbeing</div>
+                        <img src={CommonImage2} alt='img' height='60px' width='auto'/>
+                        <div className='commonSection_content_main_desc'>
+                        {`Personalized Epigenetic Nutritional & Wellbeing Reports`}
+                        </div>
+                    </div>
+                    <div className='commonSection_content_image' style={{ backgroundImage: `url(${MainImage2})`}}>
+                        <div className='commonSection_content_image_darken' />
+                        <div>
+                            Nutritional and Environmental Markers
+                            <div className='commonSection_content_image_desc'>
+                            German Based Digital Epigenetic Mapping Service
+                            </div>
+                        </div>
+                    </div>
+                    <div className='commonSection_content_text'>
+                    Benefit from a full 30+ page report, which includes over 800 nutritional and environmental markers. This personalised data is delivered within 20 minutes via a German Based Digital Epigenetic Mapping Service, all from the scan of four of your hair strands and roots. The Cell Wellbeing test helps to provide a piece of the puzzle around personalised nutritional epigenetic mapping, as well as personalised optimisation strategies.
+                    <br/><br/>Your epigenetic report highlights potential functional impacts caused by Environmental Toxins, Electro Magnetic Impacts, Nutritional Diet, Life Style and Underlying Food Stressors. Each report also provides nutritional advice on optimising your wellbeing. The Sanctuary uses this specific test to help evaluate a wide range of nutritional information including: Vitamins, Minerals, Amino Acids, Fatty Acids, and Anti-Oxidants to help craft the nutritional optimisation of meal plans.
+                    <span style={{ fontSize: '12px' }}>Cell Wellbeing is compliant with FDA rulings</span>
+                    </div>
+                </div>
+            </div>
+            <div className='commonSection' style={{ backgroundColor: '#F5F5F5'}}>
+                <div className='commonSection_content'>
+                    <div className='commonSection_content_image' style={{ backgroundImage: `url(${CommonImage3})`}}>
+                        <div className='commonSection_content_image_darken' />
+                        <div>
+                            Authentic beauty and radiant skin
+                            <div className='commonSection_content_image_desc'>
+                            Pin point the condition of your skin and avoid long term damage with our state of the art skin testing service.
+                            </div>
+                        </div>
+                    </div>
+                    <div className='commonSection_content_text'>
+                    At the Sanctuary we believe that great skin is a reflection of inner health, and that full health and hence true beauty shows itself through the radiance of the eyes, hair and skin. Health and Beauty is represented by what is going on inside of your mind-body, and by the way you protect, nurture and nourish your skin and hair. 
+                    <br/><br/>A skin test will reveal not just the condition of your skin, and how to externally look after it, but also contributes to an overview of our comprehensive heath testing services. This holistic health map can identify toxins, nutrient deficiencies, as well as other health conditions which impact appearance, all important information that can then be cross referenced to integrate a natural improvement program for you to achieve greater Vitality and Longevity - which will involve glowing, youthful skin.
+                    <br/><br/>We recommend using the fully natural and nutrient rich Vision Products skin and hair care range, along with specialised treatments to compliment this authentic beauty approach.
+                    </div>
+                    <div className='commonSection_content_main'>
+                        <div className='commonSection_content_main_title' style={{ position: 'relative', left: '-55px'}}>
+                        Skin Analyser
+                        </div>
+                        <img src={MainImage3} alt='img' />
+                        <div className='commonSection_content_main_desc'>
+                        Cross reference tests and gain a window into nutritional optimisation, environmental challenges and toxins, cardiorespiratory and cardiovascular health to achieve the very best beauty appearance possible. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='commonSection'>
+                <div className='commonSection_content'>
+                    <div className='commonSection_content_main'>
+                        <div className='commonSection_content_main_title'>
+                        Finger Pulse Oximeter
+                        </div>
+                        <img src={CommonImage4} alt='img' height='60px' width='auto'/>
+                    </div>
+                    <div className='commonSection_content_image' style={{ backgroundImage: `url(${MainImage4})`}}>
+                        <div className='commonSection_content_image_darken' />
+                        <div>
+                            Blood oxygen saturation
+                            <div className='commonSection_content_image_desc'>
+                            Cardiorespiratory and mitochondria efficiency
+                            </div>
+                        </div>
+                    </div>
+                    <div className='commonSection_content_text'>
+                        Oxygen is transported to the blood within the body through the respiratory system and blood oxygen can be potentially influenced by fresh air, water intake, iron rich foods, exercise, and breathing exercise for additional amounts of oxygen to the lungs and greater energy. This Finger Pulse Oximeter is a simple, yet accurate way for spot-checking blood oxygen saturation levels (and pulse rate) through a fast, and pain free process by simply attaching the device to the finger.  
+                    </div>
+                </div>
+            </div>
+            <div className='commonSection' style={{ backgroundColor: '#F5F5F5'}}>
+                <div className='commonSection_content'>
+                    <div className='commonSection_content_image' style={{ backgroundImage: `url(${CommonImage5})`}}>
+                        <div className='commonSection_content_image_darken' />
+                        <div>
+                        Blood Pressure Monitor
+                            <div className='commonSection_content_image_desc'>
+                            Keeping an eye on influencing life style factors
+                            </div>
+                        </div>
+                    </div>
+                    <div className='commonSection_content_text'>
+                    Increased blood pressure can cause health issues and primary hypertension is high blood pressure that develops gradually over time. High blood pressure is most common in adults and is influenced by lifestyle habits such as regular exercise, weight control, healthy diet, and limiting stress, alcohol and tobacco.
+                    </div>
+                    <div className='commonSection_content_main'>
+                        <div className='commonSection_content_main_title'>
+                        Blood Pressure Monitor
+                        </div>
+                        <img src={MainImage5} alt='img' />
+                    </div>
+                </div>
+            </div>
             <OptimiseReport />
+            <div className='section2' style={{ paddingBottom: '140px'}}>
+                Precision Functional Health Testing
+                <div className='section2_desc'>Fully understand your unique body and its perplexities, with specific health tests, to gain the transparency you need to advance your health state. Functional pathology tests are used to investigate functional, biochemical, nutritional, metabolic and hormonal status. Which can assist practitioners in the diagnosis, treatment and management of patients seeking a holistic approach to health. </div>
+                <div className='section2_btn'>Enquire Now</div>
+            </div>
+            <div className='section3' style={{ backgroundColor: '#F5F5F5'}}>
+                <div className='section3_content'>
+                    <div className='section3_content_container'>
+                        <img src={TestTube} alt='TestTube' />
+                        <p>Functional tests focus on actual bodily functions as markers of health, rather than merely looking at disease states and markers of disease, which can also assist in establishing preventive health measures.</p>
+                        <div></div>
+                    </div>
+                    <div className='section3_content_dropDowns'>
+                        <div className='section3_content_dropDowns_item'>
+                            <div>
+                            Standard blood test
+                            </div>
+                            <div>+</div>
+                        </div>
+                        <div className='section3_content_dropDowns_item'>
+                            <div>
+                            Complete Microbiome Mapping
+                            </div>
+                            <div>+</div>
+                        </div>
+                        <div className='section3_content_dropDowns_item'>
+                            <div>
+                            IgA/IgE/lgG Elisa Test
+                            </div>
+                            <div>+</div>
+                        </div>
+                        <div className='section3_content_dropDowns_item'>
+                            <div>
+                            eve test
+                            </div>
+                            <div>+</div>
+                        </div>
+                        <div className='section3_content_dropDowns_item'>
+                            <div>
+                            DUTCH Test
+                            </div>
+                            <div>+</div>
+                        </div>
+                        <div className='section3_content_dropDowns_item'>
+                            <div>
+                            Organic Acids test
+                            </div>
+                            <div>+</div>
+                        </div>
+                        <div className='section3_content_dropDowns_item'>
+                            <div>
+                            DNA Testing
+                            </div>
+                            <div>+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='boldText'>Create your complete health map with Sanctuary health testing to establish preventative health and health evolution measures</div>
+            <SanctuaryServices />
+            <div className='disclaimer'>
+                <div className='disclaimer_head'>HEALTH DISCLAIMER</div>
+                The Sanctuary services, Guides, protocols, programs, blogs and newsletters, and all other such content are provided as general information and discussions about health and related subjects. The information and content provided in this website, or in any linked materials, are not intended and should not be construed as medical advice, nor is the information a substitute for professional medical expertise or treatment.
+                <br/><br/>If you or any other person has a medical concern, you should consult with your health care provider or seek other professional medical treatment. Never disregard professional medical advice or delay in seeking it because of something that you have read on this website or in any linked or related materials. If you think you may have a medical emergency, call your doctor or emergency services immediately. The opinions and views expressed herein have no relation to those of any academic, hospital, health practice or other institution.
+            </div>
             <FooterBanner />
         </div>
     )

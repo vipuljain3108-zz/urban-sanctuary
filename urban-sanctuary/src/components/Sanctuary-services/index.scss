@@ -1,0 +1,50 @@
+.sanctuary_services {
+    max-width: 1700px;
+    margin: auto;
+    padding: 50px 120px;
+    text-align: center;
+
+    &_head {
+        color: #8C8C8C;
+        font-size: 25px;
+        font-family: 'Lato-bold';
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    &_slider {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+
+        img {
+            height: 50px;
+            width: auto;
+        }
+
+        &_content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 10px;
+            max-width: 1400px;
+            overflow: auto;
+
+            &_item {
+                height: 200px;
+                min-width: 200px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        padding: 30px;
+
+        &_slider {
+            &_content {
+                justify-content: unset;
+            }
+        }
+    }
+}

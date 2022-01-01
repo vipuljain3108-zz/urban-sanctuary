@@ -88,15 +88,34 @@
         max-width: 1800px;
         margin: auto;
         font-family: 'Lato-bold';
+        position: relative;
 
         &_desc {
             font-size: 18px;
             font-family: 'Lato';
             margin-top: 20px;
+        }   
+
+        &_btn {
+            padding: 10px 15px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: inline;
+            font-family: 'Lato';
+            position: absolute;
+            right: 350px;
+            bottom: 25px;
+            font-size: 20px;
+            width: 150px;
         }
 
         @media only screen and (max-width: 800px) {
             padding: 30px;
+
+            &_btn {
+                left: 30px;
+                bottom: 25px;
+            }
         }
     }
 
@@ -105,28 +124,29 @@
         &_content {
             font-size: 17px;
             padding: 60px 120px;
-            max-width: 1800px;
+            max-width: 1650px;
             margin: auto;
             font-family: 'Lato';
             display: flex;
             align-items: center;
             justify-content: space-around;
             flex-wrap: wrap;
-            gap: 30px;
+            row-gap: 30px;
             color: #7D7D7D;
 
             &_image {
-                height: 450px;
-                width: 540px;
+                height: 380px;
+                max-width: 460px;
                 color: white;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding: 0 70px;
+                padding: 0 60px;
                 text-align: center;
                 font-family: 'Lato-bold';
                 font-size: 24px;
-
+                background-position: center;
+                background-size: cover;
                 &_desc {
                     font-family: 'Lato';
                     font-size: 17px;
@@ -135,16 +155,122 @@
             }
 
             &_text {
-                height: 550px;
-                width: 500px;
-                background-color: #F5F5F5;
+                max-width: 480px;
+                min-height: 480px;
+                background-color: #F2F2F2;
                 padding: 30px;
             }
 
             &_main {
-                height: 600px;
-                width: 420px;
-                font-size: 15px;
+                max-width: 420px;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 0 20px;
+
+                &_title {
+                    font-family: 'Lato-bold';
+                    font-size: 40px;
+                    border-left: 6px solid #7D7D7D;
+                    padding-left: 20px;
+                    text-transform: uppercase;
+                }
+
+                img {
+                    max-height: 380px;
+                    width: auto;
+                    margin: 25px 0;
+                }
+            }
+
+            @media only screen and (max-width: 1200px) {
+                font-size: 16px;
+                padding: 50px 30px;
+                justify-content: center;
+
+                &_image {
+                    height: unset;
+                    width: unset;
+                    padding: 80px 30px;
+                    font-size: 20px;
+                }
+
+                &_text {
+                    min-height: unset;
+                }
+    
+            }
+        }
+    }
+
+    .section3 {
+        &_content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1700px;
+            margin: auto;
+            padding: 0 120px;
+            position: relative;
+
+            &_container {
+                max-width: 600px;
+                position: relative;
+                top: -80px;
+
+                img {
+                    height: auto;
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-family: 'Lato';
+                    color: #8C8C8C;
+                    margin-left: 40px;
+                }
+
+                @media only screen and (max-width: 1400px) {
+                    top: unset;
+                    padding-top: 50px;
+
+                    p{
+                        margin-bottom: 40px;
+                        margin-left: unset;
+                    }
+                }
+            }
+
+            &_dropDowns {
+                &_item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 600px;
+                    color: #8C8C8C;
+                    font-size: 24px;
+                    font-family: 'Lato-bold';
+                    background-color: white;
+                    padding: 25px 50px;
+                    border-bottom: 1px solid #707070;
+
+                    &:last-child {
+                        border-bottom: unset;
+                    }
+
+
+                    @media only screen and (max-width: 700px) {
+                        width: 340px;
+                        padding: 20px;
+                    }
+                }
+
+                @media only screen and (max-width: 1400px) {
+                    margin-bottom: 60px;
+                }
             }
 
             @media only screen and (max-width: 800px) {
@@ -152,4 +278,40 @@
             }
         }
     }
+
+    .boldText {
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Lato-bold';
+        margin: auto;
+        max-width: 1700px;
+        padding: 50px 120px;
+        color: #8C8C8C;
+
+        @media only screen and (max-width: 800px) {
+            padding: 30px;
+        }
+    }
+
+    .disclaimer {
+        color: #595959;
+        font-size: 13px;
+        text-align: center;
+        font-family: 'Lato';
+        margin: auto;
+        max-width: 1700px;
+        padding: 0 120px 40px 120px;
+
+        &_head {
+            font-size: 17px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        @media only screen and (max-width: 800px) {
+            padding: 30px;
+        }
+    }
+
+    
 }

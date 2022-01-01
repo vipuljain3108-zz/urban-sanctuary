@@ -1,0 +1,16 @@
+.service_item {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+        background-color: rgba(84, 84, 84, 0.5);
+        color: white;
+        font-size: 16px;
+        font-family: 'Lato';
+        width: 100%;
+        padding: 10px 0;
+    }
+}
