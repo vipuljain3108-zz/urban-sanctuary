@@ -178,7 +178,7 @@ const Index = () => {
                     </div>
                 </div>
             </div>
-            <OptimiseReport />
+            <OptimiseReport showHead/>
             <div className='section2' style={{ paddingBottom: '140px'}}>
                 Precision Functional Health Testing
                 <div className='section2_desc'>Fully understand your unique body and its perplexities, with specific health tests, to gain the transparency you need to advance your health state. Functional pathology tests are used to investigate functional, biochemical, nutritional, metabolic and hormonal status. Which can assist practitioners in the diagnosis, treatment and management of patients seeking a holistic approach to health. </div>

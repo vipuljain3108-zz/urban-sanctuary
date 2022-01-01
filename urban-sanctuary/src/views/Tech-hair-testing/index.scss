@@ -139,6 +139,7 @@ $gray-text-color: #8C8C8C;
             @media only screen and (max-width: 1600px) {
                 align-items: center;
                 justify-content: center;
+                padding: 35px 80px;
             }
     
             @media only screen and (max-width: 800px) {
@@ -186,6 +187,7 @@ $gray-text-color: #8C8C8C;
         @media only screen and (max-width: 1600px) {
             align-items: flex-start;
             justify-content: center;
+            padding: 60px;
         }
 
         @media only screen and (max-width: 800px) {

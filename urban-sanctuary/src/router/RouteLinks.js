@@ -10,6 +10,7 @@ import StoreInbodyScanning  from '../views/StoreInbodyScanning/StoreInbodyScanni
 import AboutUs from '../views/About-us';
 import TechHairTesting from '../views/Tech-hair-testing';
 import HolisticSystem  from '../views/Holistic-system';
+import HealthSpecialists  from '../views/Health-specialists';
 
 export const RouteLinks = {
     Register: {
@@ -47,5 +48,8 @@ export const RouteLinks = {
     },
     HolisticSystem: {
       component: HolisticSystem, path: '/holistic-system',
+    },
+    HealthSpecialists: {
+      component: HealthSpecialists, path: '/health-specialists',
     },
 }
