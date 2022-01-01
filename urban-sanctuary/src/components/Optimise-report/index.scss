@@ -13,12 +13,12 @@
         font-family: 'Lato-light';
         margin: auto;
         max-width: 1700px;
-        font-size: 18px;
+        font-size: 17px;
         display: flex;
         align-items: flex-end;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        padding: 0 80px 60px 80px;
+        padding: 0 135px 60px 135px;
         color: white;
 
         &_link {
@@ -31,7 +31,7 @@
 
             .head {
                 font-family: 'Lato-bold';
-                font-size: 22px;
+                font-size: 24px;
                 opacity: 65%;
                 margin-bottom: 20px;
 
@@ -54,15 +54,13 @@
         }
     }
 
-    @media only screen and (max-width: 1500px) {
+    @media only screen and (max-width: 1700px) {
 
         top: unset;
         padding-top: 40px;
 
         &_container {
-            align-items: flex-start;
-            justify-content: center;
-
+            flex-direction: row-reverse;
             &_floatingImg {
                 position: relative;
                 bottom: unset;
@@ -93,11 +91,27 @@
         }
     }
 
+    @media only screen and (max-width: 1500px) {
+        &_container{
+            justify-content: space-between !important;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 1300px) {
+        &_container{
+            justify-content: space-evenly !important;
+        }
+    }
+
+
+
     @media only screen and (max-width: 800px) {
 
         &_container {
             padding: 30px;
-
+            flex-direction: column;
             p {
                 max-width: unset;
     
