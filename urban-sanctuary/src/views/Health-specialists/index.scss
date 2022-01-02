@@ -1,0 +1,103 @@
+.health_specialists {
+    font-family: 'Lato';
+
+    .customers {
+        background-color: #EDECE8;
+        
+        &_content {
+            margin: auto;
+            max-width: 1920px;
+            text-align: center;
+            padding: 50px 0;
+
+            &_head {
+                font-size: 35px;
+                font-family: 'Lato';
+                color: #8C8C8C;
+                margin-bottom: 60px;
+            }
+        }
+    }
+
+    .section1 {
+        &_content {
+            max-width: 1200px;
+            margin: auto;
+            padding: 15px 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+
+            p {
+                margin: unset;
+                font-size: 20px;
+                font-family: 'Lato';
+            }
+
+            &_item {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                border-left: 2px solid #DFDFDF;
+                padding-left: 50px;
+                
+                img {
+                    height: 25px;
+                    width: 25px;
+                    margin-right: 10px;
+                }
+            }
+
+            @media only screen and (max-width: 1200px) {
+                &_item {
+                    border-left: unset;
+                    padding-left: unset;
+                }
+            }
+        }
+    }
+
+    .section_pills {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+        flex-wrap: wrap;
+        max-width: 1600px;
+        padding: 30px 120px;
+        margin: auto;
+        font-size: 16px;
+        color: #595959;
+
+        &_item {
+            padding: 5px 20px;
+            border-radius: 20px;
+            border: 1px solid #8C8C8C;
+        }
+    }
+
+    &_banner {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        &_bgImg {
+            height: 80vh;
+            width: 65%;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/health-specialists/bannerUser.png'), linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+            background-position: bottom;
+            background-size: contain;
+            background-repeat: no-repeat;
+            clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+        }
+
+        &_bgColor {
+            height: 80vh;
+            width: 55%;
+            background-color: #2C2C2C;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+        }
+    }
+}

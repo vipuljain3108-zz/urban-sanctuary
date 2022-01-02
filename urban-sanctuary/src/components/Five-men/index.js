@@ -5,10 +5,6 @@ import BlueBody from '../../assets/images/holistic-system/blue.png'
 import MiddleBody from '../../assets/images/holistic-system/middle.png'
 import PinkBody from '../../assets/images/holistic-system/pink.png'
 import YellowBody from '../../assets/images/holistic-system/yellow.png'
-import Cluster1 from "../../assets/images/Cluster-1.png";
-import Cluster2 from "../../assets/images/Cluster-2.png";
-import Cluster3 from "../../assets/images/Cluster-3.png";
-import Cluster4 from "../../assets/images/Cluster-4.png";
 
 const Index = () => {
     return (

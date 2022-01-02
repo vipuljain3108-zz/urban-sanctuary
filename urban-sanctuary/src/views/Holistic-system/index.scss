@@ -291,27 +291,5 @@
         @media only screen and (max-width: 800px) {
             padding: 30px;
         }
-    }
-
-    .disclaimer {
-        color: #595959;
-        font-size: 13px;
-        text-align: center;
-        font-family: 'Lato';
-        margin: auto;
-        max-width: 1700px;
-        padding: 0 120px 40px 120px;
-
-        &_head {
-            font-size: 17px;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        @media only screen and (max-width: 800px) {
-            padding: 30px;
-        }
-    }
-
-    
+    }    
 }

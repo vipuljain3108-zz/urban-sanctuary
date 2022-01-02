@@ -1,0 +1,85 @@
+.customer_reviews {
+    padding: 0 100px;
+
+    .review-card {
+        margin: 10px 10px;
+        position: relative;
+
+        .card-review {
+            padding: 15px;
+            border: 1px solid rgb(197, 195, 195);
+            border-radius: 4px;
+            margin: 0 20px;
+            background-color: white;
+
+            .head-sec {
+                display: flex;
+                align-items: center;
+                .head-info {
+                    margin-left: 15px;
+                    p {
+                        font-family: 'Lato-Bold';
+                        font-size: 14px;
+                        margin: 0;
+                    }
+                    h1 {
+                        font-family: 'Lato-Bold';
+                        font-size: 20px;
+                    }
+                }
+            }
+            .star-info {
+                display: flex;
+                justify-content: space-between;
+                margin: 15px 10px 10px 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid rgb(226, 226, 226);
+                i {
+                    color: #FFAE31;
+                }
+                .no-colr {
+                    color: #B5B5B5;
+                }
+                p {
+                    margin: 0;
+                    font-family: 'Lato-Regular';
+                    font-size: 14px;
+                    color: #24231F;
+                }
+            }
+            .info2 {
+                padding: 10px;
+                position: relative;
+                p {
+                    padding: 10px 15px;
+                    margin: 0;
+                    color: #24231F;
+                    font-family: 'Lato-Light';
+                    font-size: 18px;
+                }
+                .img2 {
+                    position: absolute;
+                    right: 0;
+                }
+                span {
+                    display: block;
+                    text-align: right;
+                    padding-top: 30px;
+                    font-family: 'Lato-Light';
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .review-card::before {
+        content: '  —';
+        position: absolute;
+        top: -29px;
+        left: 29px;
+        font-size: 38px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        padding: 30px;
+    }
+}
