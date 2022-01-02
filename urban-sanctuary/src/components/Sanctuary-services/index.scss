@@ -1,12 +1,12 @@
 .sanctuary_services {
-    max-width: 1700px;
+    max-width: 1800px;
     margin: auto;
     padding: 50px 120px;
     text-align: center;
 
     &_head {
         color: #8C8C8C;
-        font-size: 25px;
+        font-size: 28px;
         font-family: 'Lato-bold';
         margin-bottom: 30px;
         text-transform: uppercase;
@@ -33,7 +33,7 @@
 
             &_item {
                 height: 200px;
-                min-width: 200px;
+                min-width: 225px;
             }
         }
     }
