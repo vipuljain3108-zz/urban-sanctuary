@@ -19,6 +19,7 @@ import MainImage4 from '../../assets/images/holistic-system/s4-2.png';
 import CommonImage5 from '../../assets/images/holistic-system/s5-1.png';
 import MainImage5 from '../../assets/images/holistic-system/s5-2.png';
 import TestTube from '../../assets/images/holistic-system/testTube.png';
+import WhiteEarth from '../../assets/images/holistic-system/whiteEarth.png';
 import SanctuaryServices from '../../components/Sanctuary-services';
 import Disclaimer from '../../components/Disclaimer';
 
@@ -62,6 +63,10 @@ const Index = () => {
                             <div className='commonSection_content_image_desc'>
                                 Highly accurate, medically approved, with visceral fat and Phase Angle scanning to track your physique and general health.
                             </div>
+                            <div className='commonSection_content_image_more'>
+                                <img src={WhiteEarth} alt='earth' />
+                                READ MORE
+                            </div>
                         </div>
                     </div>
                     <div className='commonSection_content_text'>
@@ -86,7 +91,7 @@ const Index = () => {
                         <div className='commonSection_content_main_title'>
                             HAIR TESTING
                         </div>
-                        <div style={{ textAlign: 'left', position: 'relative', left: '-60px', top: '-5px', fontSize: '18px'}}>Cell Wellbeing</div>
+                        <div style={{ textAlign: 'left', position: 'relative', left: '30px', fontSize: '18px'}}>Cell Wellbeing</div>
                         <img src={CommonImage2} alt='img' height='60px' width='auto'/>
                         <div className='commonSection_content_main_desc'>
                         {`Personalized Epigenetic Nutritional & Wellbeing Reports`}
@@ -99,6 +104,10 @@ const Index = () => {
                             <div className='commonSection_content_image_desc'>
                             German Based Digital Epigenetic Mapping Service
                             </div>
+                        </div>
+                        <div className='commonSection_content_image_more'>
+                            <img src={WhiteEarth} alt='earth' />
+                            READ MORE
                         </div>
                     </div>
                     <div className='commonSection_content_text'>
@@ -117,6 +126,10 @@ const Index = () => {
                             <div className='commonSection_content_image_desc'>
                             Pin point the condition of your skin and avoid long term damage with our state of the art skin testing service.
                             </div>
+                        </div>
+                        <div className='commonSection_content_image_more'>
+                            <img src={WhiteEarth} alt='earth' />
+                            READ MORE
                         </div>
                     </div>
                     <div className='commonSection_content_text'>
