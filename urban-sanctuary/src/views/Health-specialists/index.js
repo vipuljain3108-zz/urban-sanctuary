@@ -26,6 +26,7 @@ import Specialist3 from "../../assets/images/health-specialists/p3.png";
 import Specialist4 from "../../assets/images/health-specialists/p4.png";
 import Specialist5 from "../../assets/images/health-specialists/p5.png";
 import Specialist6 from "../../assets/images/health-specialists/p6.png";
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 
 const Index = () => { 
 
@@ -106,207 +107,213 @@ const Index = () => {
                 <div className='section_pills_item'>Business Excellence</div>
             </div>
             <div className='specialists'>
-                <div className='specialists_card'>
-                    <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist1})`}}/>
-                    <div style={{ marginTop: '-50px'}}>
-                        <div className='specialists_card_head'>
-                            Kim larking
-                            <div className='specialists_card_head_dots'>
-                                Human Advancement Architect
-                                <div className='dot' style={{ backgroundColor: 'green'}}></div>
-                                <div className='dot' style={{ backgroundColor: 'blue'}}></div>
-                                <div className='dot' style={{ backgroundColor: 'pink'}}></div>
-                                <div className='dot' style={{ backgroundColor: 'yellow'}}></div>
+                <ResponsiveMasonry
+                    columnsCountBreakPoints={{500: 1, 800: 2, 1400: 3}}
+                >
+                    <Masonry gutter='40px'>
+                        <div className='specialists_card'>
+                            <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist1})`}}/>
+                            <div style={{ marginTop: '-50px'}}>
+                                <div className='specialists_card_head'>
+                                    Kim larking
+                                    <div className='specialists_card_head_dots'>
+                                        Human Advancement Architect
+                                        <div className='dot' style={{ backgroundColor: 'green'}}></div>
+                                        <div className='dot' style={{ backgroundColor: 'blue'}}></div>
+                                        <div className='dot' style={{ backgroundColor: 'pink'}}></div>
+                                        <div className='dot' style={{ backgroundColor: 'yellow'}}></div>
+                                    </div>
+                                </div>
+                                <div className='specialists_card_tabs'>
+                                    <li className='active'>consultancy</li>
+                                    <li>protocols</li>
+                                </div>
+                                <div className='specialists_card_details'>
+                                    <p>The imaginal cells within the caterpillar, intrinsic to the miraculous transformation, which creates the butterfly, are also within us. Our imaginal cells are represented by the human mind, which holds the creation powers of imagination, planning and self-determination.
+                                    <br /><br />As like the process of metamorphous, the mind harbours the ability to transform our lives as we wish. By understanding and governing the Mind-Body system, and ultimately by amplifying the processors of the body through the advanced application of the mind, we are able to take hold of evolutions best kept secrets to achieve greater holistic health span, and lock in our own Health Evolution process by mastering a Self- Advancing Life Style. In doing so we enable a higher echelon of satisfaction and life success, while also contributing to a better planet and humanity. 
+                                    <br /><br />We are the architect of our own Self, and hence we can define the person we wish to be, and with focus and belief materialise our dreams. Be the architect of your life and create an abundance of love, wealth, health and happiness.</p>
+                                    <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
+                                    <ul>
+                                        <li>Creator of Mind X Body Fusion Exercise</li>
+                                        <li>Author of the book Health Psychology</li>
+                                        <li>6th degree Kiaido Ryu black belt</li>
+                                        <li>Aikido and yoga enthusiast</li>
+                                        <li>Anti-aging and health span educator</li>
+                                    </ul>
+                                    <br/>
+                                    <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
+                                </div>
+                                <div className='specialists_card_pills'>
+                                    <div className='specialists_card_pills_pill'>Enquire now</div>
+                                    <div className='specialists_card_pills_pill'>GROUP  COACHING</div>
+                                </div>
                             </div>
                         </div>
-                        <div className='specialists_card_tabs'>
-                            <li className='active'>consultancy</li>
-                            <li>protocols</li>
-                        </div>
-                        <div className='specialists_card_details'>
-                            <p>The imaginal cells within the caterpillar, intrinsic to the miraculous transformation, which creates the butterfly, are also within us. Our imaginal cells are represented by the human mind, which holds the creation powers of imagination, planning and self-determination.
-                            <br /><br />As like the process of metamorphous, the mind harbours the ability to transform our lives as we wish. By understanding and governing the Mind-Body system, and ultimately by amplifying the processors of the body through the advanced application of the mind, we are able to take hold of evolutions best kept secrets to achieve greater holistic health span, and lock in our own Health Evolution process by mastering a Self- Advancing Life Style. In doing so we enable a higher echelon of satisfaction and life success, while also contributing to a better planet and humanity. 
-                            <br /><br />We are the architect of our own Self, and hence we can define the person we wish to be, and with focus and belief materialise our dreams. Be the architect of your life and create an abundance of love, wealth, health and happiness.</p>
-                            <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
-                            <ul>
-                                <li>Creator of Mind X Body Fusion Exercise</li>
-                                <li>Author of the book Health Psychology</li>
-                                <li>6th degree Kiaido Ryu black belt</li>
-                                <li>Aikido and yoga enthusiast</li>
-                                <li>Anti-aging and health span educator</li>
-                            </ul>
-                            <br/>
-                            <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
-                        </div>
-                        <div className='specialists_card_pills'>
-                            <div className='specialists_card_pills_pill'>Enquire now</div>
-                            <div className='specialists_card_pills_pill'>GROUP  COACHING</div>
-                        </div>
-                    </div>
-                </div>
-                <div className='specialists_card'>
-                    <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist2})`}}/>
-                    <div style={{ marginTop: '-50px'}}>
-                        <div className='specialists_card_head'>
-                            Porta ligula proin 
-                            <div className='specialists_card_head_dots'>
-                                Nurse
-                                <div className='dot' style={{ backgroundColor: 'green'}}></div>
-                                <div className='dot' style={{ backgroundColor: 'blue'}}></div>
+                        <div className='specialists_card'>
+                            <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist2})`}}/>
+                            <div style={{ marginTop: '-50px'}}>
+                                <div className='specialists_card_head'>
+                                    Porta ligula proin 
+                                    <div className='specialists_card_head_dots'>
+                                        Nurse
+                                        <div className='dot' style={{ backgroundColor: 'green'}}></div>
+                                        <div className='dot' style={{ backgroundColor: 'blue'}}></div>
+                                    </div>
+                                </div>
+                                <div className='specialists_card_tabs'>
+                                    <li className='active'>consultancy</li>
+                                    <li>protocols</li>
+                                </div>
+                                <div className='specialists_card_details'>
+                                    <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
+                                    <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
+                                    <ul>
+                                        <li>Cras in maximus sem. </li>
+                                        <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
+                                        <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Gravida nunc enim quis nibh. </li>
+                                    </ul>
+                                    <br/>
+                                    <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
+                                </div>
+                                <div className='specialists_card_pills'>
+                                    <div className='specialists_card_pills_pill'>Enquire now</div>
+                                </div>
                             </div>
                         </div>
-                        <div className='specialists_card_tabs'>
-                            <li className='active'>consultancy</li>
-                            <li>protocols</li>
-                        </div>
-                        <div className='specialists_card_details'>
-                            <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
-                            <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
-                            <ul>
-                                <li>Cras in maximus sem. </li>
-                                <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
-                                <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Gravida nunc enim quis nibh. </li>
-                            </ul>
-                            <br/>
-                            <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
-                        </div>
-                        <div className='specialists_card_pills'>
-                            <div className='specialists_card_pills_pill'>Enquire now</div>
-                        </div>
-                    </div>
-                </div>
-                <div className='specialists_card'>
-                    <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist3})`}}/>
-                    <div style={{ marginTop: '-50px'}}>
-                        <div className='specialists_card_head'>
-                            Porta ligula proin 
-                            <div className='specialists_card_head_dots'>
-                            Chiropractic
-                                <div className='dot' style={{ backgroundColor: 'green'}}></div>
+                        <div className='specialists_card'>
+                            <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist3})`}}/>
+                            <div style={{ marginTop: '-50px'}}>
+                                <div className='specialists_card_head'>
+                                    Porta ligula proin 
+                                    <div className='specialists_card_head_dots'>
+                                    Chiropractic
+                                        <div className='dot' style={{ backgroundColor: 'green'}}></div>
+                                    </div>
+                                </div>
+                                <div className='specialists_card_tabs'>
+                                    <li className='active'>consultancy</li>
+                                    <li>protocols</li>
+                                </div>
+                                <div className='specialists_card_details'>
+                                    <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
+                                    <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
+                                    <ul>
+                                        <li>Cras in maximus sem. </li>
+                                        <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
+                                        <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Gravida nunc enim quis nibh. </li>
+                                    </ul>
+                                    <br/>
+                                    <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
+                                </div>
+                                <div className='specialists_card_pills'>
+                                    <div className='specialists_card_pills_pill'>Enquire now</div>
+                                </div>
                             </div>
                         </div>
-                        <div className='specialists_card_tabs'>
-                            <li className='active'>consultancy</li>
-                            <li>protocols</li>
-                        </div>
-                        <div className='specialists_card_details'>
-                            <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
-                            <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
-                            <ul>
-                                <li>Cras in maximus sem. </li>
-                                <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
-                                <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Gravida nunc enim quis nibh. </li>
-                            </ul>
-                            <br/>
-                            <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
-                        </div>
-                        <div className='specialists_card_pills'>
-                            <div className='specialists_card_pills_pill'>Enquire now</div>
-                        </div>
-                    </div>
-                </div>
-                <div className='specialists_card'>
-                    <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist4})`}}/>
-                    <div style={{ marginTop: '-50px'}}>
-                        <div className='specialists_card_head'>
-                            Porta ligula proin 
-                            <div className='specialists_card_head_dots'>
-                            Councillor
-                                <div className='dot' style={{ backgroundColor: 'pink'}}></div>
-                                <div className='dot' style={{ backgroundColor: 'yellow'}}></div>
+                        <div className='specialists_card'>
+                            <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist4})`}}/>
+                            <div style={{ marginTop: '-50px'}}>
+                                <div className='specialists_card_head'>
+                                    Porta ligula proin 
+                                    <div className='specialists_card_head_dots'>
+                                    Councillor
+                                        <div className='dot' style={{ backgroundColor: 'pink'}}></div>
+                                        <div className='dot' style={{ backgroundColor: 'yellow'}}></div>
+                                    </div>
+                                </div>
+                                <div className='specialists_card_tabs'>
+                                    <li className='active'>consultancy</li>
+                                    <li>protocols</li>
+                                </div>
+                                <div className='specialists_card_details'>
+                                    <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
+                                    <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
+                                    <ul>
+                                        <li>Cras in maximus sem. </li>
+                                        <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
+                                        <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Gravida nunc enim quis nibh. </li>
+                                    </ul>
+                                    <br/>
+                                    <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
+                                </div>
+                                <div className='specialists_card_pills'>
+                                    <div className='specialists_card_pills_pill'>Enquire now</div>
+                                </div>
                             </div>
                         </div>
-                        <div className='specialists_card_tabs'>
-                            <li className='active'>consultancy</li>
-                            <li>protocols</li>
-                        </div>
-                        <div className='specialists_card_details'>
-                            <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
-                            <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
-                            <ul>
-                                <li>Cras in maximus sem. </li>
-                                <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
-                                <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Gravida nunc enim quis nibh. </li>
-                            </ul>
-                            <br/>
-                            <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
-                        </div>
-                        <div className='specialists_card_pills'>
-                            <div className='specialists_card_pills_pill'>Enquire now</div>
-                        </div>
-                    </div>
-                </div>
-                <div className='specialists_card'>
-                    <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist5})`}}/>
-                    <div style={{ marginTop: '-50px'}}>
-                        <div className='specialists_card_head'>
-                            Porta ligula proin 
-                            <div className='specialists_card_head_dots'>
-                                Nurse
-                                <div className='dot' style={{ backgroundColor: 'green'}}></div>
-                                <div className='dot' style={{ backgroundColor: 'blue'}}></div>
+                        <div className='specialists_card'>
+                            <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist5})`}}/>
+                            <div style={{ marginTop: '-50px'}}>
+                                <div className='specialists_card_head'>
+                                    Porta ligula proin 
+                                    <div className='specialists_card_head_dots'>
+                                        Nurse
+                                        <div className='dot' style={{ backgroundColor: 'green'}}></div>
+                                        <div className='dot' style={{ backgroundColor: 'blue'}}></div>
+                                    </div>
+                                </div>
+                                <div className='specialists_card_tabs'>
+                                    <li className='active'>consultancy</li>
+                                    <li>protocols</li>
+                                </div>
+                                <div className='specialists_card_details'>
+                                    <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
+                                    <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
+                                    <ul>
+                                        <li>Cras in maximus sem. </li>
+                                        <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
+                                        <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Gravida nunc enim quis nibh. </li>
+                                    </ul>
+                                    <br/>
+                                    <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
+                                </div>
+                                <div className='specialists_card_pills'>
+                                    <div className='specialists_card_pills_pill'>Enquire now</div>
+                                </div>
                             </div>
                         </div>
-                        <div className='specialists_card_tabs'>
-                            <li className='active'>consultancy</li>
-                            <li>protocols</li>
-                        </div>
-                        <div className='specialists_card_details'>
-                            <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
-                            <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
-                            <ul>
-                                <li>Cras in maximus sem. </li>
-                                <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
-                                <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Gravida nunc enim quis nibh. </li>
-                            </ul>
-                            <br/>
-                            <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
-                        </div>
-                        <div className='specialists_card_pills'>
-                            <div className='specialists_card_pills_pill'>Enquire now</div>
-                        </div>
-                    </div>
-                </div>
-                <div className='specialists_card'>
-                    <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist6})`}}/>
-                    <div style={{ marginTop: '-50px'}}>
-                        <div className='specialists_card_head'>
-                        Wealth Coach
-                            <div className='specialists_card_head_dots'>
-                                Nurse
-                                <div className='dot' style={{ backgroundColor: 'green'}}></div>
+                        <div className='specialists_card'>
+                            <div className='specialists_card_avatar' style={{ backgroundImage: `url(${Specialist6})`}}/>
+                            <div style={{ marginTop: '-50px'}}>
+                                <div className='specialists_card_head'>
+                                Wealth Coach
+                                    <div className='specialists_card_head_dots'>
+                                        Nurse
+                                        <div className='dot' style={{ backgroundColor: 'green'}}></div>
+                                    </div>
+                                </div>
+                                <div className='specialists_card_tabs'>
+                                    <li className='active'>consultancy</li>
+                                    <li>protocols</li>
+                                </div>
+                                <div className='specialists_card_details'>
+                                    <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
+                                    <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
+                                    <ul>
+                                        <li>Cras in maximus sem. </li>
+                                        <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
+                                        <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Duis ut urna commodo, commodo tellus ac.</li>
+                                        <li>Gravida nunc enim quis nibh. </li>
+                                    </ul>
+                                    <br/>
+                                    <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
+                                </div>
+                                <div className='specialists_card_pills'>
+                                    <div className='specialists_card_pills_pill'>Enquire now</div>
+                                </div>
                             </div>
                         </div>
-                        <div className='specialists_card_tabs'>
-                            <li className='active'>consultancy</li>
-                            <li>protocols</li>
-                        </div>
-                        <div className='specialists_card_details'>
-                            <p>Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis. Cras in maximus sem. Praesent libero augue, ornare eget quam sed, volutpat suscipit arcu. Duis ut urna commodo, commodo tellus ac.</p>
-                            <span style={{ color: 'black' }}><b>Training and Experience: </b></span>
-                            <ul>
-                                <li>Cras in maximus sem. </li>
-                                <li>Maecenas convallis eros a ante dignissim, vitae elementum metus facilisis.</li>
-                                <li>Arcu. Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Duis ut urna commodo, commodo tellus ac.</li>
-                                <li>Gravida nunc enim quis nibh. </li>
-                            </ul>
-                            <br/>
-                            <p><span style={{ color: 'black' }}><b>Duration: </b></span>30min / 45min / 1hr</p>
-                        </div>
-                        <div className='specialists_card_pills'>
-                            <div className='specialists_card_pills_pill'>Enquire now</div>
-                        </div>
-                    </div>
-                </div>
+                    </Masonry>
+                </ResponsiveMasonry>
             </div>
             <div className='customers'>
                 <div className='customers_content'>

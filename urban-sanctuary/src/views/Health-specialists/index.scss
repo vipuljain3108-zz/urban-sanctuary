@@ -76,6 +76,10 @@
             border-radius: 20px;
             border: 1px solid #8C8C8C;
         }
+
+        @media only screen and (max-width: 500px) {
+            padding: 30px;
+        }
     }
 
     &_banner {
@@ -271,21 +275,18 @@
     }
 
     .specialists {
-        max-width: 1600px;
+        max-width: 1750px;
         margin: auto;
         padding: 120px;
         font-family: 'Lato';
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        row-gap: 100px;
 
         &_card {
-            background-color: #F8F8F8;
-            max-width: 420px;
+            background-image: url('../../assets/images/health-specialists/cardBg.png');
+            background-position: center;
+            background-size: cover;
+            max-width: 500px;
             padding: 15px 30px 50px 30px;
-            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+            margin-bottom: 50px;
 
             &_avatar {
                 height: 180px;
@@ -294,7 +295,6 @@
                 background-position: center;
                 position: relative;
                 left: 50%;                
-                top: -50%;
                 transform: translate(-50%, -50%);
             }
 
@@ -369,6 +369,19 @@
                     font-family: 'Lato-bold';
                     text-transform: uppercase;
                     font-size: 13px;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 450px) {
+            padding: 30px;
+
+            &_card {
+                margin-bottom: 60px;
+
+                &_avatar {
+                    height: 130px;
+                    width: 130px;
                 }
             }
         }
