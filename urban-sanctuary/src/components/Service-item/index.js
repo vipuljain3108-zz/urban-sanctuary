@@ -1,10 +1,10 @@
 import React from 'react';
 import './index.scss';
 
-const Index = ({ cn = '', item }) => {
+const Index = ({ cn = '', item, uppercase = false }) => {
     return (
         <div className={`service_item ${cn}`} style={{ backgroundImage: `url(${item.image})`}}>
-            <p>{item?.name}</p>
+            <p style={{ textTransform: `${uppercase ? 'uppercase' : ''}`}}>{item?.name}</p>
         </div>
     )
 }

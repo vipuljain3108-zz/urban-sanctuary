@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss';
-import ServiceItem from '../Service-item';
+import ServiceItem from '../service-item';
 import S1 from '../../assets/images/holistic-system/c1.png';
 import S2 from '../../assets/images/holistic-system/c2.png';
 import S3 from '../../assets/images/holistic-system/c3.png';

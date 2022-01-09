@@ -7,10 +7,11 @@ import FusionExerciseAirDetail  from '../views/FusionExerciseAirDetail/FusionExe
 import Home2  from '../views/Home2/Home2';
 import StoreSkinAnalysis  from '../views/StoreSkinAnalysis/StoreSkinAnalysis';
 import StoreInbodyScanning  from '../views/StoreInbodyScanning/StoreInbodyScanning';
-import AboutUs from '../views/About-us';
-import TechHairTesting from '../views/Tech-hair-testing';
-import HolisticSystem  from '../views/Holistic-system';
-import HealthSpecialists  from '../views/Health-specialists';
+import AboutUs from '../views/about-us';
+import TechHairTesting from '../views/tech-hair-testing';
+import HolisticSystem  from '../views/holistic-system';
+import HealthSpecialists  from '../views/health-specialists';
+import ServiceHealth  from '../views/service-health';
 
 export const RouteLinks = {
     Register: {
@@ -51,5 +52,8 @@ export const RouteLinks = {
     },
     HealthSpecialists: {
       component: HealthSpecialists, path: '/health-specialists',
+    },
+    ServiceHealth: {
+      component: ServiceHealth, path: '/service-health',
     },
 }

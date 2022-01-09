@@ -19,8 +19,8 @@ import Banner2 from '../../assets/images/aboutUs/two1.png';
 import Banner3 from '../../assets/images/aboutUs/two2.png';
 import Earth from '../../assets/images/aboutUs/earth.png';
 import Accordion from '../../components/Accordion';
-import FooterBanner from '../../components/Footer-banner';
-import ClusterIcons from '../../components/Cluster-icons';
+import FooterBanner from '../../components/footer-banner';
+import ClusterIcons from '../../components/cluster-icons';
 
 const Index = () => {
     const panels = [

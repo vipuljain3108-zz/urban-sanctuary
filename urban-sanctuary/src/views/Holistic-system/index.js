@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from "../../components/Header/Header";
 import './index.scss';
-import FooterBanner from '../../components/Footer-banner';
-import OptimiseReport from '../../components/Optimise-report'
+import FooterBanner from '../../components/footer-banner';
+import OptimiseReport from '../../components/optimise-report'
 import B1 from '../../assets/images/holistic-system/bg1.png'
 import B2 from '../../assets/images/holistic-system/bg2.png'
 import B3 from '../../assets/images/holistic-system/bg3.png'
-import ClusterIcons from '../../components/Cluster-icons';
-import FiveMen from '../../components/Five-men';
+import ClusterIcons from '../../components/cluster-icons';
+import FiveMen from '../../components/five-men';
 import CommonImage1 from '../../assets/images/holistic-system/s1-1.png';
 import MainImage1 from '../../assets/images/holistic-system/s1-2.png';
 import CommonImage2 from '../../assets/images/holistic-system/s2-1.png';
@@ -20,8 +20,8 @@ import CommonImage5 from '../../assets/images/holistic-system/s5-1.png';
 import MainImage5 from '../../assets/images/holistic-system/s5-2.png';
 import TestTube from '../../assets/images/holistic-system/testTube.png';
 import WhiteEarth from '../../assets/images/holistic-system/whiteEarth.png';
-import SanctuaryServices from '../../components/Sanctuary-services';
-import Disclaimer from '../../components/Disclaimer';
+import SanctuaryServices from '../../components/sanctuary-services';
+import Disclaimer from '../../components/disclaimer';
 
 const Index = () => {
     return (

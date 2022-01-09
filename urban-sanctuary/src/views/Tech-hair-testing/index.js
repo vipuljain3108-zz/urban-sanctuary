@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from "../../components/Header/Header";
 import './index.scss';
-import FooterBanner from '../../components/Footer-banner';
+import FooterBanner from '../../components/footer-banner';
 import HairTesting from '../../assets/images/tech-hair-testing/hair-testing-img.png'
 import Instagram from '../../assets/images/tech-hair-testing/Instagram.png'
 import Twitter from '../../assets/images/tech-hair-testing/Twitter.png'
 import Facebook from '../../assets/images/tech-hair-testing/Facebook.png'
 import Globe from '../../assets/images/tech-hair-testing/globe-icon.png'
 import BannerBg from '../../assets/images/tech-hair-testing/hair-testing-banner.png'
-import ClusterIcons from '../../components/Cluster-icons';
+import ClusterIcons from '../../components/cluster-icons';
 import EyeImg from '../../assets/images/tech-hair-testing/eyeImg.png'
 import Telescope from '../../assets/images/tech-hair-testing/telescope.png'
 import PieChart from '../../assets/images/tech-hair-testing/pieChart.png'
@@ -19,7 +19,7 @@ import Calender from '../../assets/images/tech-hair-testing/calender.png'
 import VideoThumbnail from '../../assets/images/tech-hair-testing/videoThumbnail.png'
 import User1 from '../../assets/images/tech-hair-testing/brenda-user.png'
 import User2 from '../../assets/images/tech-hair-testing/walker-user.png'
-import OptimiseReports from '../../components/Optimise-report'
+import OptimiseReports from '../../components/optimise-report'
 
 const Index = () => {
     return (
