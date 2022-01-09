@@ -193,20 +193,20 @@ const Index = () => {
             <div className='service_health_slider'>
                     <img src={LeftArrow} alt='left' />
                     <div className='service_health_slider_content'>
-                        <div className='service_health_slider_content_item' style={{ backgroundImage: `url(${Pro})` }} />
-                        <div className='service_health_slider_content_item'>
-                            <h6>Kim larking</h6>
-                            <div>Human Advancement Architect</div>
+                        <div className='service_health_slider_content_item2' style={{ backgroundImage: `url(${Pro})`, minWidth: '260px' }} />
+                        <div className='service_health_slider_content_item1'>
+                            <h5>Kim larking</h5>
+                            <div className='title'>Human Advancement Architect</div>
                             <div>Kim Larking, creator of Mind X Body Fusion Exercise, author of the book Health Psychology, 6th degree Kiaido Ryu black belt, aikido and yoga enthusiast, anti-aging and health span educator.</div>
                         </div>
-                        <div className='service_health_slider_content_item'>Watch Our Team Grow</div>
-                        <div className='service_health_slider_content_item'>
-                            <h6>Watch Our Team Grow</h6>
+                        <div className='service_health_slider_content_item2'>Watch Our Team Grow</div>
+                        <div className='service_health_slider_content_item1'>
+                            <h5>Watch Our Team Grow</h5>
                             <p>As we take on and train more health professionals, coaches and facilitators</p>
                         </div>
-                        <div className='service_health_slider_content_item'>Watch Our Team Grow</div>
-                        <div className='service_health_slider_content_item'>
-                            <h6>Watch Our Team Grow</h6>
+                        <div className='service_health_slider_content_item2'>Watch Our Team Grow</div>
+                        <div className='service_health_slider_content_item1'>
+                            <h5>Watch Our Team Grow</h5>
                             <p>As we take on and train more health professionals, coaches and facilitators</p>
                         </div>
                     </div>
