@@ -7,10 +7,12 @@ import cartIcon from '../../assets/images/cart-icon.png';
 import profileIcon from '../../assets/images/profile-icon.png';
 import moreIcons from '../../assets/images/more-icons.png';
 import './Header.scss';
+import ServiceDropdown from '../service-dropdown';
 
 const Header=() =>{
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [openDropdown, setOpenDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -82,15 +84,7 @@ const Header=() =>{
                                     <a className="nav-link" href="#">discover</a>
                                     </li>
                                     <li className="nav-item custom-dropdwn">
-                                    <a className="nav-link" href="#">services</a>
-                                        {/* <div className="nav-link custom-dropdwn-link" href="#">services
-                                            <i className="fas fa-angle-down"></i>
-                                            <div className="dropdown-content">
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
-                                            </div>
-                                        </div> */}
+                                    <a className="nav-link" href="#" onClick={() => setOpenDropdown(!openDropdown)}>services</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#">participate</a>
@@ -149,6 +143,7 @@ const Header=() =>{
                     </Col>
                 </Row>
            </Container>
+           {openDropdown && <ServiceDropdown />}
         </header>
         {/* <!-- ***** Header Area End ***** -->
 
