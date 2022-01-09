@@ -54,7 +54,7 @@ const Index = () => {
     return (
         <div className='service_health'>
             <Header />
-            <ClusterIcons />
+            <ClusterIcons active />
             <div className='service_health_banner'>
                 <div className='service_health_banner_content'>
                     <div className='service_health_banner_content_links'>
