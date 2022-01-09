@@ -13,16 +13,18 @@
         z-index: 2;
 
         p{
+            background-color: rgba(84, 84, 84, 0.5);
             color: white;
-            font-size: 22px;
+            font-size: 16px;
             font-family: 'Lato';
+            width: 100%;
+            padding: 10px 0;
         }
     }
 
     .service_item_back {
         position: absolute;
         top: 0;
-        //background-color: grey;
         display: flex;
         align-items: center;
         justify-content: center;
