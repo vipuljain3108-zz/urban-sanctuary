@@ -263,7 +263,7 @@
 
         &_banner {
             height: 250px;
-            width: 60%;
+            width: 980px;
 
             p {
                 padding: 25px 15px;
@@ -315,7 +315,7 @@
 
         &_banner {
             height: 250px;
-            width: 25%;
+            width: 400px;
 
             p {
                 padding: 25px 15px;
@@ -338,7 +338,7 @@
 
         @media only screen and (max-width: 1200px) {
             &_banner {
-                width: 48%;
+                width: 100%;
             }
             &_desc {
                 width: 100%;

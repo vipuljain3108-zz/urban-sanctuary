@@ -1,17 +1,51 @@
-.service_item {
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 6px;
+.card {
+    position: relative; 
 
-    p{
-        background-color: rgba(84, 84, 84, 0.5);
-        color: white;
-        font-size: 16px;
-        font-family: 'Lato';
-        width: 100%;
-        padding: 10px 0;
+    .service_item_front {
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        backface-visibility: hidden;
+        transition: transform 0.6s linear;
+        z-index: 2;
+
+        p{
+            color: white;
+            font-size: 22px;
+            font-family: 'Lato';
+        }
+    }
+
+    .service_item_back {
+        position: absolute;
+        top: 0;
+        //background-color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        backface-visibility: hidden;
+        transition: transform 0.6s linear;
+        transform: perspective(600px) rotateY(180deg);
+
+        p{
+            background-color: rgba(84, 84, 84, 0.5);
+            color: white;
+            font-size: 16px;
+            font-family: 'Lato';
+            width: 100%;
+            padding: 10px 0;
+        }
+    }
+
+    &:hover > .service_item_front {
+        transform: perspective(600px) rotateY(-180deg);
+    }
+
+    &:hover > .service_item_back {
+        transform: perspective(600px) rotateY(0deg);
     }
 }
