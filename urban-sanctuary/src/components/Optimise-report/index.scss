@@ -16,9 +16,9 @@
         font-size: 17px;
         display: flex;
         align-items: flex-end;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-wrap: wrap;
-        padding: 0 135px 60px 135px;
+        padding: 0 0 60px 135px;
         color: white;
 
         &_link {
@@ -55,12 +55,11 @@
     }
 
     @media only screen and (max-width: 1700px) {
-
-        top: unset;
         padding-top: 40px;
 
         &_container {
-            flex-direction: row-reverse;
+            padding: 0 135px 60px 135px;
+
             &_floatingImg {
                 position: relative;
                 bottom: unset;
