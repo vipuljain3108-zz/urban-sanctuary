@@ -8,6 +8,7 @@ import profileIcon from '../../assets/images/profile-icon.png';
 import moreIcons from '../../assets/images/more-icons.png';
 import './Header.scss';
 import ServiceDropdown from '../service-dropdown';
+import { Link } from 'react-router-dom';
 
 const Header=() =>{
   const [click, setClick] = useState(false);
@@ -78,7 +79,7 @@ const Header=() =>{
                             <div className="navbar-navs">
                                 <ul className="navbar-info d-flex align-items-center">
                                     <li className="nav-item active">
-                                        <a className="nav-link" href="#">About us <span className="sr-only">(current)</span></a>
+                                    <Link to="/about-us"><span className='nav-link'>About us</span> <span className="sr-only">(current)</span></Link>
                                     </li>
                                     <li className="nav-item custom-dropdwn">
                                     <a className="nav-link" href="#">discover</a>
@@ -109,7 +110,7 @@ const Header=() =>{
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link">
-                                <img alt="no image" src={cartIcon}/>
+                                <img alt="cartIcon" src={cartIcon}/>
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -133,7 +134,7 @@ const Header=() =>{
                         </div>
                         <div id="mySidenav" className="sidenav">
                             <a href="javascript:void(0)" className="closebtn" onClick={toggleSideNav}>&times;</a>
-                            <a href="#">About us </a>
+                            <Link to="/about-us"><span className='nav_link'>About us</span> </Link>
                             <a href="#">discover</a>
                             <a href="#">services</a>
                             <a href="#">participate</a>
