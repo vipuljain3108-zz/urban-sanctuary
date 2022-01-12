@@ -14,7 +14,12 @@
 	position: absolute;
 	right: 45px;
 	top: 25%;
+
+	@media only screen and (max-width: 500px) {
+			right: 30px;
+	}
 }
+
 .panel[aria-expanded='true'] {
 	.panel__content {
 		opacity: 1;
@@ -25,6 +30,7 @@
 		}
 	}
 }
+
 .panel__label {
 	position: relative;
 	display: block;
@@ -64,6 +70,7 @@
 		}
 	}
 }
+
 .panel__inner {
 	display: flex;
 	align-items: flex-start;

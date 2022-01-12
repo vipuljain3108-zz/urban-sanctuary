@@ -115,9 +115,9 @@ $gray-text-color: #8C8C8C;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-            padding: 35px 130px;
+            padding: 35px 150px;
             color: $gray-text-color;
-            justify-content: center;
+            justify-content: space-around;
             &_title {
                 font-size: 20px;
                 margin-bottom: 20px;
@@ -133,7 +133,7 @@ $gray-text-color: #8C8C8C;
             }
 
             img {
-                width: 38%;
+                width: 550px;
             }
 
             @media only screen and (max-width: 1600px) {
@@ -184,10 +184,16 @@ $gray-text-color: #8C8C8C;
             }
         }
 
-        @media only screen and (max-width: 1600px) {
+        @media only screen and (max-width: 1700px) {
             align-items: flex-start;
             justify-content: center;
             padding: 60px;
+            &_content{
+                img {
+                    height: 400px;
+                    width: auto;
+                }
+            }
         }
 
         @media only screen and (max-width: 800px) {
@@ -242,6 +248,39 @@ $gray-text-color: #8C8C8C;
                 }
             }
         }
+
+     
+        @media only screen and (max-width: 1700px) {
+            .content {
+                top: -150px;
+                &_container {
+                    padding-top: 50px;
+                }
+
+            }
+
+        }
+
+        @media only screen and (max-width: 1500px) {
+            .content {
+                &_container {
+                    padding-top: 80px;
+                }
+
+            }
+
+        }
+
+        @media only screen and (max-width: 800px) {
+            .content {
+                &_container {
+                    padding-top: 100px;
+                }
+
+            }
+
+        }
+
     }
 
     .section5 {
@@ -265,9 +304,9 @@ $gray-text-color: #8C8C8C;
             margin-top: 40px;
         }
 
-        @media only screen and (max-width: 1600px) {
-            top: unset;
-        }
+        // @media only screen and (max-width: 1600px) {
+        //     top: unset;
+        // }
 
         @media only screen and (max-width: 800px) {
             padding: 30px;
