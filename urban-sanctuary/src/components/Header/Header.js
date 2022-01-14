@@ -136,7 +136,10 @@ const Header=() =>{
                             <a href="javascript:void(0)" className="closebtn" onClick={toggleSideNav}>&times;</a>
                             <Link to="/about-us"><span className='nav_link'>About us</span> </Link>
                             <a href="#">discover</a>
-                            <a href="#">services</a>
+                            <a href="#" onClick={() => {
+                                setOpenDropdown(!openDropdown)
+                                toggleSideNav()
+                            }}>services</a>
                             <a href="#">participate</a>
                             <a href="#">prosper</a>
                             <a href="#">get started</a>

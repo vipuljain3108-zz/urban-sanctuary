@@ -49,6 +49,11 @@
                 }
             }
         }
+
+        @media only screen and (max-width: 1200px) {
+            justify-content: flex-start;
+            padding: 0 50px;
+        }
     }
 
     .secondaryDropdown {
@@ -66,6 +71,11 @@
             flex-wrap: wrap;
             gap: 70px;
             padding: 40px 0;
+
+            @media only screen and (max-width: 1200px) {
+                padding: 40px 50px;
+                gap: 20px;
+            }
             
             &_item {
                 width: 240px;
