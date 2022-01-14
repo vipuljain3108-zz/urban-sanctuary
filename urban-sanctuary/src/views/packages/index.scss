@@ -247,6 +247,12 @@
 
                 &_desc {
                     max-width: unset;
+
+                    &_f {
+                        &_more {
+                            margin-top: 25px;
+                        }
+                    }
                 }
 
                 &_img {
