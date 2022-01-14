@@ -1,7 +1,7 @@
 .packages {
 
     &_banner {
-        background: url('../../assets/images/packages/backgroundBanner.png');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/packages/backgroundBanner.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -15,6 +15,7 @@
             font-family: 'Lato';
             letter-spacing: 2px;
             color: white;
+            padding-top: 150px;
 
             &_border {
                 width: 100px;
@@ -72,7 +73,8 @@
 
             @media only screen and (max-width: 600px) {
                 padding: 40px;
-
+                padding-top: 100px;
+                
                 &_cards {
                     column-gap: 40px;
                     justify-content: center;
@@ -84,13 +86,13 @@
     &_section {
         max-width: 1800px;
         margin: auto;
-        padding: 50px 120px;
+        padding: 70px 120px;
         padding-bottom: unset;
         font-family: 'Lato';
 
         &_details {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: flex-start;
             gap: 60px;
 
@@ -131,6 +133,7 @@
                         font-weight: 500;
                         font-size: 16px;
                         margin-top: 45px;
+                        position: absolute;
 
                         img {
                             transform: rotate(270deg);
@@ -161,7 +164,7 @@
             justify-content: flex-start;
             flex-wrap: wrap;
             gap: 30px;
-            margin-top: 25px;
+            margin-top: 60px;
 
             &_card {
                 width: 342px;

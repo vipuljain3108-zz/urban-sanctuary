@@ -13,6 +13,7 @@
             justify-content: space-around;
             flex-wrap: wrap;
             margin: auto;
+            padding-top: 200px;
     
             &_head {
                 font-size: 55px;
@@ -60,7 +61,8 @@
             &_banner {
                 padding: 30px;
                 justify-content: center;
-
+                padding-top: 120px;
+                
                 &_head {
                     font-size: 40px;
                     max-width: unset;
