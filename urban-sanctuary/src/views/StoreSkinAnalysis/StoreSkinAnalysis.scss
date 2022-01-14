@@ -1,5 +1,5 @@
 .store-skin-wrapper {
-    overflow-x: hidden;
+    //overflow-x: hidden;
     .banner-skin {
         position: relative;
         img {
@@ -16,7 +16,7 @@
         .content-sec {
             position: absolute;
             width: 80%;
-            top: 25px;
+            top: 150px;
             display: flex;
             justify-content: space-between;
             align-self: start;
@@ -49,8 +49,8 @@
         .img-content {
             position: absolute;
             right: 0px;
-            left: 186px;
-            top: 105px;
+            left: 245px;
+            top: 275px;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -105,7 +105,7 @@
             }
             img {
                 width: 280px;
-                height: auto;
+                height: 100%;
             }
         }
     }
@@ -263,7 +263,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .store-skin-wrapper {
         .banner-skin {
             img {

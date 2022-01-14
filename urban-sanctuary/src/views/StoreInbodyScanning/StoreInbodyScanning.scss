@@ -19,7 +19,7 @@
             .content-sec {
                 position: absolute;
                 width: 80%;
-                top: 48px;
+                top: 148px;
                 z-index: 9;
                 display: flex;
                 justify-content: space-between;
@@ -53,8 +53,8 @@
             .img-content {
                 position: absolute;
                 right: 0px;
-                left: 186px;
-                top: 200px;
+                left: 245px;
+                top: 300px;
                 display: flex;
                 align-items: center;
                 flex-wrap: wrap;
@@ -111,7 +111,7 @@
                 .scannNewsRun {
                     position: absolute;
                     right: 59px;
-                    bottom: -74px;
+                    //bottom: -74px;
                     img {
                         width: auto;
                         height: 700px;
