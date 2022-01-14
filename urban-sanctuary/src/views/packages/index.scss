@@ -30,7 +30,7 @@
                 border-radius: 10px;
                 border: 1px dashed white;
                 text-transform: none;
-                max-width: 800px;
+                max-width: 660px;
             }
 
             &_cards {
@@ -61,6 +61,12 @@
                         font-style: italic;
                         margin-top: 10px;
                     }
+                }
+            }
+
+            @media only screen and (max-width: 800px) {
+                &_cards {
+                    justify-content: center;
                 }
             }
 
@@ -221,8 +227,8 @@
 
         @media only screen and (max-width: 1000px) {
             padding: 40px;
-
             &_cards {
+                justify-content: center;
                 &_card {
                     min-width: 342px;
                     width: 45%;
