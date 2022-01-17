@@ -319,11 +319,11 @@ const Index = () => {
                 </div>
             </div>
             <FiveMen />
-            {packages.map(item => {
+            {packages.map((item, index) => {
                 return (
                     <div className='packages_section'>
                         <div className='packages_section_details'>
-                            <div className='packages_section_details_desc' style={{ order:`${ item.id % 2 === 0 ? '2' : ''}`}}>
+                            <div className='packages_section_details_desc' style={{ order:`${ index % 2 === 0 ? '' : '2'}`}}>
                                 <div className='packages_section_details_desc_bg'>{item.id}</div>
                                 <div className='packages_section_details_desc_f'>
                                     <div className='packages_section_details_desc_f_title'>{item.name}</div>

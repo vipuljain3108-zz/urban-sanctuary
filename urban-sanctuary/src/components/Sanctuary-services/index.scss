@@ -26,7 +26,7 @@
         &_content {
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: flex-start;
             gap: 10px;
             max-width: 1400px;
             overflow: auto;

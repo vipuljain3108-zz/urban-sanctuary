@@ -3,7 +3,7 @@ import './index.scss';
 
 const Index = ({ cn = '', item, uppercase = false }) => {
     return (
-        <div className={`card`}>
+        <div className={`service_card`}>
             <div className={`service_item_front ${cn}`} style={{ backgroundImage: `url(${item.image})`}}>
                 <p style={{ textTransform: `${uppercase ? 'uppercase' : ''}`}}>{item?.name}</p>
             </div>  

@@ -22,6 +22,7 @@ const Index = () => {
     return (
         <div className='sanctuary_services'>
             <div className='sanctuary_services_head'>Other Sanctuary Services</div>
+            <br />
             <div className='sanctuary_services_slider'>
                 <img src={LeftArrow} alt='left' />
                 <div className='sanctuary_services_slider_content'>

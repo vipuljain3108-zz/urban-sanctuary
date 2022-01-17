@@ -13,6 +13,7 @@ import HolisticSystem  from '../views/holistic-system';
 import HealthSpecialists  from '../views/health-specialists';
 import ServiceHealth  from '../views/service-health';
 import Packages from '../views/packages';
+import PackageHealth from '../views/package-health';
 
 export const RouteLinks = {
     Register: {
@@ -59,5 +60,8 @@ export const RouteLinks = {
     },
     Packages: {
       component: Packages, path: '/packages',
+    },
+    PackageHealth: {
+      component: PackageHealth, path: '/package-health',
     },
 }
