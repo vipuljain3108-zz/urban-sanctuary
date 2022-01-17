@@ -14,6 +14,7 @@ import HealthSpecialists  from '../views/health-specialists';
 import ServiceHealth  from '../views/service-health';
 import Packages from '../views/packages';
 import PackageHealth from '../views/package-health';
+import GuideLandingPage from '../views/guide-landing-page';
 
 export const RouteLinks = {
     Register: {
@@ -63,5 +64,8 @@ export const RouteLinks = {
     },
     PackageHealth: {
       component: PackageHealth, path: '/package-health',
+    },
+    GuideLandingPage: {
+      component: GuideLandingPage, path: '/guide-landing-page',
     },
 }

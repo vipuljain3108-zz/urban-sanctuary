@@ -92,7 +92,7 @@ const Index = () => {
                     <div className='quality_content_item'>
                         <div className='quality_content_item_title'>
                             Urban Sanctuary Delivery Guarantee
-                            <img src={InviteCard} alt='inviteCard' />
+                            {/* <img src={InviteCard} alt='inviteCard' /> */}
                         </div>
                         <div className='quality_content_item_assurance'>
                             <img src={Quality} alt='assurance' />
@@ -112,9 +112,9 @@ const Index = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className='quality_content_invite'>
+                    <div className='quality_content_invite'>
                         <img src={InviteCard} alt='inviteCard' />
-                    </div> */}
+                    </div>
                 </div>
             </div>
             {sections.map((item, index) => {
