@@ -314,9 +314,15 @@
         color: #DFDFDF;
         max-width: 1800px;
         margin: auto;
-        padding: 50px 120px;
+        padding: 50px 70px;
         letter-spacing: 0.1rem;
         padding-bottom: unset;
+    }
+
+    @media only screen and (max-width: 1800px) {
+        &_lightTitle {
+            text-align: center;
+        }
     }
 
     .quality {
@@ -326,7 +332,7 @@
         &_content {
             max-width: 1800px;
             margin: auto;
-            padding: 60px;
+            padding: 20px 60px 60px 60px;
             color: #434343;
             font-family: 'Lato';
             font-size: 19px;
@@ -341,13 +347,13 @@
                 &_title {
                     color: #8C8C8C;
                     font-size: 24px;
-                    padding: 15px 0;
+                    padding: 0px 0px 15px 10px;
                     font-family: Georgia, 'Times New Roman', Times, serif;
 
                     img {
                         display: inline;
                         position: relative;
-                        top: -30px;
+                        top: -60px;
                         left: 60px;
                         height: 160px;
                     }
@@ -382,7 +388,7 @@
                 &_assurance {
                     display: flex;
                     align-items: flex-start;
-                    justify-content: flex-start;
+                    justify-content: center;
                     flex-wrap: wrap;
                     gap: 40px;
 
@@ -411,7 +417,16 @@
             }
 
             @media only screen and (max-width: 1800px) {
-                justify-content: center;
+                justify-content: center;                
+                &_item {
+                    &_title {
+                        img {
+                            top: -20px;
+                            left: 50px;
+                            height: unset;
+                        }
+                    }
+                }
             }
 
             @media only screen and (max-width: 800px) {
@@ -420,6 +435,7 @@
 
                 &_item {
                     &_title {
+                        text-align: center;
                         img {
                             top: unset;
                             left: unset;
