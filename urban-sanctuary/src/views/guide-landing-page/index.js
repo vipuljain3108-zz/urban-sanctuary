@@ -95,13 +95,13 @@ const Index = () => {
                     <div className='guide_banner_content_data'>
                         <div className='guide_banner_content_data_title'>Principle Guide and Book</div>
                         <div className='guide_banner_content_data_post'>Health Psychology</div>
-                        <div className='guide_banner_content_data_desc'> A Paradigm Shift to Greater Health Span</div>
-                        <div className='guide_banner_content_data_rating'>
+                        <div className='guide_data_desc'> A Paradigm Shift to Greater Health Span</div>
+                        <div className='guide_data_rating'>
                             <img src={Stars} alt='Stars' />
                             <p>{`(102)`}</p>
                         </div>
-                        <div className='guide_banner_content_data_author'><b>Author:</b> <i>Kim Larking</i></div>
-                        <p><b>Description:</b> Awaken Mind X Body by understanding and successfully governing your Self Protecting and Healing Mind-Body System - shifting the health paradigm from institutional reliance to self-care, through simple ‘Life Logical Health Care Principles & Systems’, which every person can comfortably take charge of.
+                        <div className='guide_data_author'><b>Author:</b> <i>Kim Larking</i></div>
+                        <p><b>Description:</b> Awaken Mind X Body by understanding and successfully governing your Self Protecting and Healing Mind-Body System - shifting the health paradigm from institutional reliance to self-care, through simple ‘Life Logical Health Care Principles {`&`} Systems’, which every person can comfortably take charge of.
                         <br/><br/>Learn the processors of the nervous, endocrine and immune systems and discover how your psychology determines your physiology. Gain the Tools and Techniques to create a mind that serves you, champion mental health issues, evolve emotional vibrancy and joy, and unlock faster natural healing and trauma processing through amplifying the power of the body through the advanced application of the mind.
                         <br/><br/>Use this Principle Guide as a solid base to start proactively generating holistic health, and to lead into and interlock the following five Guides in the Vitality and Longevity Series.</p>
                         <div className='guide_banner_content_data_bordered'> Living in Vibrant Health to 120 Years of Age One of six Health Guides in the Vitality and Longevity series.Principle Guide and book</div>
@@ -109,20 +109,20 @@ const Index = () => {
                     <div className='guide_banner_content_card'>
                         <div className='guide_banner_content_card_banner' />
                         <div className='guide_banner_content_card_price'>$39.99</div>
-                        <div className='guide_banner_content_card_btns'>
-                            <div className='guide_banner_content_card_btns_btn light'>Add to Cart</div>
-                            <div className='guide_banner_content_card_btns_btn dark'>BUY now !</div>
+                        <div className='guide_card_btns'>
+                            <div className='guide_card_btns_btn light'>Add to Cart</div>
+                            <div className='guide_card_btns_btn dark'>BUY now !</div>
                         </div>
-                        <div className='guide_banner_content_card_list'>
-                            <div className='guide_banner_content_card_list_item'>
+                        <div className='guide_card_list'>
+                            <div className='guide_card_list_item'>
                                 <img src={LengthIcon} alt='icon' />
                                 <div><b>Length :</b>  200 pages / 110,000 words</div>
                             </div>
-                            <div className='guide_banner_content_card_list_item'>
+                            <div className='guide_card_list_item'>
                                 <img src={LangIcon} alt='icon' />
                                 <div><b>Language :</b>  English</div>
                             </div>
-                            <div className='guide_banner_content_card_list_item'>
+                            <div className='guide_card_list_item'>
                                 <img src={MoneyBackIcon} alt='icon' />
                                 <div><b>Money-Back Guarantee</b></div>
                             </div>
@@ -208,6 +208,40 @@ const Index = () => {
                     </div>
                     <CustomerReviews />
                  </div>
+            </div>
+            <div className='sectionTitle'>companion workshop</div>
+            <div className='guide_workshop_card'>
+                <div className='guide_workshop_card_banner'>
+                    <div className='guide_workshop_card_banner_top'><img src={GreenDisk} alt='green' />Vitality and Longevity</div>
+                    <div className='guide_workshop_card_banner_middle'>View the workshop</div>
+                    <div className='guide_workshop_card_banner_bottom'>Health Psychology</div>
+                </div>
+                <div className='guide_workshop_card_details'>
+                <div className='guide_data_desc' style={{ color: '#B5B5B5'}}>Workshop</div>
+                <div className='guide_data_desc'>Health Psychology</div>
+                    <div className='guide_data_rating'>
+                        <img src={Stars} alt='Stars' />
+                        <p>{`(102)`}</p>
+                    </div>
+                    <div className='guide_data_author'><b>Principle presenter:</b>&nbsp;&nbsp; <i>Kim Larking</i></div>
+                    <p><b>Description:</b>There is inherent health and healing power that resides in the interconnections between the mind and body. This is workshop to understanding and governing your Mind-Body</p>
+                    <div className='readMore'>Read More</div>
+                    <div className='guide_workshop_card_details_price'>$169.99 <span className='discount'>&nbsp;&nbsp;$299.99</span></div>
+                    <div className='guide_card_list'>
+                        <div className='guide_card_list_item'>
+                            <img src={ClockIcon} alt='icon' />
+                            <div><b>Duration :</b> 5 X 1 hour module</div>
+                        </div>
+                        <div className='guide_card_list_item'>
+                            <img src={LangIcon} alt='icon' />
+                            <div><b>Language :</b>  English</div>
+                        </div>
+                    </div>
+                    <div className='guide_card_btns'>
+                        <div className='guide_card_btns_btn light'>Add to Cart</div>
+                        <div className='guide_card_btns_btn dark'>Join now !</div>
+                    </div>
+                </div>   
             </div>
             <div className='guide_architecture'>
                 <div className='guide_architecture_title'>Metawheel Courses specific to your needs</div>
