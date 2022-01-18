@@ -46,7 +46,7 @@ class Panel extends React.Component {
 						{ content }
 						<br />
 						<br />
-						{!image && component()}
+						{!image && component && component()}
 					</p>
 					{image && <img src={image} alt={image} />}
 				</div>
