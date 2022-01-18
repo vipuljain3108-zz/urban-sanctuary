@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5263f90.chunk.css",
-    "main.js": "/static/js/main.37d14170.chunk.js",
-    "main.js.map": "/static/js/main.37d14170.chunk.js.map",
+    "main.css": "/static/css/main.1c614afa.chunk.css",
+    "main.js": "/static/js/main.65842985.chunk.js",
+    "main.js.map": "/static/js/main.65842985.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c6ba08d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.c6ba08d6.js.map",
     "static/css/2.195d012c.chunk.css": "/static/css/2.195d012c.chunk.css",
-    "static/js/2.7373e336.chunk.js": "/static/js/2.7373e336.chunk.js",
-    "static/js/2.7373e336.chunk.js.map": "/static/js/2.7373e336.chunk.js.map",
+    "static/js/2.dfe25807.chunk.js": "/static/js/2.dfe25807.chunk.js",
+    "static/js/2.dfe25807.chunk.js.map": "/static/js/2.dfe25807.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.195d012c.chunk.css.map": "/static/css/2.195d012c.chunk.css.map",
-    "static/css/main.f5263f90.chunk.css.map": "/static/css/main.f5263f90.chunk.css.map",
-    "static/js/2.7373e336.chunk.js.LICENSE.txt": "/static/js/2.7373e336.chunk.js.LICENSE.txt",
+    "static/css/main.1c614afa.chunk.css.map": "/static/css/main.1c614afa.chunk.css.map",
+    "static/js/2.dfe25807.chunk.js.LICENSE.txt": "/static/js/2.dfe25807.chunk.js.LICENSE.txt",
     "static/media/10.d0afb3dd.png": "/static/media/10.d0afb3dd.png",
     "static/media/11.27493fb3.png": "/static/media/11.27493fb3.png",
     "static/media/12.643afcb3.png": "/static/media/12.643afcb3.png",
@@ -71,6 +71,12 @@
     "static/media/card5.e59b130b.png": "/static/media/card5.e59b130b.png",
     "static/media/card6.b648bce7.png": "/static/media/card6.b648bce7.png",
     "static/media/composition-inbody.f01ece52.png": "/static/media/composition-inbody.f01ece52.png",
+    "static/media/course1.c44105c3.png": "/static/media/course1.c44105c3.png",
+    "static/media/course2.69490acb.png": "/static/media/course2.69490acb.png",
+    "static/media/course3.42e733b5.png": "/static/media/course3.42e733b5.png",
+    "static/media/course4.4d3e53b9.png": "/static/media/course4.4d3e53b9.png",
+    "static/media/course5.2a5383ee.png": "/static/media/course5.2a5383ee.png",
+    "static/media/course6.eabcc00f.png": "/static/media/course6.eabcc00f.png",
     "static/media/courses.a8c02614.png": "/static/media/courses.a8c02614.png",
     "static/media/cover1.fe26b0e0.png": "/static/media/cover1.fe26b0e0.png",
     "static/media/cover2.d072a79d.png": "/static/media/cover2.d072a79d.png",
@@ -207,8 +213,8 @@
   "entrypoints": [
     "static/js/runtime-main.c6ba08d6.js",
     "static/css/2.195d012c.chunk.css",
-    "static/js/2.7373e336.chunk.js",
-    "static/css/main.f5263f90.chunk.css",
-    "static/js/main.37d14170.chunk.js"
+    "static/js/2.dfe25807.chunk.js",
+    "static/css/main.1c614afa.chunk.css",
+    "static/js/main.65842985.chunk.js"
   ]
 }
