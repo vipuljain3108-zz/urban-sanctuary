@@ -110,7 +110,7 @@ const StoreSkinAnalysis = () => {
         </Container>
         <div className="link-skin">
         <Row>
-          
+        <Container>
         <Col sm={12} md={12}>
               <div className="link-cont-text">
                 <h1>Holistic beauty programs</h1>
@@ -119,6 +119,7 @@ const StoreSkinAnalysis = () => {
                 <p>Nutritious food is a key to developing  better skin tone and health</p>
               </div>
             </Col>
+            </Container>
           </Row>
         <img alt="no image" src={skinpanelback} className="back-img" />
       </div>
