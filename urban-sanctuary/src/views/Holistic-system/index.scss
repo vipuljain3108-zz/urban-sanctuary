@@ -13,7 +13,7 @@
             justify-content: space-around;
             flex-wrap: wrap;
             margin: auto;
-            padding-top: 200px;
+            padding-top: 250px;
     
             &_head {
                 font-size: 55px;
@@ -86,7 +86,7 @@
 
     .section2 {
         font-size: 40px;
-        padding: 50px 130px;
+        padding: 50px 80px;
         max-width: 1700px;
         margin: auto;
         font-family: 'Lato-bold';
@@ -129,7 +129,7 @@
 
         &_content {
             font-size: 17px;
-            padding: 60px 125px;
+            padding: 60px 80px;
             max-width: 1700px;
             margin: auto;
             font-family: 'Lato';
@@ -181,7 +181,7 @@
             }
 
             &_text {
-                width: 500px;
+                width: 622px;
                 min-height: 480px;
                 background-color: #F2F2F2;
                 padding: 30px;
@@ -191,7 +191,7 @@
             }
 
             &_main {
-                width: 420px;
+                width: 380px;
                 font-size: 14px;
                 display: flex;
                 // align-items: flex-start;
@@ -202,7 +202,7 @@
 
                 &_title {
                     font-family: 'Lato-bold';
-                    font-size: 40px;
+                    font-size: 35px;
                     border-left: 8px solid #7D7D7D;
                     padding-left: 20px;
                     text-transform: uppercase;

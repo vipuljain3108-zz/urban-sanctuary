@@ -78,7 +78,7 @@ const Index = () => {
                         <div className='commonSection_content_main_title'>
                             INBODY SCANNER
                         </div>
-                        <img src={MainImage1} alt='img' />
+                        <img src={MainImage1} alt='img' style={{ width: '230px'}}/>
                         <div className='commonSection_content_main_desc'>
                             Inbody uses Bioelectrical Impedance Analysis, which is a completely safe method for measuring body composition. However BIA should not be used by anyone with an electronic medical implant, such as a heart pacemaker or an implantable cardioverter defibrillator (ICD).
                         </div>
