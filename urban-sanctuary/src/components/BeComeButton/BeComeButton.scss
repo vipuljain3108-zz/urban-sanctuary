@@ -34,10 +34,8 @@
 //     margin: 0;
 // }
 .btn-image {
-    display: flex;
-    justify-content: center;
-    width: 100%;
     img {
-        width: 110px
+        width: 110px;
+        margin-left: 25%;
     }
 }

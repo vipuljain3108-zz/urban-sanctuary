@@ -11,7 +11,7 @@ const Footer=()=> {
   <Container>
   <Row>
             <Col sm={12} md={5} className="dis-cover cols">
-                <p className="font-weight-bold">Discover your Magnificence by becoming a Urban Sanctuary Visionaire</p>
+                <p className="font-weight-bold">Sign up and become an Urban Sanctuary Visionaire</p>
                 <BeComeButton />
             </Col>
 
