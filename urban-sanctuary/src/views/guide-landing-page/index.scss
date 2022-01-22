@@ -441,7 +441,7 @@
             padding: 20px 60px 60px 60px;
             color: #434343;
             font-family: 'Lato';
-            font-size: 19px;
+            font-size: 16px;
             display: flex;
             align-items: flex-start;
             justify-content: flex-start;
@@ -492,7 +492,7 @@
                     column-gap: 30px;
 
                     &_item {
-                        max-width: 335px;
+                        width: 335px;
                         list-style-image: url('../../assets/images/health-package/greenDisk.png');
                         display: flex;
                         align-items: flex-start;

@@ -210,7 +210,7 @@ const Index = () => {
                 <div className='customers_content'>
                     <div className='customers_content_head'>Customer Reviews</div>
                     <div className='customers_content_star'>
-                        <img src={Star} alt='star' height='60px' width='60px'/>
+                        <img src={Star} alt='star' height='38px' width='38px'/>
                         <div className='customers_content_star_title'>
                          <img src={Line} alt='star' />
                         STAR REVIEW
