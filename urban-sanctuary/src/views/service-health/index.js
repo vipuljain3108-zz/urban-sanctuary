@@ -31,6 +31,12 @@ import SalonBg from '../../assets/images/service-health/salon.png';
 import LeftArrow from '../../assets/images/holistic-system/leftArrow.png';
 import RightArrow from '../../assets/images/holistic-system/rightArrow.png';
 import Pro from '../../assets/images/service-health/pro1.png';
+import Service1 from '../../assets/images/service-health/service1.png';
+import Service3 from '../../assets/images/service-health/service3.png';
+import Service4 from '../../assets/images/service-health/service4.png';
+import Service5 from '../../assets/images/service-health/service5.png';
+import Service6 from '../../assets/images/service-health/service6.png';
+
 
 const Index = () => {
     let guidesWorkshops = [
@@ -137,49 +143,65 @@ const Index = () => {
                 </div>
                 <div className='section2_subTitle' style={{ marginTop: '40px'}}>More Services</div>
                 <div className='more_services'>
-                    <div className='more_services_item'>
-                    <br />Foods<br />
-                        Food<br />
-                        Drink<br />
-                        Dressings<br />
-                        Desserts<br />  
-                    </div>
-                    <ServiceItem cn='more_services_banner' item={{ name: 'SPA & SALON', image: SalonBg}}/>
-                    <div className='more_services_item'>
-                    <br />Facilities:<br />
-                        Float Tanks<br />
-                        Infrared Sauna<br />
-                        Mineral Pool<br />
-                        Natural Highs Bar<br />
-                    </div>
-                    <div className='more_services_item'>
-                    <br />Categories:<br />
-                        NZ Natural Skin Care<br />
-                        Eco Hair and Body Care<br />
-                        Super-soft Eco Apparel<br />
-                        Nature's Greeting Cards<br />
-                        Coconut Oil<br />
-                        Specialty Gift Packs<br />
-                    </div>
-                    <div className='more_services_item'>
-                    <br />Exercises:<br />
-                        Fusion Exercise Series<br />
-                        Home workouts<br />
-                        Yoga {`&`} Qigong<br />
-                        Dance<br />
-                        Mind-health<br />
-                    </div>
-                    <div className='more_services_item'>
-                        Packages:<br />
-                        Daytime<br />
-                        {`Spa & Saloon`}<br />
-                        Couples<br />
-                        Fusion Exercise<br />
-                        Health<br />
-                        Senior Citizens<br />
-                        {`Corporate & Family`}<br />
-                        Metawheel Course<br />
-                    </div>
+                    <ServiceItem cn='more_services_banner' item={{ name: 'LIFE FORCE FOOD', image: Service1}}>
+                        <div className='more_services_item'>
+                            <br />Foods<br />
+                            Food<br />
+                            Drink<br />
+                            Dressings<br />
+                            Desserts<br />  
+                        </div>
+                    </ServiceItem>
+                    <ServiceItem cn='more_services_banner' item={{ name: 'SPA & SALON', image: SalonBg}}>
+                        <div className='more_services_item'>
+                            <br />Facilities:<br />
+                            Spa<br />
+                            Saloon<br />
+                        </div>
+                    </ServiceItem>
+                    <ServiceItem cn='more_services_banner' item={{ name: 'ROOFTOP HEALTH SPA', image: Service3}}>
+                        <div className='more_services_item'>
+                            <br />Facilities:<br />
+                            Float Tanks<br />
+                            Infrared Sauna<br />
+                            Mineral Pool<br />
+                            Natural Highs Bar<br />
+                        </div>
+                    </ServiceItem>
+                    <ServiceItem cn='more_services_banner' item={{ name: 'VISION PRODUCTS', image: Service6}}>
+                        <div className='more_services_item'>
+                        <br />Categories:<br />
+                            NZ Natural Skin Care<br />
+                            Eco Hair and Body Care<br />
+                            Super-soft Eco Apparel<br />
+                            Nature's Greeting Cards<br />
+                            Coconut Oil<br />
+                            Specialty Gift Packs<br />
+                        </div>
+                    </ServiceItem>
+                    <ServiceItem cn='more_services_banner' item={{ name: 'ADVANCEMENT EXERCISES', image: Service4}}>
+                        <div className='more_services_item'>
+                            <br />Exercises:<br />
+                            Fusion Exercise Series<br />
+                            Home workouts<br />
+                            Yoga {`&`} Qigong<br />
+                            Dance<br />
+                            Mind-health<br />
+                        </div>
+                    </ServiceItem>
+                    <ServiceItem cn='more_services_banner' item={{ name: 'PACKAGES', image: Service5}}>
+                        <div className='more_services_item'>
+                            Packages:<br />
+                            Daytime<br />
+                            {`Spa & Saloon`}<br />
+                            Couples<br />
+                            Fusion Exercise<br />
+                            Health<br />
+                            Senior Citizens<br />
+                            {`Corporate & Family`}<br />
+                            Metawheel Course<br />
+                        </div>
+                    </ServiceItem>
                 </div>
             </div>
             <div className='service_health_sectionTitle'>
@@ -236,6 +258,7 @@ const Index = () => {
                         <p>Custom Sanctuary health Apps designed to integrate with all Sanctuary health services to assist and co-ordinate optimal nutrition intake, weight adjustment and health span. Program and chart intermittent fasting, Sanctuary meal and exercise plans, and sleep. Self-evaluate toxin exposure, fitness and flexibility, psychological well-being, health approach, physiological efficiencies and holistic health as a whole.</p>
                     </div>
             </div>
+            <div className='slidingText'>DISCOVER  SHIFT  EVOLVE  CREATE</div>
             <FooterBanner />
         </div>
     )

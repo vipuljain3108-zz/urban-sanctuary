@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 
-const Index = ({ cn = '', item, uppercase = false, action = false }) => {
+const Index = ({ cn = '', item, uppercase = false, action = false, children }) => {
     return (
         <div className={`service_card`}>
             <div className={`service_item_front ${cn}`} style={{ backgroundImage: `url(${item.image})`}}>
@@ -10,7 +10,7 @@ const Index = ({ cn = '', item, uppercase = false, action = false }) => {
                 {action && <span className='service_item_front_action'>{`>>See guides  >>See workshop`}</span>}</p>
             </div>  
             <div className={`service_item_back ${cn}`}>
-                <p style={{ textTransform: `${uppercase ? 'uppercase' : ''}`}}>{item?.name}</p>
+                <p style={{ textTransform: `${uppercase ? 'uppercase' : ''}`}}>{children ? children : item?.name}</p>
             </div> 
         </div>
     )
