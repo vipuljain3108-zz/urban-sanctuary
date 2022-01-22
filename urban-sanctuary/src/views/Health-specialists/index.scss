@@ -145,6 +145,15 @@
                         margin: 25px 0;
                     }
 
+                    &_title {
+                        text-transform: uppercase;
+                        color: white;
+                        font-family: 'Montserrat';
+                        font-size: 20px;
+                        margin-bottom: 25px;
+                        font-weight: 600;
+                    }
+
                     &_list {
                         display: flex;
                         align-items: center;
@@ -165,9 +174,9 @@
                             margin-left: 80px;
                             font-size: 14px;
                             font-family: 'Lato';
-                            padding: 10px;
+                            padding: 10px 15px;
                             border-radius: 10px;
-                            border: 1px dashed white;
+                            border: 1px solid white;
                             color: white;
                             position: relative;
 
@@ -246,6 +255,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;  
+                    border: 1px solid white;
                 }
             }
 

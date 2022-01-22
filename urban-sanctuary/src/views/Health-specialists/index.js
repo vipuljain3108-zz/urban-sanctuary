@@ -43,6 +43,7 @@ const Index = () => {
                         </div>
                         <div className='main_content_specialists'>
                             <div className='main_content_specialists_border'></div>
+                            <div className='main_content_specialists_title'>Our Specialist</div>
                             <div className='main_content_specialists_list'>
                                 <div className='avatar' style={{ backgroundImage: `url(${avatar1})`}}></div>
                                 <div className='avatar' style={{ backgroundImage: `url(${avatar2})`}}></div>
@@ -321,7 +322,7 @@ const Index = () => {
                     <CustomerReviews />
                  </div>
             </div>
-            <OptimiseReport />
+            <OptimiseReport showHead/>
             <SanctuaryServices />
             <Disclaimer />
             <FooterBanner />
