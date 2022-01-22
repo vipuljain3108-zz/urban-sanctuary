@@ -15,7 +15,7 @@ $gray-text-color: #8C8C8C;
 
         &_banner {
             color: white;
-            font-family: 'Lato';
+            font-family: 'Montserrat-medium';
             padding: 80px 150px 60px 150px;
             max-width: 1800px;
             margin: auto;
@@ -79,7 +79,8 @@ $gray-text-color: #8C8C8C;
             &_desc {
                 max-width: 800px;
                 font-size: 18px;
-    
+                font-family: 'Lato';
+                
                 &_head {
                     border-left: 8px solid #56B703;
                     padding-left: 15px;
