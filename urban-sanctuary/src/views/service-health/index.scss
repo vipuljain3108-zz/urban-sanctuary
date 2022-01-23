@@ -1,19 +1,26 @@
 .service_health {
     font-family: 'Lato';
+    overflow:  hidden;
 
     .slidingText {
         font-size: 160px;
         font-family: 'Lato';
         color: #8c8c8c5f;
         margin-bottom: 30px;
-        animation: slide 8s linear infinite;
+        animation: slide 11s linear infinite;
         width: 2600px;
         padding-left: 50px;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 80px;
+            padding-left: 30px;
+            width: 1300px;
+        }
     }
 
     @keyframes slide {
         0% {
-            transform: translateX(0);
+            transform: translateX(-100%);
         }
         100% {
             transform: translateX(100%);
@@ -336,7 +343,7 @@
         gap: 20px;
         max-width: 1920px;
         margin: auto;
-        padding: 0 160px 100px 120px;
+        padding: 0 160px 60px 120px;
 
         &_banner {
             height: 250px;
