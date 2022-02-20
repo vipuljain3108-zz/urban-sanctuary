@@ -128,11 +128,14 @@ $gray-text-color: #8C8C8C;
 
             &_desc {
                 max-width: 800px;
+                font-size: 18px;
             }
 
             li {
+                max-width: 800px;
                 list-style-image: url('../../assets/images/tech-hair-testing/tick-icon.png');
                 margin-bottom: 5px;
+                font-size: 18px;
             }
 
             img {
